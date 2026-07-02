@@ -4,11 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-ancestors 'none'">
-  <title>Partyspiele fürs Handy – Imposter & Querfrage kostenlos spielen</title>
-  <meta name="description" content="Kostenlose Partyspiele für ein Handy: Imposter (Wer kennt das geheime Wort nicht?) und Querfrage (Wer hat die andere Frage?). Pass-and-Play für 3–20 Spieler – ohne App, ohne Anmeldung, ohne Werbung.">
-  <meta property="og:title" content="Partyspiele fürs Handy – Imposter & Querfrage">
+  <title>Suserino: Partyspiele fürs Handy | Imposter & Querfrage kostenlos spielen</title>
+  <meta name="description" content="Kostenlose Partyspiele für ein Handy: Imposter (Wer kennt das geheime Wort nicht?) und Querfrage (Wer hat die andere Frage?). Pass-and-Play für 3 bis 20 Spieler. Ohne App, ohne Anmeldung, ohne Werbung.">
+  <meta property="og:title" content="Suserino: Partyspiele fürs Handy">
   <meta property="og:description" content="Zwei Bluff-Partyspiele auf einem Gerät: Imposter und Querfrage. Kostenlos, ohne Anmeldung.">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Suserino">
   <meta property="og:locale" content="de_DE">
   <meta name="theme-color" content="#131216">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -18,14 +19,14 @@
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Partyspiele fürs Handy",
+    "name": "Suserino",
     "itemListElement": [
       {
         "@type": "Game",
         "position": 1,
         "name": "Imposter",
         "url": "imposter/",
-        "description": "Alle bekommen geheim dasselbe Wort – nur der Imposter nicht. Pass-and-Play-Partyspiel für 3–20 Spieler.",
+        "description": "Alle bekommen geheim dasselbe Wort, nur der Imposter nicht. Pass-and-Play-Partyspiel für 3 bis 20 Spieler.",
         "numberOfPlayers": "3-20",
         "inLanguage": "de"
       },
@@ -34,7 +35,7 @@
         "position": 2,
         "name": "Querfrage",
         "url": "querfrage/",
-        "description": "Alle beantworten dieselbe Frage – nur der Imposter bekommt eine andere, ohne es zu wissen. Für 4–20 Spieler.",
+        "description": "Alle beantworten dieselbe Frage, nur der Imposter bekommt eine andere, ohne es zu wissen. Für 4 bis 20 Spieler.",
         "numberOfPlayers": "4-20",
         "inLanguage": "de"
       }
@@ -45,42 +46,81 @@
 <body>
   <div class="home">
     <header class="home-header">
-      <h1 class="logo">Partyspiele<span class="dot">.</span></h1>
-      <p class="sub">Zwei Bluff-Spiele für einen Abend mit Freunden – alle spielen auf <strong>einem Handy</strong>, das reihum geht. Kein Download, keine Anmeldung, keine Kosten.</p>
+      <h1 class="logo">Suserino<span class="dot">.</span></h1>
+      <p class="sub">Zwei Bluff-Spiele für einen Abend mit Freunden. Alle spielen auf <strong>einem Handy</strong>, das reihum geht. Kein Download, keine Anmeldung, keine Kosten.</p>
     </header>
 
     <main>
       <nav class="game-grid" aria-label="Spiele">
         <a class="game-tile imposter" href="imposter/">
-          <div class="tile-art" aria-hidden="true">
-            <svg viewBox="0 0 120 44" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="14" cy="22" r="10" fill="#3a3941"/>
-              <circle cx="44" cy="22" r="10" fill="#3a3941"/>
-              <circle cx="74" cy="22" r="10" fill="none" stroke="#ff5a47" stroke-width="3" stroke-dasharray="4 4"/>
-              <circle cx="104" cy="22" r="10" fill="#3a3941"/>
+          <div class="tile-cover" aria-hidden="true">
+            <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="bg-i" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#2b1613"/>
+                  <stop offset="1" stop-color="#1c1b21"/>
+                </linearGradient>
+              </defs>
+              <rect width="320" height="180" fill="url(#bg-i)"/>
+              <circle cx="160" cy="196" r="120" fill="#ff5a47" opacity=".08"/>
+              <!-- Drei Crew-Figuren -->
+              <g fill="#4a4852">
+                <path d="M46 150v-44a22 22 0 0 1 44 0v44z"/>
+                <path d="M138 150v-44a22 22 0 0 1 44 0v44z"/>
+                <path d="M230 150v-44a22 22 0 0 1 44 0v44z"/>
+              </g>
+              <g fill="#26252b">
+                <rect x="54" y="98" width="28" height="14" rx="7"/>
+                <rect x="146" y="98" width="28" height="14" rx="7"/>
+              </g>
+              <!-- Der Imposter: rot, mit Maske in der Hand -->
+              <path d="M230 150v-44a22 22 0 0 1 44 0v44z" fill="#ff5a47"/>
+              <rect x="238" y="98" width="28" height="14" rx="7" fill="#5e150c"/>
+              <path d="M222 118c-8 0-14 5-14 12s6 12 14 12c6 0 10-3 12-7-2-10-6-17-12-17z" fill="#f1efe9" opacity=".9"/>
+              <circle cx="219" cy="129" r="3" fill="#1c1b21"/>
+              <!-- Fragezeichen über den Köpfen -->
+              <text x="68" y="86" text-anchor="middle" font-family="system-ui" font-weight="800" font-size="20" fill="#5d5b66">?</text>
+              <text x="160" y="80" text-anchor="middle" font-family="system-ui" font-weight="800" font-size="24" fill="#5d5b66">?</text>
+              <text x="252" y="76" text-anchor="middle" font-family="system-ui" font-weight="800" font-size="28" fill="#ff5a47">!</text>
             </svg>
           </div>
-          <span class="tag">Wortspiel · 3–20 Spieler</span>
-          <h2>Imposter</h2>
-          <p class="desc">Alle kennen das geheime Wort – nur der Imposter nicht. Reihum gibt jeder einen Hinweis, dann wird abgestimmt. Fliegt der Bluffer auf?</p>
-          <div class="meta"><span>⏱ ~10 min pro Runde</span><span>🗣 mündlich + Handy</span></div>
-          <span class="go">Spielen →</span>
+          <div class="tile-info">
+            <h2>Imposter</h2>
+            <span class="tag">3 bis 20 Spieler</span>
+          </div>
         </a>
 
         <a class="game-tile querfrage" href="querfrage/">
-          <div class="tile-art" aria-hidden="true">
-            <svg viewBox="0 0 120 44" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="8" width="30" height="20" rx="6" fill="#3a3941"/>
-              <rect x="44" y="8" width="30" height="20" rx="6" fill="#3a3941"/>
-              <rect x="84" y="8" width="30" height="20" rx="6" fill="none" stroke="#43d9ad" stroke-width="3"/>
-              <text x="99" y="23" text-anchor="middle" fill="#43d9ad" font-size="14" font-weight="bold" font-family="system-ui">?</text>
+          <div class="tile-cover" aria-hidden="true">
+            <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="bg-q" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#0e2a22"/>
+                  <stop offset="1" stop-color="#1c1b21"/>
+                </linearGradient>
+              </defs>
+              <rect width="320" height="180" fill="url(#bg-q)"/>
+              <circle cx="160" cy="-20" r="110" fill="#43d9ad" opacity=".07"/>
+              <!-- Sprechblasen der Crew -->
+              <g fill="#4a4852">
+                <path d="M30 48h84a10 10 0 0 1 10 10v26a10 10 0 0 1-10 10H52l-14 12v-12h-8a10 10 0 0 1-10-10V58a10 10 0 0 1 10-10z"/>
+                <path d="M196 24h84a10 10 0 0 1 10 10v26a10 10 0 0 1-10 10h-8v12l-14-12h-62a10 10 0 0 1-10-10V34a10 10 0 0 1 10-10z"/>
+              </g>
+              <g fill="#26252b">
+                <rect x="42" y="62" width="60" height="8" rx="4"/>
+                <rect x="42" y="76" width="40" height="8" rx="4"/>
+                <rect x="208" y="38" width="60" height="8" rx="4"/>
+                <rect x="208" y="52" width="34" height="8" rx="4"/>
+              </g>
+              <!-- Die schiefe Antwort -->
+              <path d="M118 106h84a10 10 0 0 1 10 10v26a10 10 0 0 1-10 10h-62l-14 12v-12h-8a10 10 0 0 1-10-10v-26a10 10 0 0 1 10-10z" fill="#43d9ad"/>
+              <text x="160" y="136" text-anchor="middle" font-family="system-ui" font-weight="800" font-size="26" fill="#06201a">???</text>
             </svg>
           </div>
-          <span class="tag">Fragespiel · 4–20 Spieler</span>
-          <h2>Querfrage</h2>
-          <p class="desc">Alle beantworten geheim dieselbe Frage – nur einer bekommt eine andere, ohne es zu wissen. Wessen Antwort passt nicht ins Bild?</p>
-          <div class="meta"><span>⏱ ~5 min pro Runde</span><span>⌨ Antworten tippen</span></div>
-          <span class="go">Spielen →</span>
+          <div class="tile-info">
+            <h2>Querfrage</h2>
+            <span class="tag">4 bis 20 Spieler</span>
+          </div>
         </a>
       </nav>
 
@@ -89,7 +129,7 @@
         <ul>
           <li><strong>Ein Gerät reicht:</strong> Das Handy wird herumgereicht, jeder sieht geheim nur seine eigene Rolle, Frage oder sein Wort.</li>
           <li><strong>Sofort loslegen:</strong> Namen eintippen, Kategorie wählen, fertig. Einstellungen und Spielernamen merkt sich der Browser für das nächste Mal.</li>
-          <li><strong>Eigene Inhalte:</strong> Beide Spiele lassen sich mit eigenen Wörtern und Fragen erweitern – perfekt für Insider aus eurer Gruppe.</li>
+          <li><strong>Eigene Inhalte:</strong> Beide Spiele lassen sich mit eigenen Wörtern und Fragen erweitern, perfekt für Insider aus eurer Gruppe.</li>
         </ul>
       </section>
 
@@ -100,7 +140,7 @@
     </main>
 
     <footer class="home-footer">
-      <p>Partyspiele fürs Handy · werbefrei &amp; open für eure Spielabende. Am besten funktioniert die Seite im Hochformat auf dem Smartphone.</p>
+      <p>Suserino · Partyspiele fürs Handy, werbefrei für eure Spielabende. Am besten funktioniert die Seite im Hochformat auf dem Smartphone.</p>
     </footer>
   </div>
   <script src="assets/js/env-check.js" defer></script>

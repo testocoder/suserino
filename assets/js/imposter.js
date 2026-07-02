@@ -3,7 +3,7 @@
 
 import WORTLISTE from "../data/wortliste.js";
 import { $, el, renderInto, randInt, pick, shuffle, pickIndices, loadLocal, saveLocal, loadSession, saveSession, clearSession } from "./util.js";
-import { showScreen, toast, bindHold, CountdownTimer, keepScreenAwake, armBackGuard, disarmBackGuard, renderSettingsForm } from "./ui.js";
+import { showScreen, toast, initRulesDialog, CountdownTimer, keepScreenAwake, armBackGuard, disarmBackGuard, renderSettingsForm } from "./ui.js";
 import { createPlayerEditor, createCategoryPicker, createCustomManager } from "./setup.js";
 import { renderVerbalVote, createAppVote, renderScoreTable, playReveal } from "./game-shared.js";
 
@@ -183,7 +183,7 @@ function startGame() {
   const { pool, skippedNoHint } = buildPool();
   if (pool.length === 0) {
     alert(skippedNoHint > 0
-      ? `${skippedNoHint} Wörter haben kein Hinweiswort – für Variante B ergänzen oder Variante A spielen.`
+      ? `${skippedNoHint} Wörter haben kein Hinweiswort. Für Variante B ergänzen oder Variante A spielen.`
       : "Die gewählten Kategorien enthalten keine Wörter.");
     return;
   }
@@ -191,7 +191,7 @@ function startGame() {
 
   for (const cat of customManager.categories) {
     if (selectedCategoryNames().includes(cat.name) && cat.items.length < 5) {
-      toast(`„${cat.name}“ hat nur ${cat.items.length} Wörter – Wiederholungen möglich`);
+      toast(`„${cat.name}“ hat nur ${cat.items.length} Wörter, Wiederholungen sind möglich`);
       break;
     }
   }
@@ -233,7 +233,7 @@ function startRound() {
   if (fresh.length === 0) {
     G.usedKeys = [];
     fresh = pool;
-    toast("Alle Wörter gespielt – Liste wurde zurückgesetzt");
+    toast("Alle Wörter gespielt. Die Liste wurde zurückgesetzt.");
   }
   const entry = pick(fresh);
   G.usedKeys.push(pairKey(entry));
@@ -266,59 +266,51 @@ function startRound() {
 }
 
 /* ---------------- Phase 1: Rollen verteilen ----------------
-   Ein Screen pro Spieler: Name + Halten-zum-Aufdecken + Weitergeben. */
+   Ein Screen pro Spieler: Dreh-Karte. Einmal tippen deckt auf,
+   nochmal tippen deckt zu. Danach weitergeben. */
 
 function showPass() {
   const idx = G.round.revealIdx;
   const imp = isImposter(idx);
   const s = G.settings;
-  const stage = $("#reveal-stage");
-  const nextBtn = $("#reveal-next");
-  nextBtn.disabled = true;
+  $("#reveal-next").disabled = true;
 
   $("#pass-name").textContent = G.players[idx];
 
-  const hidden = () => renderInto(stage,
-    el("p", { class: "hint-text" }, "Halte unten „Aufdecken“ gedrückt – nur du schaust hin. Beim Loslassen verschwindet alles sofort."),
+  let main, sub, extra = null;
+  if (s.variante === "A") {
+    if (imp) {
+      main = "Du bist der IMPOSTER!";
+      sub = s.showCategory ? `Kategorie: ${G.round.kategorie}` : "Hör gut zu und bluffe dich durch!";
+    } else {
+      main = G.round.wort;
+      sub = `Kategorie: ${G.round.kategorie}`;
+    }
+  } else {
+    main = imp ? G.round.hinweis : G.round.wort;
+    sub = `Kategorie: ${G.round.kategorie}`;
+    if (imp && s.imposterKnows) extra = "Du bist der Imposter!";
+  }
+  renderInto($("#flip-back"),
+    el("div", { class: "big-word" }, main),
+    el("p", { class: "hint-text" }, sub),
+    extra ? el("p", { class: "hint-text" }, extra) : null,
   );
 
-  const shown = () => {
-    let main, sub, extra = null;
-    if (s.variante === "A") {
-      if (imp) {
-        main = "Du bist der IMPOSTER!";
-        sub = s.showCategory ? `Kategorie: ${G.round.kategorie}` : "Hör gut zu und bluffe dich durch!";
-      } else {
-        main = G.round.wort;
-        sub = `Kategorie: ${G.round.kategorie}`;
-      }
-    } else {
-      main = imp ? G.round.hinweis : G.round.wort;
-      sub = `Kategorie: ${G.round.kategorie}`;
-      if (imp && s.imposterKnows) extra = "Du bist der Imposter!";
-    }
-    renderInto(stage,
-      el("div", { class: "big-word" }, main),
-      el("p", { class: "hint-text" }, sub),
-      el("p", { class: "hint-text" }, extra ?? " "),
-    );
-  };
-
-  hidden();
-
-  const holdBtn = $("#reveal-hold");
-  const freshBtn = holdBtn.cloneNode(true);   // alte Pointer-Listener entsorgen
-  holdBtn.replaceWith(freshBtn);
-  bindHold(freshBtn, {
-    onShow: shown,
-    onHide: hidden,
-    onFirstReveal: () => { nextBtn.disabled = false; },
-  });
+  // Karte ohne Animation zudecken, damit beim Wechsel nichts aufblitzt
+  const card = $("#flip-card");
+  card.classList.add("no-anim");
+  card.classList.remove("flipped");
+  requestAnimationFrame(() => requestAnimationFrame(() => card.classList.remove("no-anim")));
 
   showScreen("s-pass");
 }
 
+let lastRevealNext = 0;
+
 function afterReveal() {
+  if (Date.now() - lastRevealNext < 450) return;   // Doppel-Tipp: keinen Spieler überspringen
+  lastRevealNext = Date.now();
   G.round.revealIdx += 1;
   persist();
   if (G.round.revealIdx < G.players.length) {
@@ -344,14 +336,14 @@ function showRound() {
   $("#round-starter").textContent = `${G.players[starterIdx]} beginnt`;
   $("#round-info").textContent = r.extraHint
     ? "Noch eine Hinweisrunde reihum, dann wird erneut abgestimmt."
-    : `Reihum sagt jeder einen Begriff zum geheimen Wort – ${hr === 1 ? "eine Runde" : `${hr} Runden`}. Danach frei diskutieren.`;
+    : `Reihum sagt jeder einen Begriff zum geheimen Wort, ${hr === 1 ? "eine Runde" : `${hr} Runden`}. Danach frei diskutieren.`;
 
   const secs = G.settings.discussionTimer;
   const display = $("#round-timer");
   roundTimer?.stop();
   if (secs > 0) {
     display.classList.remove("hidden");
-    roundTimer = new CountdownTimer(display, () => toast("Zeit um – stimmt ab!"));
+    roundTimer = new CountdownTimer(display, () => toast("Zeit um, stimmt ab!"));
     roundTimer.start(secs);
     $("#round-pause").classList.remove("hidden");
     $("#round-pause").textContent = "Timer pausieren";
@@ -425,7 +417,7 @@ function finishAppVote() {
   if (result.chosen != null) {
     handleVoteOutcome(result.chosen);
   } else if (appVote.startRunoff(result.tie)) {
-    toast("Gleichstand – Stichwahl!");
+    toast("Gleichstand! Jetzt kommt die Stichwahl.");
     G.appVote = snapshotVote();
     persist();
     showVotePass();
@@ -443,10 +435,10 @@ function handleVoteOutcome(votedIdx) {
   if (votedIdx == null) {
     G.round.noElim += 1;
     if (G.round.noElim >= 2) {
-      endRound("imposter", "Keine Einigung – die Imposter bleiben unentdeckt.");
+      endRound("imposter", "Keine Einigung. Die Imposter bleiben unentdeckt.");
       return;
     }
-    toast("Niemand fliegt raus – eine Zusatzrunde!");
+    toast("Niemand fliegt raus. Eine Zusatzrunde!");
     G.round.extraHint = true;
     setPhase("round");
     showRound();
@@ -469,7 +461,7 @@ function showResolution() {
     isImpostor: imp,
     afterReveal: () => {
       if (!imp) {
-        endRound("imposter", `${G.players[votedIdx]} war unschuldig – die Imposter gewinnen sofort!`);
+        endRound("imposter", `${G.players[votedIdx]} war unschuldig. Die Imposter gewinnen sofort!`);
         return;
       }
       if (!G.round.found.includes(votedIdx)) G.round.found.push(votedIdx);
@@ -508,7 +500,7 @@ function showLastChance() {
     el("p", { class: "eyebrow accent" }, "Letzte Chance"),
     el("div", { class: "big-name" }, impNames),
     el("p", {}, G.round.imposters.length > 1 ? "Alle Imposter wurden gefunden!" : "Der Imposter wurde gefunden!"),
-    el("p", { class: "muted" }, "Jetzt darf er das geheime Wort raten – ein Versuch, mündlich. Errät er es, holt er Teilpunkte."),
+    el("p", { class: "muted" }, "Jetzt darf er das geheime Wort raten. Ein Versuch, mündlich. Errät er es, holt er Teilpunkte."),
   );
   renderInto($("#resolution-actions"),
     el("p", { class: "eyebrow" }, "Hat er das Wort erraten?"),
@@ -644,9 +636,15 @@ function resumeGame(saved) {
 /* ---------------- Init ---------------- */
 
 function init() {
-  document.getElementById("boot-note")?.remove();   // JS läuft – Ladehinweis weg
+  document.getElementById("boot-note")?.remove();   // JS läuft, Ladehinweis weg
   initSetup();
+  initRulesDialog();
 
+  $("#flip-card").addEventListener("click", () => {
+    const card = $("#flip-card");
+    card.classList.toggle("flipped");
+    if (card.classList.contains("flipped")) $("#reveal-next").disabled = false;
+  });
   $("#reveal-next").addEventListener("click", afterReveal);
   $("#round-vote").addEventListener("click", startVote);
   $("#round-pause").addEventListener("click", (ev) => {
@@ -654,7 +652,7 @@ function init() {
   });
   $("#reshuffle").addEventListener("click", () => {
     startRound();
-    toast("Neu gemischt – Handy wieder rumgeben!");
+    toast("Neu gemischt. Handy wieder rumgeben!");
   });
   $("#vote-pass-go").addEventListener("click", showVoteCast);
   $("#score-next").addEventListener("click", nextRound);

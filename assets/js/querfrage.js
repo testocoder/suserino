@@ -3,7 +3,7 @@
 
 import FRAGENLISTE from "../data/fragenliste.js";
 import { $, el, renderInto, randInt, pick, shuffle, pickIndices, loadLocal, saveLocal, loadSession, saveSession, clearSession } from "./util.js";
-import { showScreen, toast, CountdownTimer, keepScreenAwake, armBackGuard, disarmBackGuard, renderSettingsForm } from "./ui.js";
+import { showScreen, toast, initRulesDialog, CountdownTimer, keepScreenAwake, armBackGuard, disarmBackGuard, renderSettingsForm } from "./ui.js";
 import { createPlayerEditor, createCategoryPicker, createCustomManager } from "./setup.js";
 import { renderVerbalVote, createAppVote, renderScoreTable, playReveal } from "./game-shared.js";
 
@@ -68,7 +68,7 @@ const CUSTOM_CONFIG = {
   itemKey: (item) => `${item.frageA.toLowerCase()}|${item.frageB.toLowerCase()}`,
   reservedNames: () => FRAGENLISTE.kategorien.map((k) => k.name),
   importPlaceholder: "Wie viele Tassen Kaffee trinkst du am Tag?; Wie oft warst du letzte Woche beim Sport?",
-  importHelp: "Ein Paar pro Zeile: „Frage A; Frage B“ – beide Fragen sind Pflicht, Trenner ist das Semikolon.",
+  importHelp: "Ein Paar pro Zeile: „Frage A; Frage B“. Beide Fragen sind Pflicht, Trenner ist das Semikolon.",
   aiPrompt: `Erstelle mir 30 Fragenpaare für das Partyspiel „Querfrage“ zum Thema [THEMA].
 Jedes Paar besteht aus zwei unterschiedlichen Fragen, die aber zum gleichen Antworttyp führen (z. B. beide eine kleine Zahl, beide ein Gericht, beide ein Name).
 Die Antworten auf beide Fragen sollen sich ähneln können, damit die abweichende Frage nicht sofort auffällt.
@@ -173,7 +173,7 @@ function startGame() {
 
   for (const cat of customManager.categories) {
     if (selectedCategoryNames().includes(cat.name) && cat.items.length < 5) {
-      toast(`„${cat.name}“ hat nur ${cat.items.length} Fragenpaare – Wiederholungen möglich`);
+      toast(`„${cat.name}“ hat nur ${cat.items.length} Fragenpaare, Wiederholungen sind möglich`);
       break;
     }
   }
@@ -215,7 +215,7 @@ function startRound() {
   if (fresh.length === 0) {
     G.usedKeys = [];
     fresh = pool;
-    toast("Alle Fragen gespielt – Liste wurde zurückgesetzt");
+    toast("Alle Fragen gespielt. Die Liste wurde zurückgesetzt.");
   }
   const entry = pick(fresh);
   G.usedKeys.push(pairKey(entry));
@@ -247,48 +247,64 @@ function startRound() {
   showPass();
 }
 
-/* ---------------- Phase 1: Frage & Antwort (ein Screen) ---------------- */
+/* ---------------- Phase 1: Frage & Antwort (Dreh-Karte) ----------------
+   Karte antippen deckt die Frage auf, das Antwortfeld erscheint darunter. */
+
+let answerUiFor = -1;   // für welchen Spieler das Antwortfeld schon gebaut ist
 
 function showPass() {
   const idx = G.round.answerIdx;
-  $("#pass-eyebrow").textContent = "Gib das Handy an";
+  const imp = isImposter(idx);
+  const frage = imp ? G.round.impFrage : G.round.crewFrage;
+
   $("#pass-name").textContent = G.players[idx];
-  renderInto($("#answer-area"),
-    el("p", { class: "hint-text" }, "Nur du darfst gleich auf den Bildschirm schauen. Tippe unten, wenn du dran bist."),
+  renderInto($("#flip-back"),
+    el("div", { class: "question-text" }, frage),
+    imp && G.settings.imposterKnows ? el("p", { class: "hint-text" }, "Psst: Du hast eine andere Frage als die anderen!") : null,
   );
-  $("#pass-show").classList.remove("hidden");
-  const doneBtn = $("#answer-done");
-  doneBtn.classList.add("hidden");
-  doneBtn.disabled = true;
+  renderInto($("#answer-area"));
+  $("#answer-done").disabled = true;
+  answerUiFor = -1;
+
+  // Karte ohne Animation zudecken, damit beim Wechsel nichts aufblitzt
+  const card = $("#flip-card");
+  card.classList.add("no-anim");
+  card.classList.remove("flipped");
+  requestAnimationFrame(() => requestAnimationFrame(() => card.classList.remove("no-anim")));
+
   showScreen("s-pass");
 }
 
-function showAnswerInput() {
+/* Antwortfeld beim ersten Aufdecken einblenden */
+function buildAnswerUi() {
   const idx = G.round.answerIdx;
-  const imp = isImposter(idx);
-  const frage = imp ? G.round.impFrage : G.round.crewFrage;
+  if (answerUiFor === idx) return;
+  answerUiFor = idx;
   const doneBtn = $("#answer-done");
-  $("#pass-show").classList.add("hidden");
-  doneBtn.classList.remove("hidden");
-  doneBtn.disabled = true;
   let currentAnswer = "";
 
-  $("#pass-eyebrow").textContent = G.players[idx];
+  const commit = () => {
+    if (!currentAnswer || doneBtn.disabled) return;
+    doneBtn.disabled = true;          // Doppel-Tipp: nicht zwei Spieler weiterspringen
+    G.round.answers[idx] = currentAnswer;
+    G.round.answerIdx += 1;
+    persist();
+    if (G.round.answerIdx < G.players.length) {
+      showPass();
+    } else {
+      setPhase("discussion");
+      showDiscussion();
+    }
+  };
+  doneBtn.onclick = commit;
 
   const area = $("#answer-area");
-  const question = el("h2", { class: "question" }, frage);
-  const extra = el("p", { class: "hint-text" },
-    imp && G.settings.imposterKnows ? "Psst: Du hast eine andere Frage als die anderen!" : "Antworte ehrlich – niemand außer dir sieht diesen Screen.");
-  const inputWrap = el("div", {});
-  $("#pass-name").textContent = "";
-  renderInto(area, question, extra, inputWrap);
-
   if (G.round.antwortTyp === "spieler") {
     let buttons = [];
-    renderInto(inputWrap,
+    renderInto(area,
       el("p", { class: "small muted" }, "Wähle eine Person aus der Runde:"),
       el("div", { class: "choice-list" },
-        buttons = G.players.map((name, pIdx) =>
+        buttons = G.players.map((name) =>
           el("button", {
             class: "choice", type: "button",
             onclick: (ev) => {
@@ -309,7 +325,7 @@ function showAnswerInput() {
       autocapitalize: "sentences",
       spellcheck: "false",
       inputmode: G.round.antwortTyp === "zahl" ? "decimal" : "text",
-      placeholder: "Deine Antwort …",
+      placeholder: "Deine Antwort eintippen",
       "aria-label": "Deine Antwort",
       oninput: (ev) => {
         currentAnswer = ev.target.value.trim().slice(0, MAX_ANSWER);
@@ -317,26 +333,12 @@ function showAnswerInput() {
       },
     });
     input.setAttribute("autocorrect", "off");
-    renderInto(inputWrap,
+    renderInto(area,
       el("div", { class: "field" }, input),
       el("p", { class: "small muted" }, `Max. ${MAX_ANSWER} Zeichen. Emojis erlaubt.`),
     );
     setTimeout(() => input.focus(), 100);
   }
-
-  doneBtn.onclick = () => {
-    if (!currentAnswer || doneBtn.disabled) return;
-    doneBtn.disabled = true;          // Doppel-Tipp: nicht zwei Spieler weiterspringen
-    G.round.answers[idx] = currentAnswer;
-    G.round.answerIdx += 1;
-    persist();
-    if (G.round.answerIdx < G.players.length) {
-      showPass();
-    } else {
-      setPhase("discussion");
-      showDiscussion();
-    }
-  };
 }
 
 /* ---------------- Phase 2: Antworten aufdecken ---------------- */
@@ -367,7 +369,7 @@ function showDiscussion() {
   renderInto($("#answers-list"),
     G.settings.showQuestion
       ? el("p", { class: "note" }, `Die Frage der Crew war: „${G.round.crewFrage}“`)
-      : el("p", { class: "muted small" }, "Die Frage bleibt geheim. Lasst euch die Antworten erklären – wer kennt die Frage offenbar nicht?"),
+      : el("p", { class: "muted small" }, "Die Frage bleibt geheim. Lasst euch die Antworten erklären. Wer kennt die Frage offenbar nicht?"),
     answerCards(),
   );
 
@@ -376,7 +378,7 @@ function showDiscussion() {
   discussionTimer?.stop();
   if (secs > 0) {
     display.classList.remove("hidden");
-    discussionTimer = new CountdownTimer(display, () => toast("Zeit um – stimmt ab!"));
+    discussionTimer = new CountdownTimer(display, () => toast("Zeit um, stimmt ab!"));
     discussionTimer.start(secs);
     $("#discussion-pause").classList.remove("hidden");
     $("#discussion-pause").textContent = "Pause";
@@ -450,7 +452,7 @@ function finishAppVote() {
   if (result.chosen != null) {
     handleVoteOutcome(result.chosen);
   } else if (appVote.startRunoff(result.tie)) {
-    toast("Gleichstand – Stichwahl!");
+    toast("Gleichstand! Jetzt kommt die Stichwahl.");
     G.appVote = snapshotVote();
     persist();
     showVotePass();
@@ -468,10 +470,10 @@ function handleVoteOutcome(votedIdx) {
   if (votedIdx == null) {
     G.round.noElim += 1;
     if (G.round.noElim >= 2) {
-      endRound("imposter", "Keine Einigung – die Imposter bleiben unentdeckt.");
+      endRound("imposter", "Keine Einigung. Die Imposter bleiben unentdeckt.");
       return;
     }
-    toast("Niemand fliegt raus – diskutiert nochmal!");
+    toast("Niemand fliegt raus. Diskutiert nochmal!");
     setPhase("discussion");
     showDiscussion();
     return;
@@ -493,7 +495,7 @@ function showResolution() {
     isImpostor: imp,
     afterReveal: () => {
       if (!imp) {
-        endRound("imposter", `${G.players[votedIdx]} war unschuldig – die Imposter gewinnen sofort!`);
+        endRound("imposter", `${G.players[votedIdx]} war unschuldig. Die Imposter gewinnen sofort!`);
         return;
       }
       if (!G.round.found.includes(votedIdx)) G.round.found.push(votedIdx);
@@ -529,7 +531,7 @@ function showLastChance() {
     el("p", { class: "eyebrow accent" }, "Letzte Chance"),
     el("div", { class: "big-name" }, impNames),
     el("p", {}, G.round.imposters.length > 1 ? "Alle Imposter wurden gefunden!" : "Der Imposter wurde gefunden!"),
-    el("p", { class: "muted" }, "Jetzt darf er raten, wie die Frage der Crew lautete – sinngemäß reicht. Die Gruppe entscheidet."),
+    el("p", { class: "muted" }, "Jetzt darf er raten, wie die Frage der Crew lautete. Sinngemäß reicht, Die Gruppe entscheidet."),
   );
   renderInto($("#resolution-actions"),
     el("p", { class: "eyebrow" }, "Hat er die Crew-Frage erraten?"),
@@ -660,10 +662,15 @@ function resumeGame(saved) {
 /* ---------------- Init ---------------- */
 
 function init() {
-  document.getElementById("boot-note")?.remove();   // JS läuft – Ladehinweis weg
+  document.getElementById("boot-note")?.remove();   // JS läuft, Ladehinweis weg
   initSetup();
+  initRulesDialog();
 
-  $("#pass-show").addEventListener("click", showAnswerInput);
+  $("#flip-card").addEventListener("click", () => {
+    const card = $("#flip-card");
+    card.classList.toggle("flipped");
+    if (card.classList.contains("flipped")) buildAnswerUi();
+  });
   $("#discussion-pause").addEventListener("click", (ev) => {
     if (discussionTimer) ev.target.textContent = discussionTimer.toggle() ? "Pause" : "Weiter";
   });

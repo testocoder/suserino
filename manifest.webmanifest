@@ -1,7 +1,7 @@
 {
-  "name": "Partyspiele fürs Handy",
-  "short_name": "Partyspiele",
-  "description": "Imposter & Querfrage – Bluff-Partyspiele für ein Handy, das reihum geht.",
+  "name": "Suserino",
+  "short_name": "Suserino",
+  "description": "Suserino: Imposter & Querfrage, Bluff-Partyspiele für ein Handy, das reihum geht.",
   "start_url": "./",
   "display": "standalone",
   "orientation": "portrait",

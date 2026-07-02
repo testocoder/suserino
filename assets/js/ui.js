@@ -28,36 +28,17 @@ export function toast(message, ms = 2600) {
   toastTimer = setTimeout(() => toastNode.classList.remove("show"), ms);
 }
 
-/* ---------- Halten zum Aufdecken ----------
-   Inhalt ist nur sichtbar, solange der Button gedrückt wird.
-   onFirstReveal wird beim ersten vollständigen Aufdecken gerufen. */
+/* ---------- Anleitung (?-Button oben rechts) ---------- */
 
-export function bindHold(button, { onShow, onHide, onFirstReveal }) {
-  let held = false;
-  let revealed = false;
-
-  const show = (ev) => {
-    if (ev.pointerType === "mouse" && ev.button !== 0) return;
-    ev.preventDefault();
-    if (held) return;
-    held = true;
-    try { button.setPointerCapture(ev.pointerId); } catch { /* egal */ }
-    onShow();
-    if (!revealed) {
-      revealed = true;
-      onFirstReveal?.();
-    }
-  };
-  const hide = () => {
-    if (!held) return;
-    held = false;
-    onHide();
-  };
-
-  button.addEventListener("pointerdown", show);
-  button.addEventListener("pointerup", hide);
-  button.addEventListener("pointercancel", hide);
-  button.addEventListener("contextmenu", (ev) => ev.preventDefault());
+export function initRulesDialog() {
+  const dialog = $("#rules-dialog");
+  const openBtn = $("#open-rules");
+  if (!dialog || !openBtn) return;
+  openBtn.addEventListener("click", () => dialog.showModal());
+  $("#close-rules")?.addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (ev) => {
+    if (ev.target === dialog) dialog.close();   // Tipp auf den Hintergrund schließt
+  });
 }
 
 /* ---------- Timer ---------- */

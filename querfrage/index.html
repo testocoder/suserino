@@ -4,11 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-ancestors 'none'">
-  <title>Querfrage – Partyspiel für ein Handy | Wer hat die andere Frage?</title>
-  <meta name="description" content="Querfrage online spielen: Alle beantworten geheim dieselbe Frage – nur der Imposter bekommt eine andere, ohne es zu wissen. Pass-and-Play-Partyspiel für 4–20 Spieler auf einem Handy. Kostenlos, ohne Anmeldung.">
-  <meta property="og:title" content="Querfrage – Partyspiel für ein Handy">
-  <meta property="og:description" content="Alle beantworten dieselbe Frage – nur einer nicht. Wessen Antwort passt nicht? Für 4–20 Spieler auf einem Gerät.">
+  <title>Querfrage: Partyspiel für ein Handy | Suserino</title>
+  <meta name="description" content="Querfrage online spielen: Alle beantworten geheim dieselbe Frage, nur der Imposter bekommt eine andere, ohne es zu wissen. Pass-and-Play-Partyspiel für 4 bis 20 Spieler auf einem Handy. Kostenlos, ohne Anmeldung.">
+  <meta property="og:title" content="Querfrage: Partyspiel für ein Handy">
+  <meta property="og:description" content="Alle beantworten dieselbe Frage, nur einer nicht. Wessen Antwort passt nicht? Für 4 bis 20 Spieler auf einem Gerät.">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Suserino">
   <meta property="og:locale" content="de_DE">
   <meta name="theme-color" content="#131216">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -18,31 +19,36 @@
 <body data-game="querfrage">
   <div class="app">
     <header class="topbar">
-      <a class="back" href="../">← Spiele</a>
+      <a class="back" href="../">← Suserino</a>
       <span class="spacer"></span>
       <span class="title">Querfrage</span>
+      <button class="help-btn" id="open-rules" type="button" aria-label="Anleitung anzeigen">?</button>
     </header>
+
+    <dialog class="rules-dialog" id="rules-dialog">
+      <h2>So wird gespielt</h2>
+      <p class="muted">Alle beantworten geheim dieselbe Frage. Nur der Imposter bekommt eine andere, ohne es zu wissen!</p>
+      <ol>
+        <li>Gebt das Handy reihum weiter. Jeder liest geheim seine Frage und tippt seine Antwort ein.</li>
+        <li>Alle bekommen dieselbe Frage, nur der Imposter eine andere, ähnliche. Er weiß es selbst nicht!</li>
+        <li>Danach werden alle Antworten mit Namen angezeigt. Die Frage bleibt geheim.</li>
+        <li>Diskutiert: Wer muss seine Antwort erklären? Wessen Antwort wirkt seltsam?</li>
+        <li>Tipp: Wer beim Erklären die Frage nicht zu kennen scheint, ist verdächtig. Aber Achtung, auch ehrliche Antworten können komisch wirken!</li>
+        <li>Stimmt ab. Wird der Imposter gefunden, darf er die echte Frage raten. Errät er sie, bekommt er Teilpunkte. Liegt ihr falsch, gewinnt der Imposter.</li>
+      </ol>
+      <div class="actions">
+        <button class="btn btn-primary" id="close-rules" type="button">Alles klar</button>
+      </div>
+    </dialog>
 
     <main id="main">
 
-      <div class="boot-note" id="boot-note">Wird geladen … Bleibt diese Meldung stehen, öffne die Seite bitte über „Webseite starten.bat“ im Projektordner (bzw. http://localhost:8749) – nicht direkt als Datei.</div>
+      <div class="boot-note" id="boot-note">Wird geladen … Bleibt diese Meldung stehen, öffne die Seite bitte über „Webseite starten.bat“ im Projektordner (bzw. http://localhost:8749), nicht direkt als Datei.</div>
 
       <!-- Setup (Startscreen) -->
       <section class="screen" id="s-setup">
         <div class="screen-body">
           <h1>Querfrage</h1>
-          <p class="muted">Alle beantworten geheim dieselbe Frage – nur der Imposter bekommt eine andere, ohne es zu wissen! Dann werden alle Antworten gezeigt: Wessen Antwort passt nicht?</p>
-          <details class="rules">
-            <summary>Regeln ansehen</summary>
-            <ol>
-              <li>Gebt das Handy reihum weiter. Jeder liest geheim seine Frage und tippt seine Antwort ein.</li>
-              <li>Alle bekommen dieselbe Frage – nur der Imposter eine andere, ähnliche. Er weiß es selbst nicht!</li>
-              <li>Danach werden alle Antworten mit Namen angezeigt. Die Frage bleibt geheim.</li>
-              <li>Diskutiert: Wer muss seine Antwort erklären? Wessen Antwort wirkt seltsam?</li>
-              <li>Tipp: Wer beim Erklären die Frage nicht zu kennen scheint, ist verdächtig. Aber Achtung – auch ehrliche Antworten können komisch wirken!</li>
-              <li>Stimmt ab. Wird der Imposter gefunden, darf er die echte Frage raten – errät er sie, bekommt er Teilpunkte. Liegt ihr falsch, gewinnt der Imposter.</li>
-            </ol>
-          </details>
 
           <h2>Spieler</h2>
           <div id="player-editor"></div>
@@ -84,16 +90,23 @@
         </div>
       </section>
 
-      <!-- Weitergeben + Frage + Antwort (ein Screen) -->
+      <!-- Weitergeben + Frage + Antwort: Dreh-Karte -->
       <section class="screen" id="s-pass">
         <div class="screen-body">
-          <p class="eyebrow" id="pass-eyebrow">Gib das Handy an</p>
-          <div class="big-name" id="pass-name"></div>
+          <div class="flip-card question-card" id="flip-card">
+            <div class="flip-inner">
+              <div class="flip-face flip-front">
+                <p class="eyebrow">Gib das Handy an</p>
+                <div class="big-name" id="pass-name"></div>
+              </div>
+              <div class="flip-face flip-back" id="flip-back"></div>
+            </div>
+          </div>
+          <p class="hint-text flip-hint" id="pass-hint">Tippe auf die Karte, nur du schaust hin. Nochmal tippen deckt wieder zu.</p>
           <div id="answer-area"></div>
         </div>
         <div class="actions">
-          <button class="btn btn-primary" id="pass-show">Frage anzeigen</button>
-          <button class="btn btn-primary hidden" id="answer-done" disabled>Fertig, weitergeben</button>
+          <button class="btn btn-primary" id="answer-done" disabled>Fertig, weitergeben</button>
         </div>
       </section>
 

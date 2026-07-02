@@ -4,11 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-ancestors 'none'">
-  <title>Imposter – Partyspiel für ein Handy | Wer kennt das Wort nicht?</title>
-  <meta name="description" content="Imposter online spielen: Alle bekommen geheim dasselbe Wort – nur der Imposter nicht. Pass-and-Play-Partyspiel für 3–20 Spieler auf einem Handy. Kostenlos, ohne Anmeldung, ohne App.">
-  <meta property="og:title" content="Imposter – Partyspiel für ein Handy">
-  <meta property="og:description" content="Alle kennen das geheime Wort – nur der Imposter nicht. Findet ihn! Für 3–20 Spieler auf einem Gerät.">
+  <title>Imposter: Partyspiel für ein Handy | Suserino</title>
+  <meta name="description" content="Imposter online spielen: Alle bekommen geheim dasselbe Wort, nur der Imposter nicht. Pass-and-Play-Partyspiel für 3 bis 20 Spieler auf einem Handy. Kostenlos, ohne Anmeldung, ohne App.">
+  <meta property="og:title" content="Imposter: Partyspiel für ein Handy">
+  <meta property="og:description" content="Alle kennen das geheime Wort, nur der Imposter nicht. Findet ihn! Für 3 bis 20 Spieler auf einem Gerät.">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Suserino">
   <meta property="og:locale" content="de_DE">
   <meta name="theme-color" content="#131216">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
@@ -18,32 +19,37 @@
 <body data-game="imposter">
   <div class="app">
     <header class="topbar">
-      <a class="back" href="../">← Spiele</a>
+      <a class="back" href="../">← Suserino</a>
       <span class="spacer"></span>
       <span class="title">Imposter</span>
+      <button class="help-btn" id="open-rules" type="button" aria-label="Anleitung anzeigen">?</button>
     </header>
+
+    <dialog class="rules-dialog" id="rules-dialog">
+      <h2>So wird gespielt</h2>
+      <p class="muted">Alle bekommen geheim dasselbe Wort, nur der Imposter nicht. Findet ihn!</p>
+      <ol>
+        <li>Gebt das Handy reihum weiter. Jeder deckt geheim seine Rolle auf.</li>
+        <li>Alle Crew-Mitglieder sehen dasselbe geheime Wort. Der Imposter sieht es nicht, oder er bekommt ein ähnliches Wort (je nach Variante).</li>
+        <li>Reihum sagt jeder ein Wort oder einen kurzen Satz, der zum geheimen Wort passt. Das Wort selbst darf nicht genannt werden.</li>
+        <li>Tipp für die Crew: Nicht zu offensichtlich, sonst errät der Imposter das Wort. Nicht zu vage, sonst wirkt ihr selbst verdächtig.</li>
+        <li>Nach den Hinweisrunden wird diskutiert und abgestimmt.</li>
+        <li>Wird der Imposter gefunden, hat er eine letzte Chance: Errät er das geheime Wort, gewinnt er trotzdem.</li>
+        <li>Wird ein Unschuldiger rausgeworfen, gewinnt der Imposter sofort.</li>
+      </ol>
+      <div class="actions">
+        <button class="btn btn-primary" id="close-rules" type="button">Alles klar</button>
+      </div>
+    </dialog>
 
     <main id="main">
 
-      <div class="boot-note" id="boot-note">Wird geladen … Bleibt diese Meldung stehen, öffne die Seite bitte über „Webseite starten.bat“ im Projektordner (bzw. http://localhost:8749) – nicht direkt als Datei.</div>
+      <div class="boot-note" id="boot-note">Wird geladen … Bleibt diese Meldung stehen, öffne die Seite bitte über „Webseite starten.bat“ im Projektordner (bzw. http://localhost:8749), nicht direkt als Datei.</div>
 
       <!-- Setup (Startscreen) -->
       <section class="screen" id="s-setup">
         <div class="screen-body">
           <h1>Imposter</h1>
-          <p class="muted">Alle bekommen geheim dasselbe Wort – nur der Imposter nicht. Reihum sagt jeder einen passenden Begriff, dann wird abgestimmt. Errät der Imposter am Ende das Wort, gewinnt er trotzdem!</p>
-          <details class="rules">
-            <summary>Regeln ansehen</summary>
-            <ol>
-              <li>Gebt das Handy reihum weiter. Jeder deckt geheim seine Rolle auf.</li>
-              <li>Alle Crew-Mitglieder sehen dasselbe geheime Wort. Der Imposter sieht es nicht – oder bekommt ein ähnliches Wort (je nach Variante).</li>
-              <li>Reihum sagt jeder ein Wort oder einen kurzen Satz, der zum geheimen Wort passt. Das Wort selbst darf nicht genannt werden.</li>
-              <li>Tipp für die Crew: Nicht zu offensichtlich – sonst errät der Imposter das Wort. Nicht zu vage – sonst wirkt ihr selbst verdächtig.</li>
-              <li>Nach den Hinweisrunden wird diskutiert und abgestimmt.</li>
-              <li>Wird der Imposter gefunden, hat er eine letzte Chance: Errät er das geheime Wort, gewinnt er trotzdem.</li>
-              <li>Wird ein Unschuldiger rausgeworfen, gewinnt der Imposter sofort.</li>
-            </ol>
-          </details>
 
           <h2>Spieler</h2>
           <div id="player-editor"></div>
@@ -85,16 +91,22 @@
         </div>
       </section>
 
-      <!-- Weitergeben + Aufdecken (ein Screen) -->
+      <!-- Weitergeben + Aufdecken: Dreh-Karte -->
       <section class="screen" id="s-pass">
         <div class="center-stage">
-          <p class="eyebrow">Gib das Handy an</p>
-          <div class="big-name" id="pass-name"></div>
-          <div class="reveal-area" id="reveal-stage"></div>
+          <div class="flip-card" id="flip-card">
+            <div class="flip-inner">
+              <div class="flip-face flip-front">
+                <p class="eyebrow">Gib das Handy an</p>
+                <div class="big-name" id="pass-name"></div>
+              </div>
+              <div class="flip-face flip-back" id="flip-back"></div>
+            </div>
+          </div>
+          <p class="hint-text flip-hint" id="pass-hint">Tippe auf die Karte, nur du schaust hin. Nochmal tippen deckt wieder zu.</p>
         </div>
         <div class="actions">
-          <button class="btn btn-primary btn-hold" id="reveal-hold">Halten zum Aufdecken</button>
-          <button class="btn btn-ghost" id="reveal-next" disabled>Weitergeben →</button>
+          <button class="btn btn-primary" id="reveal-next" disabled>Weitergeben</button>
         </div>
       </section>
 
@@ -104,7 +116,7 @@
           <p class="eyebrow accent" id="round-label"></p>
           <div class="big-name" id="round-starter"></div>
           <p class="hint-text" id="round-info"></p>
-          <div class="timer-display" id="round-timer">–</div>
+          <div class="timer-display" id="round-timer"></div>
         </div>
         <div class="actions">
           <button class="btn btn-primary" id="round-vote">Zur Abstimmung</button>

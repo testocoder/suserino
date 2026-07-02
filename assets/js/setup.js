@@ -163,7 +163,7 @@ export function createCustomManager(config, { listContainer, editContainer, show
 
   const persist = () => {
     if (!saveLocal(config.storageKey, categories)) {
-      toast("Speichern nicht möglich – Inhalte gelten nur für diese Sitzung");
+      toast("Speichern nicht möglich. Inhalte gelten nur für diese Sitzung.");
     }
     onDataChanged?.();
   };
@@ -345,7 +345,7 @@ export function createCustomManager(config, { listContainer, editContainer, show
             onclick: async () => {
               try {
                 await navigator.clipboard.writeText(config.aiPrompt);
-                toast("Prompt kopiert – bei ChatGPT/Claude einfügen");
+                toast("Prompt kopiert. Bei ChatGPT oder Claude einfügen.");
               } catch {
                 prompt("Prompt zum Kopieren:", config.aiPrompt);
               }
