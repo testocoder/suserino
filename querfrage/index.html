@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-ancestors 'none'">
+  <title>Querfrage – Partyspiel für ein Handy | Wer hat die andere Frage?</title>
+  <meta name="description" content="Querfrage online spielen: Alle beantworten geheim dieselbe Frage – nur der Imposter bekommt eine andere, ohne es zu wissen. Pass-and-Play-Partyspiel für 4–20 Spieler auf einem Handy. Kostenlos, ohne Anmeldung.">
+  <meta property="og:title" content="Querfrage – Partyspiel für ein Handy">
+  <meta property="og:description" content="Alle beantworten dieselbe Frage – nur einer nicht. Wessen Antwort passt nicht? Für 4–20 Spieler auf einem Gerät.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta name="theme-color" content="#131216">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-game="querfrage">
+  <div class="app">
+    <header class="topbar">
+      <a class="back" href="../">← Spiele</a>
+      <span class="spacer"></span>
+      <span class="title">Querfrage</span>
+    </header>
+
+    <main id="main">
+
+      <div class="boot-note" id="boot-note">Wird geladen … Bleibt diese Meldung stehen, öffne die Seite bitte über „Webseite starten.bat“ im Projektordner (bzw. http://localhost:8749) – nicht direkt als Datei.</div>
+
+      <!-- Setup (Startscreen) -->
+      <section class="screen" id="s-setup">
+        <div class="screen-body">
+          <h1>Querfrage</h1>
+          <p class="muted">Alle beantworten geheim dieselbe Frage – nur der Imposter bekommt eine andere, ohne es zu wissen! Dann werden alle Antworten gezeigt: Wessen Antwort passt nicht?</p>
+          <details class="rules">
+            <summary>Regeln ansehen</summary>
+            <ol>
+              <li>Gebt das Handy reihum weiter. Jeder liest geheim seine Frage und tippt seine Antwort ein.</li>
+              <li>Alle bekommen dieselbe Frage – nur der Imposter eine andere, ähnliche. Er weiß es selbst nicht!</li>
+              <li>Danach werden alle Antworten mit Namen angezeigt. Die Frage bleibt geheim.</li>
+              <li>Diskutiert: Wer muss seine Antwort erklären? Wessen Antwort wirkt seltsam?</li>
+              <li>Tipp: Wer beim Erklären die Frage nicht zu kennen scheint, ist verdächtig. Aber Achtung – auch ehrliche Antworten können komisch wirken!</li>
+              <li>Stimmt ab. Wird der Imposter gefunden, darf er die echte Frage raten – errät er sie, bekommt er Teilpunkte. Liegt ihr falsch, gewinnt der Imposter.</li>
+            </ol>
+          </details>
+
+          <h2>Spieler</h2>
+          <div id="player-editor"></div>
+
+          <details class="fold">
+            <summary>Einstellungen</summary>
+            <div class="fold-body" id="settings-form"></div>
+          </details>
+          <details class="fold">
+            <summary>Kategorien &amp; eigene Fragen</summary>
+            <div class="fold-body">
+              <div id="category-picker"></div>
+              <button class="btn-quiet" id="open-custom" type="button">✎ Eigene Fragen verwalten</button>
+            </div>
+          </details>
+        </div>
+        <div class="actions">
+          <button class="btn btn-primary" id="setup-start">Spiel starten</button>
+        </div>
+      </section>
+
+      <!-- Eigene Fragen: Liste -->
+      <section class="screen" id="s-custom-list">
+        <div class="screen-body">
+          <h1>Eigene Fragen</h1>
+          <p class="muted">Eigene Fragenpaare für eure Gruppe. Beide Fragen sollten zum gleichen Antworttyp führen (z. B. beide eine Zahl). Bleiben nur auf diesem Gerät gespeichert.</p>
+          <div id="custom-list"></div>
+        </div>
+        <div class="actions">
+          <button class="btn btn-ghost" id="custom-back">Zurück zum Setup</button>
+        </div>
+      </section>
+
+      <!-- Eigene Fragen: Bearbeiten -->
+      <section class="screen" id="s-custom-edit">
+        <div class="screen-body" id="custom-edit"></div>
+        <div class="actions">
+          <button class="btn btn-ghost" id="custom-edit-back">Fertig</button>
+        </div>
+      </section>
+
+      <!-- Weitergeben + Frage + Antwort (ein Screen) -->
+      <section class="screen" id="s-pass">
+        <div class="screen-body">
+          <p class="eyebrow" id="pass-eyebrow">Gib das Handy an</p>
+          <div class="big-name" id="pass-name"></div>
+          <div id="answer-area"></div>
+        </div>
+        <div class="actions">
+          <button class="btn btn-primary" id="pass-show">Frage anzeigen</button>
+          <button class="btn btn-primary hidden" id="answer-done" disabled>Fertig, weitergeben</button>
+        </div>
+      </section>
+
+      <!-- Antworten + Diskussion (ein Screen) -->
+      <section class="screen" id="s-discussion">
+        <div class="screen-body">
+          <p class="eyebrow accent">Alle Antworten</p>
+          <h1>Wessen Antwort passt nicht?</h1>
+          <div id="answers-list"></div>
+          <div class="row-inline">
+            <span class="timer-inline" id="discussion-timer"></span>
+            <button class="btn-quiet" id="discussion-pause" type="button">Pause</button>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="btn btn-primary" id="discussion-vote">Zur Abstimmung</button>
+        </div>
+      </section>
+
+      <!-- Abstimmung: mündlich -->
+      <section class="screen" id="s-vote-verbal">
+        <div class="screen-body">
+          <p class="eyebrow accent">Abstimmung</p>
+          <h1>Wer wurde gewählt?</h1>
+          <div id="vote-answers"></div>
+          <div id="vote-verbal-list"></div>
+        </div>
+      </section>
+
+      <!-- Abstimmung in der App: weitergeben -->
+      <section class="screen" id="s-vote-pass">
+        <div class="center-stage">
+          <p class="eyebrow" id="vote-pass-label">Geheime Abstimmung</p>
+          <div class="big-name" id="vote-pass-name"></div>
+          <p class="hint-text">Gib das Handy weiter. Nur du siehst gleich deine Auswahl.</p>
+        </div>
+        <div class="actions">
+          <button class="btn btn-primary" id="vote-pass-go">Abstimmen</button>
+        </div>
+      </section>
+
+      <!-- Abstimmung in der App: Stimme abgeben -->
+      <section class="screen" id="s-vote-cast">
+        <div class="screen-body">
+          <p class="eyebrow accent" id="vote-cast-label">Deine Stimme</p>
+          <h1 id="vote-cast-title"></h1>
+          <div id="vote-cast-answers"></div>
+          <div id="vote-cast-list"></div>
+        </div>
+      </section>
+
+      <!-- Auflösung -->
+      <section class="screen" id="s-resolution">
+        <div class="center-stage" id="resolution-stage"></div>
+        <div class="actions" id="resolution-actions"></div>
+      </section>
+
+      <!-- Punktestand -->
+      <section class="screen" id="s-score">
+        <div class="screen-body">
+          <p class="eyebrow accent" id="score-label"></p>
+          <h1 id="score-title"></h1>
+          <div id="score-summary"></div>
+          <div id="score-table"></div>
+        </div>
+        <div class="actions">
+          <button class="btn btn-primary" id="score-next">Nächste Runde</button>
+          <button class="btn btn-quiet" id="score-end">Spiel beenden</button>
+        </div>
+      </section>
+
+      <!-- Endstand -->
+      <section class="screen" id="s-final">
+        <div class="screen-body">
+          <p class="eyebrow accent">Endstand</p>
+          <h1 id="final-title"></h1>
+          <div id="final-table"></div>
+        </div>
+        <div class="actions">
+          <button class="btn btn-primary" id="final-again">Nochmal spielen</button>
+          <a class="btn btn-ghost" href="../">Zur Spielauswahl</a>
+        </div>
+      </section>
+
+    </main>
+  </div>
+  <script src="../assets/js/env-check.js" defer></script>
+  <script type="module" src="../assets/js/querfrage.js"></script>
+</body>
+</html>

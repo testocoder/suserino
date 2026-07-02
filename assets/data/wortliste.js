@@ -1,0 +1,10930 @@
+export default {
+ "kategorien": [
+  {
+   "name": "Essen & Trinken",
+   "paare": [
+    {
+     "wort": "Kaffee",
+     "hinweis": "Tee"
+    },
+    {
+     "wort": "Pizza",
+     "hinweis": "Flammkuchen"
+    },
+    {
+     "wort": "Döner",
+     "hinweis": "Burrito"
+    },
+    {
+     "wort": "Bier",
+     "hinweis": "Wein"
+    },
+    {
+     "wort": "Schokolade",
+     "hinweis": "Nutella"
+    },
+    {
+     "wort": "Spaghetti",
+     "hinweis": "Lasagne"
+    },
+    {
+     "wort": "Currywurst",
+     "hinweis": "Bratwurst"
+    },
+    {
+     "wort": "Sushi",
+     "hinweis": "Fischstäbchen"
+    },
+    {
+     "wort": "Pommes",
+     "hinweis": "Kartoffelpuffer"
+    },
+    {
+     "wort": "Eis",
+     "hinweis": "Joghurt"
+    },
+    {
+     "wort": "Käse",
+     "hinweis": "Butter"
+    },
+    {
+     "wort": "Honig",
+     "hinweis": "Marmelade"
+    },
+    {
+     "wort": "Cola",
+     "hinweis": "Fanta"
+    },
+    {
+     "wort": "Croissant",
+     "hinweis": "Brezel"
+    },
+    {
+     "wort": "Salat",
+     "hinweis": "Gemüsesuppe"
+    },
+    {
+     "wort": "Burger",
+     "hinweis": "Sandwich"
+    },
+    {
+     "wort": "Schnitzel",
+     "hinweis": "Kotelett"
+    },
+    {
+     "wort": "Müsli",
+     "hinweis": "Cornflakes"
+    },
+    {
+     "wort": "Apfel",
+     "hinweis": "Birne"
+    },
+    {
+     "wort": "Banane",
+     "hinweis": "Mango"
+    },
+    {
+     "wort": "Erdbeere",
+     "hinweis": "Himbeere"
+    },
+    {
+     "wort": "Zitrone",
+     "hinweis": "Limette"
+    },
+    {
+     "wort": "Wassermelone",
+     "hinweis": "Honigmelone"
+    },
+    {
+     "wort": "Traube",
+     "hinweis": "Kirsche"
+    },
+    {
+     "wort": "Ananas",
+     "hinweis": "Kokosnuss"
+    },
+    {
+     "wort": "Brot",
+     "hinweis": "Brötchen"
+    },
+    {
+     "wort": "Toast",
+     "hinweis": "Zwieback"
+    },
+    {
+     "wort": "Baguette",
+     "hinweis": "Ciabatta"
+    },
+    {
+     "wort": "Kuchen",
+     "hinweis": "Torte"
+    },
+    {
+     "wort": "Muffin",
+     "hinweis": "Cupcake"
+    },
+    {
+     "wort": "Donut",
+     "hinweis": "Berliner"
+    },
+    {
+     "wort": "Keks",
+     "hinweis": "Waffel"
+    },
+    {
+     "wort": "Gummibärchen",
+     "hinweis": "Lakritz"
+    },
+    {
+     "wort": "Bonbon",
+     "hinweis": "Kaugummi"
+    },
+    {
+     "wort": "Chips",
+     "hinweis": "Salzstangen"
+    },
+    {
+     "wort": "Popcorn",
+     "hinweis": "Erdnüsse"
+    },
+    {
+     "wort": "Milch",
+     "hinweis": "Sahne"
+    },
+    {
+     "wort": "Quark",
+     "hinweis": "Pudding"
+    },
+    {
+     "wort": "Rührei",
+     "hinweis": "Spiegelei"
+    },
+    {
+     "wort": "Omelett",
+     "hinweis": "Pfannkuchen"
+    },
+    {
+     "wort": "Speck",
+     "hinweis": "Schinken"
+    },
+    {
+     "wort": "Salami",
+     "hinweis": "Mortadella"
+    },
+    {
+     "wort": "Leberwurst",
+     "hinweis": "Teewurst"
+    },
+    {
+     "wort": "Frikadelle",
+     "hinweis": "Köttbullar"
+    },
+    {
+     "wort": "Gulasch",
+     "hinweis": "Ragout"
+    },
+    {
+     "wort": "Steak",
+     "hinweis": "Roastbeef"
+    },
+    {
+     "wort": "Hähnchen",
+     "hinweis": "Pute"
+    },
+    {
+     "wort": "Ente",
+     "hinweis": "Gans"
+    },
+    {
+     "wort": "Lachs",
+     "hinweis": "Forelle"
+    },
+    {
+     "wort": "Thunfisch",
+     "hinweis": "Hering"
+    },
+    {
+     "wort": "Garnele",
+     "hinweis": "Hummer"
+    },
+    {
+     "wort": "Muschel",
+     "hinweis": "Auster"
+    },
+    {
+     "wort": "Reis",
+     "hinweis": "Couscous"
+    },
+    {
+     "wort": "Nudeln",
+     "hinweis": "Gnocchi"
+    },
+    {
+     "wort": "Kartoffel",
+     "hinweis": "Süßkartoffel"
+    },
+    {
+     "wort": "Knödel",
+     "hinweis": "Spätzle"
+    },
+    {
+     "wort": "Maultaschen",
+     "hinweis": "Ravioli"
+    },
+    {
+     "wort": "Tortellini",
+     "hinweis": "Piroggen"
+    },
+    {
+     "wort": "Risotto",
+     "hinweis": "Paella"
+    },
+    {
+     "wort": "Curry",
+     "hinweis": "Chili con Carne"
+    },
+    {
+     "wort": "Wrap",
+     "hinweis": "Quesadilla"
+    },
+    {
+     "wort": "Taco",
+     "hinweis": "Enchilada"
+    },
+    {
+     "wort": "Falafel",
+     "hinweis": "Halloumi"
+    },
+    {
+     "wort": "Hummus",
+     "hinweis": "Guacamole"
+    },
+    {
+     "wort": "Tsatsiki",
+     "hinweis": "Kräuterquark"
+    },
+    {
+     "wort": "Gyros",
+     "hinweis": "Kebab"
+    },
+    {
+     "wort": "Ramen",
+     "hinweis": "Pho"
+    },
+    {
+     "wort": "Frühlingsrolle",
+     "hinweis": "Sommerrolle"
+    },
+    {
+     "wort": "Dumplings",
+     "hinweis": "Wan Tan"
+    },
+    {
+     "wort": "Peking-Ente",
+     "hinweis": "Ente süßsauer"
+    },
+    {
+     "wort": "Tomate",
+     "hinweis": "Paprika"
+    },
+    {
+     "wort": "Gurke",
+     "hinweis": "Zucchini"
+    },
+    {
+     "wort": "Karotte",
+     "hinweis": "Pastinake"
+    },
+    {
+     "wort": "Brokkoli",
+     "hinweis": "Blumenkohl"
+    },
+    {
+     "wort": "Spinat",
+     "hinweis": "Mangold"
+    },
+    {
+     "wort": "Zwiebel",
+     "hinweis": "Knoblauch"
+    },
+    {
+     "wort": "Pilze",
+     "hinweis": "Trüffel"
+    },
+    {
+     "wort": "Mais",
+     "hinweis": "Erbsen"
+    },
+    {
+     "wort": "Kürbis",
+     "hinweis": "Aubergine"
+    },
+    {
+     "wort": "Radieschen",
+     "hinweis": "Rettich"
+    },
+    {
+     "wort": "Senf",
+     "hinweis": "Meerrettich"
+    },
+    {
+     "wort": "Ketchup",
+     "hinweis": "Mayonnaise"
+    },
+    {
+     "wort": "Pesto",
+     "hinweis": "Aioli"
+    },
+    {
+     "wort": "Sojasauce",
+     "hinweis": "Teriyaki"
+    },
+    {
+     "wort": "Essig",
+     "hinweis": "Öl"
+    },
+    {
+     "wort": "Salz",
+     "hinweis": "Pfeffer"
+    },
+    {
+     "wort": "Zimt",
+     "hinweis": "Vanille"
+    },
+    {
+     "wort": "Basilikum",
+     "hinweis": "Oregano"
+    },
+    {
+     "wort": "Petersilie",
+     "hinweis": "Schnittlauch"
+    },
+    {
+     "wort": "Ingwer",
+     "hinweis": "Kurkuma"
+    },
+    {
+     "wort": "Espresso",
+     "hinweis": "Cappuccino"
+    },
+    {
+     "wort": "Latte Macchiato",
+     "hinweis": "Milchkaffee"
+    },
+    {
+     "wort": "Kakao",
+     "hinweis": "Chai Latte"
+    },
+    {
+     "wort": "Smoothie",
+     "hinweis": "Milchshake"
+    },
+    {
+     "wort": "Limonade",
+     "hinweis": "Eistee"
+    },
+    {
+     "wort": "Apfelsaft",
+     "hinweis": "Orangensaft"
+    },
+    {
+     "wort": "Mineralwasser",
+     "hinweis": "Leitungswasser"
+    },
+    {
+     "wort": "Sekt",
+     "hinweis": "Prosecco"
+    },
+    {
+     "wort": "Whisky",
+     "hinweis": "Rum"
+    },
+    {
+     "wort": "Glühwein",
+     "hinweis": "Punsch"
+    }
+   ]
+  },
+  {
+   "name": "Orte",
+   "paare": [
+    {
+     "wort": "Strand",
+     "hinweis": "Schwimmbad"
+    },
+    {
+     "wort": "Kino",
+     "hinweis": "Theater"
+    },
+    {
+     "wort": "Schule",
+     "hinweis": "Universität"
+    },
+    {
+     "wort": "Flughafen",
+     "hinweis": "Bahnhof"
+    },
+    {
+     "wort": "Krankenhaus",
+     "hinweis": "Arztpraxis"
+    },
+    {
+     "wort": "Fitnessstudio",
+     "hinweis": "Sportplatz"
+    },
+    {
+     "wort": "Supermarkt",
+     "hinweis": "Wochenmarkt"
+    },
+    {
+     "wort": "Kirche",
+     "hinweis": "Museum"
+    },
+    {
+     "wort": "Zoo",
+     "hinweis": "Bauernhof"
+    },
+    {
+     "wort": "Hotel",
+     "hinweis": "Campingplatz"
+    },
+    {
+     "wort": "Friseursalon",
+     "hinweis": "Nagelstudio"
+    },
+    {
+     "wort": "Bibliothek",
+     "hinweis": "Buchladen"
+    },
+    {
+     "wort": "Disco",
+     "hinweis": "Bar"
+    },
+    {
+     "wort": "Gefängnis",
+     "hinweis": "Kaserne"
+    },
+    {
+     "wort": "Sauna",
+     "hinweis": "Whirlpool"
+    },
+    {
+     "wort": "Restaurant",
+     "hinweis": "Imbissbude"
+    },
+    {
+     "wort": "Café",
+     "hinweis": "Bäckerei"
+    },
+    {
+     "wort": "Kneipe",
+     "hinweis": "Biergarten"
+    },
+    {
+     "wort": "Spielplatz",
+     "hinweis": "Skatepark"
+    },
+    {
+     "wort": "Park",
+     "hinweis": "Botanischer Garten"
+    },
+    {
+     "wort": "Wald",
+     "hinweis": "Dschungel"
+    },
+    {
+     "wort": "Wüste",
+     "hinweis": "Steppe"
+    },
+    {
+     "wort": "Berg",
+     "hinweis": "Hügel"
+    },
+    {
+     "wort": "See",
+     "hinweis": "Teich"
+    },
+    {
+     "wort": "Fluss",
+     "hinweis": "Bach"
+    },
+    {
+     "wort": "Meer",
+     "hinweis": "Ozean"
+    },
+    {
+     "wort": "Insel",
+     "hinweis": "Halbinsel"
+    },
+    {
+     "wort": "Höhle",
+     "hinweis": "Bunker"
+    },
+    {
+     "wort": "Leuchtturm",
+     "hinweis": "Windmühle"
+    },
+    {
+     "wort": "Burg",
+     "hinweis": "Schloss"
+    },
+    {
+     "wort": "Rathaus",
+     "hinweis": "Gericht"
+    },
+    {
+     "wort": "Polizeiwache",
+     "hinweis": "Feuerwache"
+    },
+    {
+     "wort": "Postamt",
+     "hinweis": "Bank"
+    },
+    {
+     "wort": "Apotheke",
+     "hinweis": "Drogerie"
+    },
+    {
+     "wort": "Tankstelle",
+     "hinweis": "Waschanlage"
+    },
+    {
+     "wort": "Werkstatt",
+     "hinweis": "Schrottplatz"
+    },
+    {
+     "wort": "Baustelle",
+     "hinweis": "Fabrik"
+    },
+    {
+     "wort": "Büro",
+     "hinweis": "Coworking-Space"
+    },
+    {
+     "wort": "Labor",
+     "hinweis": "Sternwarte"
+    },
+    {
+     "wort": "Rechenzentrum",
+     "hinweis": "Serverraum"
+    },
+    {
+     "wort": "Kindergarten",
+     "hinweis": "Krippe"
+    },
+    {
+     "wort": "Altenheim",
+     "hinweis": "Hospiz"
+    },
+    {
+     "wort": "Tierheim",
+     "hinweis": "Tierklinik"
+    },
+    {
+     "wort": "Friedhof",
+     "hinweis": "Krematorium"
+    },
+    {
+     "wort": "Standesamt",
+     "hinweis": "Kapelle"
+    },
+    {
+     "wort": "Stadion",
+     "hinweis": "Sporthalle"
+    },
+    {
+     "wort": "Eisbahn",
+     "hinweis": "Skihalle"
+    },
+    {
+     "wort": "Kletterhalle",
+     "hinweis": "Boulderhalle"
+    },
+    {
+     "wort": "Golfplatz",
+     "hinweis": "Minigolfanlage"
+    },
+    {
+     "wort": "Reitstall",
+     "hinweis": "Rennbahn"
+    },
+    {
+     "wort": "Kartbahn",
+     "hinweis": "Autokino"
+    },
+    {
+     "wort": "Bowlingbahn",
+     "hinweis": "Billardsalon"
+    },
+    {
+     "wort": "Casino",
+     "hinweis": "Spielhalle"
+    },
+    {
+     "wort": "Freizeitpark",
+     "hinweis": "Jahrmarkt"
+    },
+    {
+     "wort": "Zirkus",
+     "hinweis": "Varieté"
+    },
+    {
+     "wort": "Oper",
+     "hinweis": "Konzerthalle"
+    },
+    {
+     "wort": "Galerie",
+     "hinweis": "Atelier"
+    },
+    {
+     "wort": "Planetarium",
+     "hinweis": "Aquarium"
+    },
+    {
+     "wort": "Escape Room",
+     "hinweis": "Lasertag-Arena"
+    },
+    {
+     "wort": "Trampolinhalle",
+     "hinweis": "Indoorspielplatz"
+    },
+    {
+     "wort": "Marktplatz",
+     "hinweis": "Fußgängerzone"
+    },
+    {
+     "wort": "Einkaufszentrum",
+     "hinweis": "Outlet"
+    },
+    {
+     "wort": "Flohmarkt",
+     "hinweis": "Antiquitätenladen"
+    },
+    {
+     "wort": "Kiosk",
+     "hinweis": "Späti"
+    },
+    {
+     "wort": "Metzgerei",
+     "hinweis": "Fischgeschäft"
+    },
+    {
+     "wort": "Weinkeller",
+     "hinweis": "Brauerei"
+    },
+    {
+     "wort": "Mühle",
+     "hinweis": "Scheune"
+    },
+    {
+     "wort": "Gewächshaus",
+     "hinweis": "Schrebergarten"
+    },
+    {
+     "wort": "Weinberg",
+     "hinweis": "Obstplantage"
+    },
+    {
+     "wort": "Feld",
+     "hinweis": "Wiese"
+    },
+    {
+     "wort": "Hafen",
+     "hinweis": "Marina"
+    },
+    {
+     "wort": "Fähre",
+     "hinweis": "Kreuzfahrtschiff"
+    },
+    {
+     "wort": "U-Bahn-Station",
+     "hinweis": "Bushaltestelle"
+    },
+    {
+     "wort": "Autobahn",
+     "hinweis": "Landstraße"
+    },
+    {
+     "wort": "Tunnel",
+     "hinweis": "Brücke"
+    },
+    {
+     "wort": "Parkhaus",
+     "hinweis": "Tiefgarage"
+    },
+    {
+     "wort": "Rastplatz",
+     "hinweis": "Autohof"
+    },
+    {
+     "wort": "Grenze",
+     "hinweis": "Zollstation"
+    },
+    {
+     "wort": "Botschaft",
+     "hinweis": "Konsulat"
+    },
+    {
+     "wort": "Flugzeugträger",
+     "hinweis": "U-Boot"
+    },
+    {
+     "wort": "Raumstation",
+     "hinweis": "Mondbasis"
+    },
+    {
+     "wort": "Pyramide",
+     "hinweis": "Tempel"
+    },
+    {
+     "wort": "Kolosseum",
+     "hinweis": "Akropolis"
+    },
+    {
+     "wort": "Eiffelturm",
+     "hinweis": "Big Ben"
+    },
+    {
+     "wort": "Freiheitsstatue",
+     "hinweis": "Christusstatue"
+    },
+    {
+     "wort": "Vulkan",
+     "hinweis": "Geysir"
+    },
+    {
+     "wort": "Gletscher",
+     "hinweis": "Eisberg"
+    },
+    {
+     "wort": "Wasserfall",
+     "hinweis": "Stromschnelle"
+    },
+    {
+     "wort": "Schlucht",
+     "hinweis": "Krater"
+    },
+    {
+     "wort": "Riff",
+     "hinweis": "Lagune"
+    },
+    {
+     "wort": "Dachboden",
+     "hinweis": "Keller"
+    },
+    {
+     "wort": "Garage",
+     "hinweis": "Gartenhaus"
+    },
+    {
+     "wort": "Balkon",
+     "hinweis": "Terrasse"
+    },
+    {
+     "wort": "Badezimmer",
+     "hinweis": "Gästeklo"
+    },
+    {
+     "wort": "Küche",
+     "hinweis": "Speisekammer"
+    },
+    {
+     "wort": "Wohnzimmer",
+     "hinweis": "Schlafzimmer"
+    },
+    {
+     "wort": "Aufzug",
+     "hinweis": "Treppenhaus"
+    },
+    {
+     "wort": "Hotellobby",
+     "hinweis": "Rezeption"
+    },
+    {
+     "wort": "Umkleidekabine",
+     "hinweis": "Duschraum"
+    },
+    {
+     "wort": "Wartezimmer",
+     "hinweis": "Behandlungszimmer"
+    }
+   ]
+  },
+  {
+   "name": "Alltag & Gegenstände",
+   "paare": [
+    {
+     "wort": "Zahnbürste",
+     "hinweis": "Kamm"
+    },
+    {
+     "wort": "Kopfhörer",
+     "hinweis": "Lautsprecher"
+    },
+    {
+     "wort": "Regenschirm",
+     "hinweis": "Sonnenschirm"
+    },
+    {
+     "wort": "Kissen",
+     "hinweis": "Decke"
+    },
+    {
+     "wort": "Fahrrad",
+     "hinweis": "E-Scooter"
+    },
+    {
+     "wort": "Brille",
+     "hinweis": "Kontaktlinsen"
+    },
+    {
+     "wort": "Feuerzeug",
+     "hinweis": "Streichholz"
+    },
+    {
+     "wort": "Rucksack",
+     "hinweis": "Koffer"
+    },
+    {
+     "wort": "Kerze",
+     "hinweis": "Taschenlampe"
+    },
+    {
+     "wort": "Spiegel",
+     "hinweis": "Foto"
+    },
+    {
+     "wort": "Wecker",
+     "hinweis": "Kalender"
+    },
+    {
+     "wort": "Schlüssel",
+     "hinweis": "Passwort"
+    },
+    {
+     "wort": "Waschmaschine",
+     "hinweis": "Spülmaschine"
+    },
+    {
+     "wort": "Heizung",
+     "hinweis": "Kamin"
+    },
+    {
+     "wort": "Aufzug",
+     "hinweis": "Rolltreppe"
+    },
+    {
+     "wort": "Handy",
+     "hinweis": "Tablet"
+    },
+    {
+     "wort": "Laptop",
+     "hinweis": "Fernseher"
+    },
+    {
+     "wort": "Ladekabel",
+     "hinweis": "Powerbank"
+    },
+    {
+     "wort": "Fernbedienung",
+     "hinweis": "Spielecontroller"
+    },
+    {
+     "wort": "Kühlschrank",
+     "hinweis": "Gefriertruhe"
+    },
+    {
+     "wort": "Mikrowelle",
+     "hinweis": "Backofen"
+    },
+    {
+     "wort": "Toaster",
+     "hinweis": "Waffeleisen"
+    },
+    {
+     "wort": "Wasserkocher",
+     "hinweis": "Kaffeemaschine"
+    },
+    {
+     "wort": "Mixer",
+     "hinweis": "Pürierstab"
+    },
+    {
+     "wort": "Topf",
+     "hinweis": "Pfanne"
+    },
+    {
+     "wort": "Messer",
+     "hinweis": "Schere"
+    },
+    {
+     "wort": "Gabel",
+     "hinweis": "Löffel"
+    },
+    {
+     "wort": "Teller",
+     "hinweis": "Schüssel"
+    },
+    {
+     "wort": "Tasse",
+     "hinweis": "Glas"
+    },
+    {
+     "wort": "Flasche",
+     "hinweis": "Dose"
+    },
+    {
+     "wort": "Korkenzieher",
+     "hinweis": "Flaschenöffner"
+    },
+    {
+     "wort": "Dosenöffner",
+     "hinweis": "Nussknacker"
+    },
+    {
+     "wort": "Schneidebrett",
+     "hinweis": "Servierplatte"
+    },
+    {
+     "wort": "Sieb",
+     "hinweis": "Trichter"
+    },
+    {
+     "wort": "Reibe",
+     "hinweis": "Schäler"
+    },
+    {
+     "wort": "Besen",
+     "hinweis": "Staubsauger"
+    },
+    {
+     "wort": "Wischmopp",
+     "hinweis": "Putzlappen"
+    },
+    {
+     "wort": "Eimer",
+     "hinweis": "Gießkanne"
+    },
+    {
+     "wort": "Schwamm",
+     "hinweis": "Bürste"
+    },
+    {
+     "wort": "Müllbeutel",
+     "hinweis": "Gefrierbeutel"
+    },
+    {
+     "wort": "Waschmittel",
+     "hinweis": "Weichspüler"
+    },
+    {
+     "wort": "Spülmittel",
+     "hinweis": "Seife"
+    },
+    {
+     "wort": "Shampoo",
+     "hinweis": "Duschgel"
+    },
+    {
+     "wort": "Deo",
+     "hinweis": "Parfüm"
+    },
+    {
+     "wort": "Zahnpasta",
+     "hinweis": "Mundspülung"
+    },
+    {
+     "wort": "Rasierer",
+     "hinweis": "Epilierer"
+    },
+    {
+     "wort": "Föhn",
+     "hinweis": "Glätteisen"
+    },
+    {
+     "wort": "Handtuch",
+     "hinweis": "Bademantel"
+    },
+    {
+     "wort": "Wattestäbchen",
+     "hinweis": "Wattepads"
+    },
+    {
+     "wort": "Pflaster",
+     "hinweis": "Verband"
+    },
+    {
+     "wort": "Tablette",
+     "hinweis": "Tropfen"
+    },
+    {
+     "wort": "Fieberthermometer",
+     "hinweis": "Blutdruckmessgerät"
+    },
+    {
+     "wort": "Sonnencreme",
+     "hinweis": "After-Sun"
+    },
+    {
+     "wort": "Mückenspray",
+     "hinweis": "Zeckenzange"
+    },
+    {
+     "wort": "Taschentuch",
+     "hinweis": "Serviette"
+    },
+    {
+     "wort": "Geldbeutel",
+     "hinweis": "Handtasche"
+    },
+    {
+     "wort": "Münze",
+     "hinweis": "Geldschein"
+    },
+    {
+     "wort": "Kreditkarte",
+     "hinweis": "Ausweis"
+    },
+    {
+     "wort": "Reisepass",
+     "hinweis": "Führerschein"
+    },
+    {
+     "wort": "Briefmarke",
+     "hinweis": "Umschlag"
+    },
+    {
+     "wort": "Stift",
+     "hinweis": "Bleistift"
+    },
+    {
+     "wort": "Textmarker",
+     "hinweis": "Filzstift"
+    },
+    {
+     "wort": "Radiergummi",
+     "hinweis": "Tipp-Ex"
+    },
+    {
+     "wort": "Lineal",
+     "hinweis": "Zirkel"
+    },
+    {
+     "wort": "Notizbuch",
+     "hinweis": "Kalenderbuch"
+    },
+    {
+     "wort": "Tacker",
+     "hinweis": "Locher"
+    },
+    {
+     "wort": "Büroklammer",
+     "hinweis": "Reißzwecke"
+    },
+    {
+     "wort": "Klebeband",
+     "hinweis": "Klebestift"
+    },
+    {
+     "wort": "Schere",
+     "hinweis": "Cutter"
+    },
+    {
+     "wort": "Ordner",
+     "hinweis": "Mappe"
+    },
+    {
+     "wort": "Hammer",
+     "hinweis": "Schraubenzieher"
+    },
+    {
+     "wort": "Bohrmaschine",
+     "hinweis": "Akkuschrauber"
+    },
+    {
+     "wort": "Säge",
+     "hinweis": "Axt"
+    },
+    {
+     "wort": "Zange",
+     "hinweis": "Schraubenschlüssel"
+    },
+    {
+     "wort": "Nagel",
+     "hinweis": "Schraube"
+    },
+    {
+     "wort": "Leiter",
+     "hinweis": "Tritthocker"
+    },
+    {
+     "wort": "Wasserwaage",
+     "hinweis": "Zollstock"
+    },
+    {
+     "wort": "Farbrolle",
+     "hinweis": "Pinsel"
+    },
+    {
+     "wort": "Tapete",
+     "hinweis": "Wandfarbe"
+    },
+    {
+     "wort": "Dübel",
+     "hinweis": "Haken"
+    },
+    {
+     "wort": "Glühbirne",
+     "hinweis": "LED-Streifen"
+    },
+    {
+     "wort": "Steckdose",
+     "hinweis": "Mehrfachstecker"
+    },
+    {
+     "wort": "Batterie",
+     "hinweis": "Akku"
+    },
+    {
+     "wort": "Sicherung",
+     "hinweis": "Stromzähler"
+    },
+    {
+     "wort": "Antenne",
+     "hinweis": "Satellitenschüssel"
+    },
+    {
+     "wort": "Sofa",
+     "hinweis": "Sessel"
+    },
+    {
+     "wort": "Stuhl",
+     "hinweis": "Hocker"
+    },
+    {
+     "wort": "Tisch",
+     "hinweis": "Schreibtisch"
+    },
+    {
+     "wort": "Bett",
+     "hinweis": "Hängematte"
+    },
+    {
+     "wort": "Schrank",
+     "hinweis": "Kommode"
+    },
+    {
+     "wort": "Regal",
+     "hinweis": "Vitrine"
+    },
+    {
+     "wort": "Teppich",
+     "hinweis": "Fußmatte"
+    },
+    {
+     "wort": "Vorhang",
+     "hinweis": "Jalousie"
+    },
+    {
+     "wort": "Lampe",
+     "hinweis": "Kronleuchter"
+    },
+    {
+     "wort": "Bilderrahmen",
+     "hinweis": "Poster"
+    },
+    {
+     "wort": "Blumentopf",
+     "hinweis": "Vase"
+    },
+    {
+     "wort": "Aquarium",
+     "hinweis": "Terrarium"
+    },
+    {
+     "wort": "Mülleimer",
+     "hinweis": "Papierkorb"
+    },
+    {
+     "wort": "Briefkasten",
+     "hinweis": "Klingel"
+    },
+    {
+     "wort": "Türklinke",
+     "hinweis": "Riegel"
+    }
+   ]
+  },
+  {
+   "name": "Tiere",
+   "paare": [
+    {
+     "wort": "Hund",
+     "hinweis": "Katze"
+    },
+    {
+     "wort": "Pferd",
+     "hinweis": "Esel"
+    },
+    {
+     "wort": "Hai",
+     "hinweis": "Delfin"
+    },
+    {
+     "wort": "Biene",
+     "hinweis": "Wespe"
+    },
+    {
+     "wort": "Pinguin",
+     "hinweis": "Ente"
+    },
+    {
+     "wort": "Löwe",
+     "hinweis": "Tiger"
+    },
+    {
+     "wort": "Schlange",
+     "hinweis": "Eidechse"
+    },
+    {
+     "wort": "Hamster",
+     "hinweis": "Meerschweinchen"
+    },
+    {
+     "wort": "Adler",
+     "hinweis": "Falke"
+    },
+    {
+     "wort": "Kuh",
+     "hinweis": "Ziege"
+    },
+    {
+     "wort": "Frosch",
+     "hinweis": "Kröte"
+    },
+    {
+     "wort": "Spinne",
+     "hinweis": "Skorpion"
+    },
+    {
+     "wort": "Elefant",
+     "hinweis": "Nashorn"
+    },
+    {
+     "wort": "Eule",
+     "hinweis": "Fledermaus"
+    },
+    {
+     "wort": "Krokodil",
+     "hinweis": "Alligator"
+    },
+    {
+     "wort": "Wolf",
+     "hinweis": "Fuchs"
+    },
+    {
+     "wort": "Bär",
+     "hinweis": "Gorilla"
+    },
+    {
+     "wort": "Panda",
+     "hinweis": "Koala"
+    },
+    {
+     "wort": "Känguru",
+     "hinweis": "Strauß"
+    },
+    {
+     "wort": "Giraffe",
+     "hinweis": "Lama"
+    },
+    {
+     "wort": "Zebra",
+     "hinweis": "Antilope"
+    },
+    {
+     "wort": "Nilpferd",
+     "hinweis": "Walross"
+    },
+    {
+     "wort": "Wal",
+     "hinweis": "Orca"
+    },
+    {
+     "wort": "Robbe",
+     "hinweis": "Otter"
+    },
+    {
+     "wort": "Eisbär",
+     "hinweis": "Braunbär"
+    },
+    {
+     "wort": "Affe",
+     "hinweis": "Schimpanse"
+    },
+    {
+     "wort": "Orang-Utan",
+     "hinweis": "Pavian"
+    },
+    {
+     "wort": "Lemur",
+     "hinweis": "Faultier"
+    },
+    {
+     "wort": "Gürteltier",
+     "hinweis": "Ameisenbär"
+    },
+    {
+     "wort": "Stachelschwein",
+     "hinweis": "Igel"
+    },
+    {
+     "wort": "Maus",
+     "hinweis": "Ratte"
+    },
+    {
+     "wort": "Eichhörnchen",
+     "hinweis": "Streifenhörnchen"
+    },
+    {
+     "wort": "Kaninchen",
+     "hinweis": "Hase"
+    },
+    {
+     "wort": "Maulwurf",
+     "hinweis": "Wühlmaus"
+    },
+    {
+     "wort": "Biber",
+     "hinweis": "Bisamratte"
+    },
+    {
+     "wort": "Hirsch",
+     "hinweis": "Reh"
+    },
+    {
+     "wort": "Elch",
+     "hinweis": "Rentier"
+    },
+    {
+     "wort": "Wildschwein",
+     "hinweis": "Hausschwein"
+    },
+    {
+     "wort": "Schaf",
+     "hinweis": "Alpaka"
+    },
+    {
+     "wort": "Huhn",
+     "hinweis": "Gans"
+    },
+    {
+     "wort": "Hahn",
+     "hinweis": "Truthahn"
+    },
+    {
+     "wort": "Taube",
+     "hinweis": "Möwe"
+    },
+    {
+     "wort": "Spatz",
+     "hinweis": "Meise"
+    },
+    {
+     "wort": "Amsel",
+     "hinweis": "Star"
+    },
+    {
+     "wort": "Rabe",
+     "hinweis": "Elster"
+    },
+    {
+     "wort": "Specht",
+     "hinweis": "Kuckuck"
+    },
+    {
+     "wort": "Storch",
+     "hinweis": "Reiher"
+    },
+    {
+     "wort": "Flamingo",
+     "hinweis": "Pelikan"
+    },
+    {
+     "wort": "Papagei",
+     "hinweis": "Wellensittich"
+    },
+    {
+     "wort": "Kanarienvogel",
+     "hinweis": "Zebrafink"
+    },
+    {
+     "wort": "Schwan",
+     "hinweis": "Kranich"
+    },
+    {
+     "wort": "Kolibri",
+     "hinweis": "Schmetterling"
+    },
+    {
+     "wort": "Libelle",
+     "hinweis": "Heuschrecke"
+    },
+    {
+     "wort": "Marienkäfer",
+     "hinweis": "Glühwürmchen"
+    },
+    {
+     "wort": "Ameise",
+     "hinweis": "Termite"
+    },
+    {
+     "wort": "Fliege",
+     "hinweis": "Mücke"
+    },
+    {
+     "wort": "Hummel",
+     "hinweis": "Hornisse"
+    },
+    {
+     "wort": "Käfer",
+     "hinweis": "Kakerlake"
+    },
+    {
+     "wort": "Raupe",
+     "hinweis": "Wurm"
+    },
+    {
+     "wort": "Schnecke",
+     "hinweis": "Nacktschnecke"
+    },
+    {
+     "wort": "Krabbe",
+     "hinweis": "Krebs"
+    },
+    {
+     "wort": "Seestern",
+     "hinweis": "Seeigel"
+    },
+    {
+     "wort": "Qualle",
+     "hinweis": "Oktopus"
+    },
+    {
+     "wort": "Tintenfisch",
+     "hinweis": "Kalmar"
+    },
+    {
+     "wort": "Seepferdchen",
+     "hinweis": "Koralle"
+    },
+    {
+     "wort": "Goldfisch",
+     "hinweis": "Koi"
+    },
+    {
+     "wort": "Piranha",
+     "hinweis": "Barrakuda"
+    },
+    {
+     "wort": "Aal",
+     "hinweis": "Muräne"
+    },
+    {
+     "wort": "Rochen",
+     "hinweis": "Sägefisch"
+    },
+    {
+     "wort": "Clownfisch",
+     "hinweis": "Guppy"
+    },
+    {
+     "wort": "Schildkröte",
+     "hinweis": "Landschildkröte"
+    },
+    {
+     "wort": "Chamäleon",
+     "hinweis": "Gecko"
+    },
+    {
+     "wort": "Leguan",
+     "hinweis": "Waran"
+    },
+    {
+     "wort": "Kobra",
+     "hinweis": "Python"
+    },
+    {
+     "wort": "Klapperschlange",
+     "hinweis": "Viper"
+    },
+    {
+     "wort": "Salamander",
+     "hinweis": "Molch"
+    },
+    {
+     "wort": "Axolotl",
+     "hinweis": "Kaulquappe"
+    },
+    {
+     "wort": "Dinosaurier",
+     "hinweis": "Drache"
+    },
+    {
+     "wort": "T-Rex",
+     "hinweis": "Velociraptor"
+    },
+    {
+     "wort": "Mammut",
+     "hinweis": "Säbelzahntiger"
+    },
+    {
+     "wort": "Gepard",
+     "hinweis": "Leopard"
+    },
+    {
+     "wort": "Jaguar",
+     "hinweis": "Puma"
+    },
+    {
+     "wort": "Luchs",
+     "hinweis": "Wildkatze"
+    },
+    {
+     "wort": "Hyäne",
+     "hinweis": "Schakal"
+    },
+    {
+     "wort": "Erdmännchen",
+     "hinweis": "Mungo"
+    },
+    {
+     "wort": "Kamel",
+     "hinweis": "Dromedar"
+    },
+    {
+     "wort": "Yak",
+     "hinweis": "Büffel"
+    },
+    {
+     "wort": "Bison",
+     "hinweis": "Auerochse"
+    },
+    {
+     "wort": "Pony",
+     "hinweis": "Fohlen"
+    },
+    {
+     "wort": "Maultier",
+     "hinweis": "Mustang"
+    },
+    {
+     "wort": "Dackel",
+     "hinweis": "Chihuahua"
+    },
+    {
+     "wort": "Schäferhund",
+     "hinweis": "Labrador"
+    },
+    {
+     "wort": "Mops",
+     "hinweis": "Bulldogge"
+    },
+    {
+     "wort": "Golden Retriever",
+     "hinweis": "Collie"
+    },
+    {
+     "wort": "Pudel",
+     "hinweis": "Terrier"
+    },
+    {
+     "wort": "Perserkatze",
+     "hinweis": "Siamkatze"
+    },
+    {
+     "wort": "Kater",
+     "hinweis": "Kätzchen"
+    },
+    {
+     "wort": "Hauskatze",
+     "hinweis": "Streunerkatze"
+    },
+    {
+     "wort": "Frettchen",
+     "hinweis": "Wiesel"
+    },
+    {
+     "wort": "Chinchilla",
+     "hinweis": "Degus"
+    }
+   ]
+  },
+  {
+   "name": "Berufe",
+   "paare": [
+    {
+     "wort": "Polizist",
+     "hinweis": "Security"
+    },
+    {
+     "wort": "Lehrer",
+     "hinweis": "Professor"
+    },
+    {
+     "wort": "Koch",
+     "hinweis": "Bäcker"
+    },
+    {
+     "wort": "Pilot",
+     "hinweis": "Kapitän"
+    },
+    {
+     "wort": "Arzt",
+     "hinweis": "Apotheker"
+    },
+    {
+     "wort": "Feuerwehrmann",
+     "hinweis": "Sanitäter"
+    },
+    {
+     "wort": "Friseur",
+     "hinweis": "Kosmetikerin"
+    },
+    {
+     "wort": "Anwalt",
+     "hinweis": "Richter"
+    },
+    {
+     "wort": "Gärtner",
+     "hinweis": "Landwirt"
+    },
+    {
+     "wort": "Kellner",
+     "hinweis": "Barkeeper"
+    },
+    {
+     "wort": "Influencer",
+     "hinweis": "Journalist"
+    },
+    {
+     "wort": "Astronaut",
+     "hinweis": "Taucher"
+    },
+    {
+     "wort": "Zahnarzt",
+     "hinweis": "Chirurg"
+    },
+    {
+     "wort": "Briefträger",
+     "hinweis": "Paketbote"
+    },
+    {
+     "wort": "Schauspieler",
+     "hinweis": "Sänger"
+    },
+    {
+     "wort": "Programmierer",
+     "hinweis": "Hacker"
+    },
+    {
+     "wort": "Ingenieur",
+     "hinweis": "Architekt"
+    },
+    {
+     "wort": "Elektriker",
+     "hinweis": "Installateur"
+    },
+    {
+     "wort": "Schreiner",
+     "hinweis": "Zimmermann"
+    },
+    {
+     "wort": "Maurer",
+     "hinweis": "Fliesenleger"
+    },
+    {
+     "wort": "Dachdecker",
+     "hinweis": "Gerüstbauer"
+    },
+    {
+     "wort": "Maler",
+     "hinweis": "Lackierer"
+    },
+    {
+     "wort": "Schlosser",
+     "hinweis": "Schmied"
+    },
+    {
+     "wort": "Mechaniker",
+     "hinweis": "Mechatroniker"
+    },
+    {
+     "wort": "Schweißer",
+     "hinweis": "Dreher"
+    },
+    {
+     "wort": "Bauleiter",
+     "hinweis": "Polier"
+    },
+    {
+     "wort": "Statiker",
+     "hinweis": "Vermesser"
+    },
+    {
+     "wort": "Kranführer",
+     "hinweis": "Baggerfahrer"
+    },
+    {
+     "wort": "LKW-Fahrer",
+     "hinweis": "Busfahrer"
+    },
+    {
+     "wort": "Taxifahrer",
+     "hinweis": "Chauffeur"
+    },
+    {
+     "wort": "Lokführer",
+     "hinweis": "Schaffner"
+    },
+    {
+     "wort": "Fluglotse",
+     "hinweis": "Stewardess"
+    },
+    {
+     "wort": "Matrose",
+     "hinweis": "Hafenarbeiter"
+    },
+    {
+     "wort": "Fischer",
+     "hinweis": "Jäger"
+    },
+    {
+     "wort": "Förster",
+     "hinweis": "Ranger"
+    },
+    {
+     "wort": "Winzer",
+     "hinweis": "Brauer"
+    },
+    {
+     "wort": "Metzger",
+     "hinweis": "Fischhändler"
+    },
+    {
+     "wort": "Konditor",
+     "hinweis": "Chocolatier"
+    },
+    {
+     "wort": "Sommelier",
+     "hinweis": "Barista"
+    },
+    {
+     "wort": "Küchenchef",
+     "hinweis": "Spüler"
+    },
+    {
+     "wort": "Krankenschwester",
+     "hinweis": "Hebamme"
+    },
+    {
+     "wort": "Altenpfleger",
+     "hinweis": "Physiotherapeut"
+    },
+    {
+     "wort": "Psychologe",
+     "hinweis": "Psychiater"
+    },
+    {
+     "wort": "Logopäde",
+     "hinweis": "Ergotherapeut"
+    },
+    {
+     "wort": "Optiker",
+     "hinweis": "Hörgeräteakustiker"
+    },
+    {
+     "wort": "Tierarzt",
+     "hinweis": "Tierpfleger"
+    },
+    {
+     "wort": "Laborant",
+     "hinweis": "Biologe"
+    },
+    {
+     "wort": "Chemiker",
+     "hinweis": "Physiker"
+    },
+    {
+     "wort": "Mathematiker",
+     "hinweis": "Statistiker"
+    },
+    {
+     "wort": "Astronom",
+     "hinweis": "Meteorologe"
+    },
+    {
+     "wort": "Geologe",
+     "hinweis": "Archäologe"
+    },
+    {
+     "wort": "Historiker",
+     "hinweis": "Philosoph"
+    },
+    {
+     "wort": "Übersetzer",
+     "hinweis": "Dolmetscher"
+    },
+    {
+     "wort": "Autor",
+     "hinweis": "Lektor"
+    },
+    {
+     "wort": "Bibliothekar",
+     "hinweis": "Archivar"
+    },
+    {
+     "wort": "Reporter",
+     "hinweis": "Moderator"
+    },
+    {
+     "wort": "Kameramann",
+     "hinweis": "Tontechniker"
+    },
+    {
+     "wort": "Regisseur",
+     "hinweis": "Produzent"
+    },
+    {
+     "wort": "Cutter",
+     "hinweis": "Drehbuchautor"
+    },
+    {
+     "wort": "Fotograf",
+     "hinweis": "Grafikdesigner"
+    },
+    {
+     "wort": "Model",
+     "hinweis": "Stylist"
+    },
+    {
+     "wort": "Modedesigner",
+     "hinweis": "Schneider"
+    },
+    {
+     "wort": "Juwelier",
+     "hinweis": "Goldschmied"
+    },
+    {
+     "wort": "Uhrmacher",
+     "hinweis": "Feinmechaniker"
+    },
+    {
+     "wort": "Innenarchitekt",
+     "hinweis": "Raumausstatter"
+    },
+    {
+     "wort": "Musiker",
+     "hinweis": "Dirigent"
+    },
+    {
+     "wort": "DJ",
+     "hinweis": "Musikproduzent"
+    },
+    {
+     "wort": "Tänzer",
+     "hinweis": "Choreograf"
+    },
+    {
+     "wort": "Komiker",
+     "hinweis": "Zauberer"
+    },
+    {
+     "wort": "Clown",
+     "hinweis": "Pantomime"
+    },
+    {
+     "wort": "Profisportler",
+     "hinweis": "Trainer"
+    },
+    {
+     "wort": "Schiedsrichter",
+     "hinweis": "Kommentator"
+    },
+    {
+     "wort": "Fitnesstrainer",
+     "hinweis": "Ernährungsberater"
+    },
+    {
+     "wort": "Skilehrer",
+     "hinweis": "Bademeister"
+    },
+    {
+     "wort": "Bergführer",
+     "hinweis": "Reiseleiter"
+    },
+    {
+     "wort": "Pfarrer",
+     "hinweis": "Mönch"
+    },
+    {
+     "wort": "Bestatter",
+     "hinweis": "Friedhofsgärtner"
+    },
+    {
+     "wort": "Soldat",
+     "hinweis": "Pilot der Luftwaffe"
+    },
+    {
+     "wort": "Bodyguard",
+     "hinweis": "Türsteher"
+    },
+    {
+     "wort": "Detektiv",
+     "hinweis": "Kommissar"
+    },
+    {
+     "wort": "Spion",
+     "hinweis": "Agent"
+    },
+    {
+     "wort": "Zöllner",
+     "hinweis": "Grenzbeamter"
+    },
+    {
+     "wort": "Bürgermeister",
+     "hinweis": "Politiker"
+    },
+    {
+     "wort": "Diplomat",
+     "hinweis": "Botschafter"
+    },
+    {
+     "wort": "Beamter",
+     "hinweis": "Sachbearbeiter"
+    },
+    {
+     "wort": "Banker",
+     "hinweis": "Versicherungsvertreter"
+    },
+    {
+     "wort": "Steuerberater",
+     "hinweis": "Buchhalter"
+    },
+    {
+     "wort": "Makler",
+     "hinweis": "Hausverwalter"
+    },
+    {
+     "wort": "Unternehmer",
+     "hinweis": "Investor"
+    },
+    {
+     "wort": "Manager",
+     "hinweis": "Berater"
+    },
+    {
+     "wort": "Verkäufer",
+     "hinweis": "Kassierer"
+    },
+    {
+     "wort": "Lagerist",
+     "hinweis": "Staplerfahrer"
+    },
+    {
+     "wort": "Reinigungskraft",
+     "hinweis": "Hausmeister"
+    },
+    {
+     "wort": "Schornsteinfeger",
+     "hinweis": "Kammerjäger"
+    },
+    {
+     "wort": "Müllmann",
+     "hinweis": "Straßenkehrer"
+    },
+    {
+     "wort": "Kindergärtner",
+     "hinweis": "Babysitter"
+    },
+    {
+     "wort": "Nachhilfelehrer",
+     "hinweis": "Tutor"
+    },
+    {
+     "wort": "Fahrlehrer",
+     "hinweis": "Prüfer"
+    },
+    {
+     "wort": "Pförtner",
+     "hinweis": "Nachtwächter"
+    },
+    {
+     "wort": "Animateur",
+     "hinweis": "Eventmanager"
+    }
+   ]
+  },
+  {
+   "name": "Sport & Freizeit",
+   "paare": [
+    {
+     "wort": "Fußball",
+     "hinweis": "Handball"
+    },
+    {
+     "wort": "Tennis",
+     "hinweis": "Badminton"
+    },
+    {
+     "wort": "Skifahren",
+     "hinweis": "Snowboarden"
+    },
+    {
+     "wort": "Schwimmen",
+     "hinweis": "Tauchen"
+    },
+    {
+     "wort": "Yoga",
+     "hinweis": "Pilates"
+    },
+    {
+     "wort": "Boxen",
+     "hinweis": "Karate"
+    },
+    {
+     "wort": "Schach",
+     "hinweis": "Poker"
+    },
+    {
+     "wort": "Angeln",
+     "hinweis": "Jagen"
+    },
+    {
+     "wort": "Klettern",
+     "hinweis": "Wandern"
+    },
+    {
+     "wort": "Darts",
+     "hinweis": "Billard"
+    },
+    {
+     "wort": "Joggen",
+     "hinweis": "Radfahren"
+    },
+    {
+     "wort": "Bowling",
+     "hinweis": "Minigolf"
+    },
+    {
+     "wort": "Reiten",
+     "hinweis": "Voltigieren"
+    },
+    {
+     "wort": "Surfen",
+     "hinweis": "Segeln"
+    },
+    {
+     "wort": "Zocken",
+     "hinweis": "Streamen"
+    },
+    {
+     "wort": "Basketball",
+     "hinweis": "Volleyball"
+    },
+    {
+     "wort": "Eishockey",
+     "hinweis": "Feldhockey"
+    },
+    {
+     "wort": "Rugby",
+     "hinweis": "American Football"
+    },
+    {
+     "wort": "Baseball",
+     "hinweis": "Cricket"
+    },
+    {
+     "wort": "Golf",
+     "hinweis": "Polo"
+    },
+    {
+     "wort": "Tischtennis",
+     "hinweis": "Squash"
+    },
+    {
+     "wort": "Federball",
+     "hinweis": "Beachvolleyball"
+    },
+    {
+     "wort": "Turnen",
+     "hinweis": "Leichtathletik"
+    },
+    {
+     "wort": "Weitsprung",
+     "hinweis": "Hochsprung"
+    },
+    {
+     "wort": "Sprint",
+     "hinweis": "Marathon"
+    },
+    {
+     "wort": "Hürdenlauf",
+     "hinweis": "Staffellauf"
+    },
+    {
+     "wort": "Speerwurf",
+     "hinweis": "Diskuswurf"
+    },
+    {
+     "wort": "Kugelstoßen",
+     "hinweis": "Hammerwurf"
+    },
+    {
+     "wort": "Stabhochsprung",
+     "hinweis": "Dreisprung"
+    },
+    {
+     "wort": "Zehnkampf",
+     "hinweis": "Triathlon"
+    },
+    {
+     "wort": "Judo",
+     "hinweis": "Ringen"
+    },
+    {
+     "wort": "Taekwondo",
+     "hinweis": "Kickboxen"
+    },
+    {
+     "wort": "Fechten",
+     "hinweis": "Kendo"
+    },
+    {
+     "wort": "MMA",
+     "hinweis": "Sumo"
+    },
+    {
+     "wort": "Krav Maga",
+     "hinweis": "Aikido"
+    },
+    {
+     "wort": "Gewichtheben",
+     "hinweis": "Crossfit"
+    },
+    {
+     "wort": "Bodybuilding",
+     "hinweis": "Powerlifting"
+    },
+    {
+     "wort": "Spinning",
+     "hinweis": "Zumba"
+    },
+    {
+     "wort": "Aerobic",
+     "hinweis": "Step-Aerobic"
+    },
+    {
+     "wort": "Calisthenics",
+     "hinweis": "Parkour"
+    },
+    {
+     "wort": "Skateboarden",
+     "hinweis": "Inlineskaten"
+    },
+    {
+     "wort": "BMX",
+     "hinweis": "Mountainbiken"
+    },
+    {
+     "wort": "Rennrad",
+     "hinweis": "E-Bike"
+    },
+    {
+     "wort": "Motocross",
+     "hinweis": "Enduro"
+    },
+    {
+     "wort": "Kartfahren",
+     "hinweis": "Formel 1"
+    },
+    {
+     "wort": "Rallye",
+     "hinweis": "Dragracing"
+    },
+    {
+     "wort": "Motorradrennen",
+     "hinweis": "Speedway"
+    },
+    {
+     "wort": "Rudern",
+     "hinweis": "Kanufahren"
+    },
+    {
+     "wort": "Kajak",
+     "hinweis": "Stand-Up-Paddling"
+    },
+    {
+     "wort": "Rafting",
+     "hinweis": "Canyoning"
+    },
+    {
+     "wort": "Wasserski",
+     "hinweis": "Wakeboarden"
+    },
+    {
+     "wort": "Kitesurfen",
+     "hinweis": "Windsurfen"
+    },
+    {
+     "wort": "Wasserball",
+     "hinweis": "Synchronschwimmen"
+    },
+    {
+     "wort": "Turmspringen",
+     "hinweis": "Klippenspringen"
+    },
+    {
+     "wort": "Schnorcheln",
+     "hinweis": "Apnoetauchen"
+    },
+    {
+     "wort": "Eiskunstlauf",
+     "hinweis": "Eistanz"
+    },
+    {
+     "wort": "Eisschnelllauf",
+     "hinweis": "Shorttrack"
+    },
+    {
+     "wort": "Rodeln",
+     "hinweis": "Bobfahren"
+    },
+    {
+     "wort": "Skeleton",
+     "hinweis": "Skispringen"
+    },
+    {
+     "wort": "Langlauf",
+     "hinweis": "Biathlon"
+    },
+    {
+     "wort": "Curling",
+     "hinweis": "Eisstockschießen"
+    },
+    {
+     "wort": "Schlittschuhlaufen",
+     "hinweis": "Rollschuhlaufen"
+    },
+    {
+     "wort": "Bergsteigen",
+     "hinweis": "Bouldern"
+    },
+    {
+     "wort": "Trekking",
+     "hinweis": "Geocaching"
+    },
+    {
+     "wort": "Zelten",
+     "hinweis": "Glamping"
+    },
+    {
+     "wort": "Fallschirmspringen",
+     "hinweis": "Bungee-Jumping"
+    },
+    {
+     "wort": "Paragliding",
+     "hinweis": "Drachenfliegen"
+    },
+    {
+     "wort": "Segelfliegen",
+     "hinweis": "Heißluftballon"
+    },
+    {
+     "wort": "Ziplining",
+     "hinweis": "Hochseilgarten"
+    },
+    {
+     "wort": "Free Solo",
+     "hinweis": "Slackline"
+    },
+    {
+     "wort": "Bogenschießen",
+     "hinweis": "Armbrustschießen"
+    },
+    {
+     "wort": "Sportschießen",
+     "hinweis": "Paintball"
+    },
+    {
+     "wort": "Airsoft",
+     "hinweis": "Lasertag"
+    },
+    {
+     "wort": "Hufeisenwerfen",
+     "hinweis": "Boccia"
+    },
+    {
+     "wort": "Boule",
+     "hinweis": "Cornhole"
+    },
+    {
+     "wort": "Kegeln",
+     "hinweis": "Shuffleboard"
+    },
+    {
+     "wort": "Dart-Turnier",
+     "hinweis": "Kneipenquiz"
+    },
+    {
+     "wort": "Brettspiele",
+     "hinweis": "Kartenspiele"
+    },
+    {
+     "wort": "Monopoly",
+     "hinweis": "Risiko"
+    },
+    {
+     "wort": "Uno",
+     "hinweis": "Skat"
+    },
+    {
+     "wort": "Puzzle",
+     "hinweis": "Modellbau"
+    },
+    {
+     "wort": "Lego",
+     "hinweis": "Playmobil"
+    },
+    {
+     "wort": "Stricken",
+     "hinweis": "Häkeln"
+    },
+    {
+     "wort": "Nähen",
+     "hinweis": "Sticken"
+    },
+    {
+     "wort": "Malen",
+     "hinweis": "Zeichnen"
+    },
+    {
+     "wort": "Töpfern",
+     "hinweis": "Schnitzen"
+    },
+    {
+     "wort": "Fotografieren",
+     "hinweis": "Filmen"
+    },
+    {
+     "wort": "Gärtnern",
+     "hinweis": "Imkern"
+    },
+    {
+     "wort": "Kochen",
+     "hinweis": "Backen"
+    },
+    {
+     "wort": "Grillen",
+     "hinweis": "Räuchern"
+    },
+    {
+     "wort": "Lesen",
+     "hinweis": "Hörbücher hören"
+    },
+    {
+     "wort": "Musizieren",
+     "hinweis": "Singen"
+    },
+    {
+     "wort": "Gitarre spielen",
+     "hinweis": "Klavier spielen"
+    },
+    {
+     "wort": "Tanzen",
+     "hinweis": "Ballett"
+    },
+    {
+     "wort": "Karaoke",
+     "hinweis": "Theaterspielen"
+    },
+    {
+     "wort": "Vogelbeobachtung",
+     "hinweis": "Sterngucken"
+    },
+    {
+     "wort": "Sammeln",
+     "hinweis": "Flohmarkt-Stöbern"
+    },
+    {
+     "wort": "Briefmarken sammeln",
+     "hinweis": "Münzen sammeln"
+    },
+    {
+     "wort": "Meditation",
+     "hinweis": "Atemübungen"
+    },
+    {
+     "wort": "Sudoku",
+     "hinweis": "Kreuzworträtsel"
+    }
+   ]
+  },
+  {
+   "name": "Feiern & Party",
+   "paare": [
+    {
+     "wort": "Geburtstag",
+     "hinweis": "Hochzeit"
+    },
+    {
+     "wort": "Silvester",
+     "hinweis": "Karneval"
+    },
+    {
+     "wort": "Weihnachten",
+     "hinweis": "Ostern"
+    },
+    {
+     "wort": "Junggesellenabschied",
+     "hinweis": "Klassentreffen"
+    },
+    {
+     "wort": "Festival",
+     "hinweis": "Konzert"
+    },
+    {
+     "wort": "Grillabend",
+     "hinweis": "Picknick"
+    },
+    {
+     "wort": "Sekt",
+     "hinweis": "Champagner"
+    },
+    {
+     "wort": "Feuerwerk",
+     "hinweis": "Wunderkerze"
+    },
+    {
+     "wort": "DJ",
+     "hinweis": "Liveband"
+    },
+    {
+     "wort": "Kostüm",
+     "hinweis": "Uniform"
+    },
+    {
+     "wort": "Oktoberfest",
+     "hinweis": "Weihnachtsmarkt"
+    },
+    {
+     "wort": "Shot",
+     "hinweis": "Cocktail"
+    },
+    {
+     "wort": "Karaoke",
+     "hinweis": "Tanzkurs"
+    },
+    {
+     "wort": "Pinata",
+     "hinweis": "Schatzsuche"
+    },
+    {
+     "wort": "Kater",
+     "hinweis": "Muskelkater"
+    },
+    {
+     "wort": "Bierpong",
+     "hinweis": "Flunkyball"
+    },
+    {
+     "wort": "Trinkspiel",
+     "hinweis": "Kartenspiel"
+    },
+    {
+     "wort": "Wahrheit oder Pflicht",
+     "hinweis": "Flaschendrehen"
+    },
+    {
+     "wort": "Ich hab noch nie",
+     "hinweis": "Wer würde eher"
+    },
+    {
+     "wort": "Beerpong-Turnier",
+     "hinweis": "Dart-Abend"
+    },
+    {
+     "wort": "Hausparty",
+     "hinweis": "Gartenparty"
+    },
+    {
+     "wort": "Poolparty",
+     "hinweis": "Strandparty"
+    },
+    {
+     "wort": "Motto-Party",
+     "hinweis": "Kostümparty"
+    },
+    {
+     "wort": "Halloween-Party",
+     "hinweis": "Faschingsparty"
+    },
+    {
+     "wort": "Abi-Party",
+     "hinweis": "Semesterparty"
+    },
+    {
+     "wort": "WG-Party",
+     "hinweis": "Einweihungsparty"
+    },
+    {
+     "wort": "Überraschungsparty",
+     "hinweis": "Spontanparty"
+    },
+    {
+     "wort": "Geburtstagstorte",
+     "hinweis": "Hochzeitstorte"
+    },
+    {
+     "wort": "Luftballon",
+     "hinweis": "Konfetti"
+    },
+    {
+     "wort": "Girlande",
+     "hinweis": "Lichterkette"
+    },
+    {
+     "wort": "Partyhut",
+     "hinweis": "Krone"
+    },
+    {
+     "wort": "Einladungskarte",
+     "hinweis": "Save-the-Date"
+    },
+    {
+     "wort": "Gästeliste",
+     "hinweis": "Sitzplan"
+    },
+    {
+     "wort": "Buffet",
+     "hinweis": "Menü"
+    },
+    {
+     "wort": "Fingerfood",
+     "hinweis": "Häppchen"
+    },
+    {
+     "wort": "Bowle",
+     "hinweis": "Sangria"
+    },
+    {
+     "wort": "Longdrink",
+     "hinweis": "Aperitif"
+    },
+    {
+     "wort": "Gin Tonic",
+     "hinweis": "Wodka Lemon"
+    },
+    {
+     "wort": "Mojito",
+     "hinweis": "Caipirinha"
+    },
+    {
+     "wort": "Tequila",
+     "hinweis": "Ouzo"
+    },
+    {
+     "wort": "Jägermeister",
+     "hinweis": "Berliner Luft"
+    },
+    {
+     "wort": "Prosecco",
+     "hinweis": "Aperol Spritz"
+    },
+    {
+     "wort": "Bierfass",
+     "hinweis": "Bierkasten"
+    },
+    {
+     "wort": "Weinflasche",
+     "hinweis": "Weinschorle"
+    },
+    {
+     "wort": "Alkoholfreies Bier",
+     "hinweis": "Radler"
+    },
+    {
+     "wort": "Barkeeper",
+     "hinweis": "Kellnerin"
+    },
+    {
+     "wort": "Türsteher",
+     "hinweis": "Garderobiere"
+    },
+    {
+     "wort": "Tanzfläche",
+     "hinweis": "Bühne"
+    },
+    {
+     "wort": "Discokugel",
+     "hinweis": "Stroboskop"
+    },
+    {
+     "wort": "Nebelmaschine",
+     "hinweis": "Konfettikanone"
+    },
+    {
+     "wort": "Lautsprecherbox",
+     "hinweis": "Subwoofer"
+    },
+    {
+     "wort": "Playlist",
+     "hinweis": "Wunschlied"
+    },
+    {
+     "wort": "Mitternachtssnack",
+     "hinweis": "Katerfrühstück"
+    },
+    {
+     "wort": "Absacker",
+     "hinweis": "Begrüßungsdrink"
+    },
+    {
+     "wort": "Anstoßen",
+     "hinweis": "Zuprosten"
+    },
+    {
+     "wort": "Trinkspruch",
+     "hinweis": "Rede"
+    },
+    {
+     "wort": "Polterabend",
+     "hinweis": "Brautparty"
+    },
+    {
+     "wort": "Brautstrauß",
+     "hinweis": "Strumpfband"
+    },
+    {
+     "wort": "Trauzeuge",
+     "hinweis": "Brautjungfer"
+    },
+    {
+     "wort": "Eröffnungstanz",
+     "hinweis": "Vater-Tochter-Tanz"
+    },
+    {
+     "wort": "Hochzeitsfotograf",
+     "hinweis": "Hochzeitsvideograf"
+    },
+    {
+     "wort": "Standesamtliche Trauung",
+     "hinweis": "Kirchliche Trauung"
+    },
+    {
+     "wort": "Flitterwochen",
+     "hinweis": "Hochzeitsnacht"
+    },
+    {
+     "wort": "Verlobungsring",
+     "hinweis": "Ehering"
+    },
+    {
+     "wort": "Heiratsantrag",
+     "hinweis": "Jahrestag"
+    },
+    {
+     "wort": "Taufe",
+     "hinweis": "Kommunion"
+    },
+    {
+     "wort": "Konfirmation",
+     "hinweis": "Firmung"
+    },
+    {
+     "wort": "Jugendweihe",
+     "hinweis": "Schulabschluss"
+    },
+    {
+     "wort": "Abiball",
+     "hinweis": "Abschlussfahrt"
+    },
+    {
+     "wort": "Zeugnisvergabe",
+     "hinweis": "Vereidigung"
+    },
+    {
+     "wort": "Firmenfeier",
+     "hinweis": "Weihnachtsfeier"
+    },
+    {
+     "wort": "Betriebsausflug",
+     "hinweis": "Teambuilding"
+    },
+    {
+     "wort": "Sommerfest",
+     "hinweis": "Straßenfest"
+    },
+    {
+     "wort": "Stadtfest",
+     "hinweis": "Dorffest"
+    },
+    {
+     "wort": "Kirmes",
+     "hinweis": "Rummel"
+    },
+    {
+     "wort": "Schützenfest",
+     "hinweis": "Erntedankfest"
+    },
+    {
+     "wort": "Weinfest",
+     "hinweis": "Bierfest"
+    },
+    {
+     "wort": "Frühlingsfest",
+     "hinweis": "Herbstfest"
+    },
+    {
+     "wort": "Vatertag",
+     "hinweis": "Muttertag"
+    },
+    {
+     "wort": "Valentinstag",
+     "hinweis": "Weltfrauentag"
+    },
+    {
+     "wort": "Nikolaus",
+     "hinweis": "Christkind"
+    },
+    {
+     "wort": "Adventskalender",
+     "hinweis": "Adventskranz"
+    },
+    {
+     "wort": "Bescherung",
+     "hinweis": "Christbaum schmücken"
+    },
+    {
+     "wort": "Plätzchen backen",
+     "hinweis": "Glühwein trinken"
+    },
+    {
+     "wort": "Ostereier suchen",
+     "hinweis": "Osterfeuer"
+    },
+    {
+     "wort": "Neujahr",
+     "hinweis": "Heiligabend"
+    },
+    {
+     "wort": "Countdown",
+     "hinweis": "Mitternacht"
+    },
+    {
+     "wort": "Bleigießen",
+     "hinweis": "Dinner for One"
+    },
+    {
+     "wort": "Neujahrsvorsatz",
+     "hinweis": "Wunderkerzenfoto"
+    },
+    {
+     "wort": "Raclette",
+     "hinweis": "Fondue"
+    },
+    {
+     "wort": "Fasching",
+     "hinweis": "Rosenmontag"
+    },
+    {
+     "wort": "Umzugswagen",
+     "hinweis": "Kamelle"
+    },
+    {
+     "wort": "Karnevalskostüm",
+     "hinweis": "Maske"
+    },
+    {
+     "wort": "Konfettiregen",
+     "hinweis": "Luftschlangen"
+    },
+    {
+     "wort": "Büttenrede",
+     "hinweis": "Karnevalslied"
+    },
+    {
+     "wort": "Public Viewing",
+     "hinweis": "Fanmeile"
+    },
+    {
+     "wort": "Fußballabend",
+     "hinweis": "Spieleabend"
+    },
+    {
+     "wort": "Filmabend",
+     "hinweis": "Serienmarathon"
+    },
+    {
+     "wort": "Mädelsabend",
+     "hinweis": "Männerabend"
+    },
+    {
+     "wort": "Brunch",
+     "hinweis": "Afterparty"
+    }
+   ]
+  },
+  {
+   "name": "Filme & Serien",
+   "paare": [
+    {
+     "wort": "Harry Potter",
+     "hinweis": "Herr der Ringe"
+    },
+    {
+     "wort": "Netflix",
+     "hinweis": "YouTube"
+    },
+    {
+     "wort": "James Bond",
+     "hinweis": "Mission Impossible"
+    },
+    {
+     "wort": "Star Wars",
+     "hinweis": "Star Trek"
+    },
+    {
+     "wort": "Superman",
+     "hinweis": "Batman"
+    },
+    {
+     "wort": "Tatort",
+     "hinweis": "CSI"
+    },
+    {
+     "wort": "Disney",
+     "hinweis": "Pixar"
+    },
+    {
+     "wort": "Horrorfilm",
+     "hinweis": "Thriller"
+    },
+    {
+     "wort": "Kino-Popcorn",
+     "hinweis": "Nachos"
+    },
+    {
+     "wort": "Titanic",
+     "hinweis": "Avatar"
+    },
+    {
+     "wort": "Zombie",
+     "hinweis": "Vampir"
+    },
+    {
+     "wort": "Casting-Show",
+     "hinweis": "Quizshow"
+    },
+    {
+     "wort": "Podcast",
+     "hinweis": "Hörbuch"
+    },
+    {
+     "wort": "Spider-Man",
+     "hinweis": "Iron Man"
+    },
+    {
+     "wort": "Hulk",
+     "hinweis": "Thor"
+    },
+    {
+     "wort": "Captain America",
+     "hinweis": "Black Panther"
+    },
+    {
+     "wort": "Avengers",
+     "hinweis": "Justice League"
+    },
+    {
+     "wort": "Joker",
+     "hinweis": "Harley Quinn"
+    },
+    {
+     "wort": "Deadpool",
+     "hinweis": "Wolverine"
+    },
+    {
+     "wort": "X-Men",
+     "hinweis": "Fantastic Four"
+    },
+    {
+     "wort": "Game of Thrones",
+     "hinweis": "Vikings"
+    },
+    {
+     "wort": "Breaking Bad",
+     "hinweis": "Better Call Saul"
+    },
+    {
+     "wort": "Stranger Things",
+     "hinweis": "Dark"
+    },
+    {
+     "wort": "Haus des Geldes",
+     "hinweis": "Prison Break"
+    },
+    {
+     "wort": "Squid Game",
+     "hinweis": "Hunger Games"
+    },
+    {
+     "wort": "The Walking Dead",
+     "hinweis": "Last of Us"
+    },
+    {
+     "wort": "Wednesday",
+     "hinweis": "Addams Family"
+    },
+    {
+     "wort": "Simpsons",
+     "hinweis": "Family Guy"
+    },
+    {
+     "wort": "South Park",
+     "hinweis": "Rick and Morty"
+    },
+    {
+     "wort": "SpongeBob",
+     "hinweis": "Patrick Star"
+    },
+    {
+     "wort": "Tom und Jerry",
+     "hinweis": "Bugs Bunny"
+    },
+    {
+     "wort": "Mickey Maus",
+     "hinweis": "Donald Duck"
+    },
+    {
+     "wort": "Shrek",
+     "hinweis": "Madagascar"
+    },
+    {
+     "wort": "Findet Nemo",
+     "hinweis": "Findet Dory"
+    },
+    {
+     "wort": "König der Löwen",
+     "hinweis": "Dschungelbuch"
+    },
+    {
+     "wort": "Frozen",
+     "hinweis": "Rapunzel"
+    },
+    {
+     "wort": "Aladdin",
+     "hinweis": "Hercules"
+    },
+    {
+     "wort": "Arielle",
+     "hinweis": "Pocahontas"
+    },
+    {
+     "wort": "Cinderella",
+     "hinweis": "Schneewittchen"
+    },
+    {
+     "wort": "Vaiana",
+     "hinweis": "Encanto"
+    },
+    {
+     "wort": "Toy Story",
+     "hinweis": "Cars"
+    },
+    {
+     "wort": "Monster AG",
+     "hinweis": "Alles steht Kopf"
+    },
+    {
+     "wort": "Ratatouille",
+     "hinweis": "Kung Fu Panda"
+    },
+    {
+     "wort": "Minions",
+     "hinweis": "Ice Age"
+    },
+    {
+     "wort": "Sing",
+     "hinweis": "Zoomania"
+    },
+    {
+     "wort": "E.T.",
+     "hinweis": "Alien"
+    },
+    {
+     "wort": "Jurassic Park",
+     "hinweis": "Godzilla"
+    },
+    {
+     "wort": "King Kong",
+     "hinweis": "Planet der Affen"
+    },
+    {
+     "wort": "Terminator",
+     "hinweis": "Robocop"
+    },
+    {
+     "wort": "Matrix",
+     "hinweis": "Inception"
+    },
+    {
+     "wort": "Interstellar",
+     "hinweis": "Gravity"
+    },
+    {
+     "wort": "Zurück in die Zukunft",
+     "hinweis": "Zeitmaschine"
+    },
+    {
+     "wort": "Transformers",
+     "hinweis": "Pacific Rim"
+    },
+    {
+     "wort": "Independence Day",
+     "hinweis": "Krieg der Welten"
+    },
+    {
+     "wort": "Men in Black",
+     "hinweis": "Ghostbusters"
+    },
+    {
+     "wort": "Indiana Jones",
+     "hinweis": "Lara Croft"
+    },
+    {
+     "wort": "Fluch der Karibik",
+     "hinweis": "Robin Hood"
+    },
+    {
+     "wort": "Gladiator",
+     "hinweis": "Braveheart"
+    },
+    {
+     "wort": "Troja",
+     "hinweis": "300"
+    },
+    {
+     "wort": "Der Pate",
+     "hinweis": "Scarface"
+    },
+    {
+     "wort": "Pulp Fiction",
+     "hinweis": "Kill Bill"
+    },
+    {
+     "wort": "Fight Club",
+     "hinweis": "Sieben"
+    },
+    {
+     "wort": "Das Schweigen der Lämmer",
+     "hinweis": "Psycho"
+    },
+    {
+     "wort": "Der weiße Hai",
+     "hinweis": "Anaconda"
+    },
+    {
+     "wort": "Es",
+     "hinweis": "Chucky"
+    },
+    {
+     "wort": "Scream",
+     "hinweis": "Halloween"
+    },
+    {
+     "wort": "Saw",
+     "hinweis": "Hostel"
+    },
+    {
+     "wort": "Conjuring",
+     "hinweis": "Annabelle"
+    },
+    {
+     "wort": "Paranormal Activity",
+     "hinweis": "Blair Witch Project"
+    },
+    {
+     "wort": "The Ring",
+     "hinweis": "Der Exorzist"
+    },
+    {
+     "wort": "Dirty Dancing",
+     "hinweis": "Grease"
+    },
+    {
+     "wort": "Pretty Woman",
+     "hinweis": "Notting Hill"
+    },
+    {
+     "wort": "Tatsächlich Liebe",
+     "hinweis": "Bridget Jones"
+    },
+    {
+     "wort": "La La Land",
+     "hinweis": "The Greatest Showman"
+    },
+    {
+     "wort": "Mamma Mia",
+     "hinweis": "Sister Act"
+    },
+    {
+     "wort": "Hangover",
+     "hinweis": "Superbad"
+    },
+    {
+     "wort": "Ted",
+     "hinweis": "American Pie"
+    },
+    {
+     "wort": "Kevin allein zu Haus",
+     "hinweis": "Nachts im Museum"
+    },
+    {
+     "wort": "Mrs. Doubtfire",
+     "hinweis": "Charlie und die Schokoladenfabrik"
+    },
+    {
+     "wort": "Fack ju Göhte",
+     "hinweis": "Feuerzangenbowle"
+    },
+    {
+     "wort": "Der Schuh des Manitu",
+     "hinweis": "Traumschiff Surprise"
+    },
+    {
+     "wort": "Otto",
+     "hinweis": "Bully Herbig"
+    },
+    {
+     "wort": "Loriot",
+     "hinweis": "Didi Hallervorden"
+    },
+    {
+     "wort": "Sissi",
+     "hinweis": "Das Boot"
+    },
+    {
+     "wort": "Good Bye Lenin",
+     "hinweis": "Das Leben der Anderen"
+    },
+    {
+     "wort": "Rocky",
+     "hinweis": "Creed"
+    },
+    {
+     "wort": "Fast and Furious",
+     "hinweis": "Need for Speed"
+    },
+    {
+     "wort": "John Wick",
+     "hinweis": "Jason Bourne"
+    },
+    {
+     "wort": "Ocean's Eleven",
+     "hinweis": "Catch Me If You Can"
+    },
+    {
+     "wort": "Sherlock Holmes",
+     "hinweis": "Hercule Poirot"
+    },
+    {
+     "wort": "GZSZ",
+     "hinweis": "Unter uns"
+    },
+    {
+     "wort": "Bachelor",
+     "hinweis": "Bachelorette"
+    },
+    {
+     "wort": "DSDS",
+     "hinweis": "The Voice"
+    },
+    {
+     "wort": "Germany's Next Topmodel",
+     "hinweis": "Let's Dance"
+    },
+    {
+     "wort": "Dschungelcamp",
+     "hinweis": "Big Brother"
+    },
+    {
+     "wort": "Wer wird Millionär",
+     "hinweis": "Schlag den Star"
+    },
+    {
+     "wort": "Tagesschau",
+     "hinweis": "heute-show"
+    },
+    {
+     "wort": "Sendung mit der Maus",
+     "hinweis": "Löwenzahn"
+    },
+    {
+     "wort": "Wetten dass",
+     "hinweis": "TV Total"
+    },
+    {
+     "wort": "Bares für Rares",
+     "hinweis": "Höhle der Löwen"
+    }
+   ]
+  },
+  {
+   "name": "Musik",
+   "paare": [
+    {
+     "wort": "Gitarre",
+     "hinweis": "Bass"
+    },
+    {
+     "wort": "Klavier",
+     "hinweis": "Keyboard"
+    },
+    {
+     "wort": "Schlagzeug",
+     "hinweis": "Bongos"
+    },
+    {
+     "wort": "Geige",
+     "hinweis": "Cello"
+    },
+    {
+     "wort": "Trompete",
+     "hinweis": "Posaune"
+    },
+    {
+     "wort": "Saxophon",
+     "hinweis": "Klarinette"
+    },
+    {
+     "wort": "Flöte",
+     "hinweis": "Panflöte"
+    },
+    {
+     "wort": "Harfe",
+     "hinweis": "Zither"
+    },
+    {
+     "wort": "Akkordeon",
+     "hinweis": "Mundharmonika"
+    },
+    {
+     "wort": "Dudelsack",
+     "hinweis": "Alphorn"
+    },
+    {
+     "wort": "Ukulele",
+     "hinweis": "Banjo"
+    },
+    {
+     "wort": "E-Gitarre",
+     "hinweis": "Akustikgitarre"
+    },
+    {
+     "wort": "Orgel",
+     "hinweis": "Cembalo"
+    },
+    {
+     "wort": "Xylophon",
+     "hinweis": "Glockenspiel"
+    },
+    {
+     "wort": "Triangel",
+     "hinweis": "Tamburin"
+    },
+    {
+     "wort": "Rock",
+     "hinweis": "Metal"
+    },
+    {
+     "wort": "Pop",
+     "hinweis": "Schlager"
+    },
+    {
+     "wort": "Hip-Hop",
+     "hinweis": "Rap"
+    },
+    {
+     "wort": "Techno",
+     "hinweis": "House"
+    },
+    {
+     "wort": "EDM",
+     "hinweis": "Dubstep"
+    },
+    {
+     "wort": "Jazz",
+     "hinweis": "Blues"
+    },
+    {
+     "wort": "Klassik",
+     "hinweis": "Oper"
+    },
+    {
+     "wort": "Country",
+     "hinweis": "Folk"
+    },
+    {
+     "wort": "Reggae",
+     "hinweis": "Ska"
+    },
+    {
+     "wort": "Punk",
+     "hinweis": "Grunge"
+    },
+    {
+     "wort": "R&B",
+     "hinweis": "Soul"
+    },
+    {
+     "wort": "Funk",
+     "hinweis": "Disco"
+    },
+    {
+     "wort": "Indie",
+     "hinweis": "Alternative"
+    },
+    {
+     "wort": "K-Pop",
+     "hinweis": "J-Pop"
+    },
+    {
+     "wort": "Latin",
+     "hinweis": "Salsa"
+    },
+    {
+     "wort": "Volksmusik",
+     "hinweis": "Blasmusik"
+    },
+    {
+     "wort": "Gospel",
+     "hinweis": "Kirchenchor"
+    },
+    {
+     "wort": "A cappella",
+     "hinweis": "Beatboxing"
+    },
+    {
+     "wort": "Lofi",
+     "hinweis": "Ambient"
+    },
+    {
+     "wort": "Trap",
+     "hinweis": "Drill"
+    },
+    {
+     "wort": "Konzert",
+     "hinweis": "Festival"
+    },
+    {
+     "wort": "Open Air",
+     "hinweis": "Clubnacht"
+    },
+    {
+     "wort": "Unplugged",
+     "hinweis": "Livestream-Konzert"
+    },
+    {
+     "wort": "Tournee",
+     "hinweis": "Welttour"
+    },
+    {
+     "wort": "Zugabe",
+     "hinweis": "Soundcheck"
+    },
+    {
+     "wort": "Bühne",
+     "hinweis": "Backstage"
+    },
+    {
+     "wort": "Mikrofon",
+     "hinweis": "Headset"
+    },
+    {
+     "wort": "Verstärker",
+     "hinweis": "Mischpult"
+    },
+    {
+     "wort": "Plattenspieler",
+     "hinweis": "CD-Player"
+    },
+    {
+     "wort": "Schallplatte",
+     "hinweis": "Kassette"
+    },
+    {
+     "wort": "Spotify",
+     "hinweis": "Apple Music"
+    },
+    {
+     "wort": "Playlist",
+     "hinweis": "Album"
+    },
+    {
+     "wort": "Single",
+     "hinweis": "EP"
+    },
+    {
+     "wort": "Charts",
+     "hinweis": "Billboard"
+    },
+    {
+     "wort": "Grammy",
+     "hinweis": "Echo"
+    },
+    {
+     "wort": "Sänger",
+     "hinweis": "Songwriter"
+    },
+    {
+     "wort": "Band",
+     "hinweis": "Solokünstler"
+    },
+    {
+     "wort": "Chor",
+     "hinweis": "Orchester"
+    },
+    {
+     "wort": "Dirigent",
+     "hinweis": "Kapellmeister"
+    },
+    {
+     "wort": "Frontmann",
+     "hinweis": "Backgroundsänger"
+    },
+    {
+     "wort": "Gitarrist",
+     "hinweis": "Bassist"
+    },
+    {
+     "wort": "Drummer",
+     "hinweis": "Percussionist"
+    },
+    {
+     "wort": "Pianist",
+     "hinweis": "Organist"
+    },
+    {
+     "wort": "Rapper",
+     "hinweis": "MC"
+    },
+    {
+     "wort": "DJ",
+     "hinweis": "Produzent"
+    },
+    {
+     "wort": "Beethoven",
+     "hinweis": "Mozart"
+    },
+    {
+     "wort": "Bach",
+     "hinweis": "Vivaldi"
+    },
+    {
+     "wort": "Elvis Presley",
+     "hinweis": "Johnny Cash"
+    },
+    {
+     "wort": "Beatles",
+     "hinweis": "Rolling Stones"
+    },
+    {
+     "wort": "Queen",
+     "hinweis": "ABBA"
+    },
+    {
+     "wort": "Michael Jackson",
+     "hinweis": "Prince"
+    },
+    {
+     "wort": "Madonna",
+     "hinweis": "Whitney Houston"
+    },
+    {
+     "wort": "Nirvana",
+     "hinweis": "Metallica"
+    },
+    {
+     "wort": "AC/DC",
+     "hinweis": "Guns N' Roses"
+    },
+    {
+     "wort": "Eminem",
+     "hinweis": "50 Cent"
+    },
+    {
+     "wort": "Rihanna",
+     "hinweis": "Beyoncé"
+    },
+    {
+     "wort": "Taylor Swift",
+     "hinweis": "Ariana Grande"
+    },
+    {
+     "wort": "Ed Sheeran",
+     "hinweis": "Justin Bieber"
+    },
+    {
+     "wort": "Adele",
+     "hinweis": "Billie Eilish"
+    },
+    {
+     "wort": "Drake",
+     "hinweis": "The Weeknd"
+    },
+    {
+     "wort": "Helene Fischer",
+     "hinweis": "Andrea Berg"
+    },
+    {
+     "wort": "Rammstein",
+     "hinweis": "Böhse Onkelz"
+    },
+    {
+     "wort": "Die Toten Hosen",
+     "hinweis": "Die Ärzte"
+    },
+    {
+     "wort": "Herbert Grönemeyer",
+     "hinweis": "Udo Lindenberg"
+    },
+    {
+     "wort": "Nena",
+     "hinweis": "Sarah Connor"
+    },
+    {
+     "wort": "Capital Bra",
+     "hinweis": "Bonez MC"
+    },
+    {
+     "wort": "Apache 207",
+     "hinweis": "RAF Camora"
+    },
+    {
+     "wort": "Cro",
+     "hinweis": "Sido"
+    },
+    {
+     "wort": "Bushido",
+     "hinweis": "Kollegah"
+    },
+    {
+     "wort": "Mark Forster",
+     "hinweis": "Wincent Weiss"
+    },
+    {
+     "wort": "Refrain",
+     "hinweis": "Strophe"
+    },
+    {
+     "wort": "Melodie",
+     "hinweis": "Rhythmus"
+    },
+    {
+     "wort": "Text",
+     "hinweis": "Beat"
+    },
+    {
+     "wort": "Akkord",
+     "hinweis": "Tonleiter"
+    },
+    {
+     "wort": "Dur",
+     "hinweis": "Moll"
+    },
+    {
+     "wort": "Notenblatt",
+     "hinweis": "Tabulatur"
+    },
+    {
+     "wort": "Metronom",
+     "hinweis": "Stimmgerät"
+    },
+    {
+     "wort": "Gesangsunterricht",
+     "hinweis": "Musikschule"
+    },
+    {
+     "wort": "Ohrwurm",
+     "hinweis": "Sommerhit"
+    },
+    {
+     "wort": "Ballade",
+     "hinweis": "Hymne"
+    },
+    {
+     "wort": "Nationalhymne",
+     "hinweis": "Fangesang"
+    },
+    {
+     "wort": "Wiegenlied",
+     "hinweis": "Gute-Nacht-Lied"
+    },
+    {
+     "wort": "Geburtstagslied",
+     "hinweis": "Weihnachtslied"
+    },
+    {
+     "wort": "Karaoke-Song",
+     "hinweis": "Duett"
+    },
+    {
+     "wort": "Remix",
+     "hinweis": "Cover"
+    }
+   ]
+  },
+  {
+   "name": "Reisen & Urlaub",
+   "paare": [
+    {
+     "wort": "Strandurlaub",
+     "hinweis": "Skiurlaub"
+    },
+    {
+     "wort": "Kreuzfahrt",
+     "hinweis": "Segeltörn"
+    },
+    {
+     "wort": "Roadtrip",
+     "hinweis": "Interrail"
+    },
+    {
+     "wort": "Backpacking",
+     "hinweis": "Pauschalreise"
+    },
+    {
+     "wort": "Städtetrip",
+     "hinweis": "Wanderurlaub"
+    },
+    {
+     "wort": "Campingurlaub",
+     "hinweis": "Wellnessurlaub"
+    },
+    {
+     "wort": "All-Inclusive",
+     "hinweis": "Halbpension"
+    },
+    {
+     "wort": "Hotel",
+     "hinweis": "Ferienwohnung"
+    },
+    {
+     "wort": "Hostel",
+     "hinweis": "Airbnb"
+    },
+    {
+     "wort": "Resort",
+     "hinweis": "Bungalow"
+    },
+    {
+     "wort": "Wohnmobil",
+     "hinweis": "Wohnwagen"
+    },
+    {
+     "wort": "Zelt",
+     "hinweis": "Dachzelt"
+    },
+    {
+     "wort": "Koffer",
+     "hinweis": "Reisetasche"
+    },
+    {
+     "wort": "Handgepäck",
+     "hinweis": "Aufgabegepäck"
+    },
+    {
+     "wort": "Kofferband",
+     "hinweis": "Gepäckausgabe"
+    },
+    {
+     "wort": "Reisepass",
+     "hinweis": "Visum"
+    },
+    {
+     "wort": "Bordkarte",
+     "hinweis": "Ticket"
+    },
+    {
+     "wort": "Check-in",
+     "hinweis": "Boarding"
+    },
+    {
+     "wort": "Abflug",
+     "hinweis": "Landung"
+    },
+    {
+     "wort": "Zwischenstopp",
+     "hinweis": "Direktflug"
+    },
+    {
+     "wort": "Fensterplatz",
+     "hinweis": "Gangplatz"
+    },
+    {
+     "wort": "Business Class",
+     "hinweis": "Economy"
+    },
+    {
+     "wort": "Pilot",
+     "hinweis": "Flugbegleiter"
+    },
+    {
+     "wort": "Turbulenzen",
+     "hinweis": "Jetlag"
+    },
+    {
+     "wort": "Zeitverschiebung",
+     "hinweis": "Sommerzeit"
+    },
+    {
+     "wort": "Strand",
+     "hinweis": "Promenade"
+    },
+    {
+     "wort": "Liegestuhl",
+     "hinweis": "Strandkorb"
+    },
+    {
+     "wort": "Sonnenschirm",
+     "hinweis": "Pavillon"
+    },
+    {
+     "wort": "Sandburg",
+     "hinweis": "Muschelsammlung"
+    },
+    {
+     "wort": "Bikini",
+     "hinweis": "Badehose"
+    },
+    {
+     "wort": "Sonnencreme",
+     "hinweis": "Sonnenbrand"
+    },
+    {
+     "wort": "Sonnenbrille",
+     "hinweis": "Strohhut"
+    },
+    {
+     "wort": "Flip-Flops",
+     "hinweis": "Sandalen"
+    },
+    {
+     "wort": "Strandbar",
+     "hinweis": "Beachclub"
+    },
+    {
+     "wort": "Cocktail am Pool",
+     "hinweis": "Eis am Strand"
+    },
+    {
+     "wort": "Schnorcheln",
+     "hinweis": "Tauchkurs"
+    },
+    {
+     "wort": "Jetski",
+     "hinweis": "Bananenboot"
+    },
+    {
+     "wort": "Parasailing",
+     "hinweis": "Wasserski"
+    },
+    {
+     "wort": "Surfkurs",
+     "hinweis": "Segelkurs"
+    },
+    {
+     "wort": "Katamaran",
+     "hinweis": "Yacht"
+    },
+    {
+     "wort": "Sehenswürdigkeit",
+     "hinweis": "Wahrzeichen"
+    },
+    {
+     "wort": "Stadtführung",
+     "hinweis": "Museumsbesuch"
+    },
+    {
+     "wort": "Reiseführer",
+     "hinweis": "Stadtplan"
+    },
+    {
+     "wort": "Souvenir",
+     "hinweis": "Postkarte"
+    },
+    {
+     "wort": "Andenken",
+     "hinweis": "Mitbringsel"
+    },
+    {
+     "wort": "Selfie",
+     "hinweis": "Urlaubsfoto"
+    },
+    {
+     "wort": "Fotokamera",
+     "hinweis": "Drohne"
+    },
+    {
+     "wort": "Reiseblog",
+     "hinweis": "Reisetagebuch"
+    },
+    {
+     "wort": "Tourist",
+     "hinweis": "Einheimischer"
+    },
+    {
+     "wort": "Reisegruppe",
+     "hinweis": "Individualreise"
+    },
+    {
+     "wort": "Mallorca",
+     "hinweis": "Ibiza"
+    },
+    {
+     "wort": "Kreta",
+     "hinweis": "Rhodos"
+    },
+    {
+     "wort": "Kanaren",
+     "hinweis": "Azoren"
+    },
+    {
+     "wort": "Türkei",
+     "hinweis": "Ägypten"
+    },
+    {
+     "wort": "Thailand",
+     "hinweis": "Bali"
+    },
+    {
+     "wort": "Malediven",
+     "hinweis": "Seychellen"
+    },
+    {
+     "wort": "Karibik",
+     "hinweis": "Hawaii"
+    },
+    {
+     "wort": "New York",
+     "hinweis": "Los Angeles"
+    },
+    {
+     "wort": "Paris",
+     "hinweis": "Rom"
+    },
+    {
+     "wort": "London",
+     "hinweis": "Amsterdam"
+    },
+    {
+     "wort": "Barcelona",
+     "hinweis": "Lissabon"
+    },
+    {
+     "wort": "Wien",
+     "hinweis": "Prag"
+    },
+    {
+     "wort": "Dubai",
+     "hinweis": "Singapur"
+    },
+    {
+     "wort": "Japan",
+     "hinweis": "Südkorea"
+    },
+    {
+     "wort": "Australien",
+     "hinweis": "Neuseeland"
+    },
+    {
+     "wort": "Safari",
+     "hinweis": "Dschungeltour"
+    },
+    {
+     "wort": "Wüstentour",
+     "hinweis": "Kamelreiten"
+    },
+    {
+     "wort": "Nordlichter",
+     "hinweis": "Mitternachtssonne"
+    },
+    {
+     "wort": "Alpen",
+     "hinweis": "Dolomiten"
+    },
+    {
+     "wort": "Gardasee",
+     "hinweis": "Bodensee"
+    },
+    {
+     "wort": "Nordsee",
+     "hinweis": "Ostsee"
+    },
+    {
+     "wort": "Sylt",
+     "hinweis": "Rügen"
+    },
+    {
+     "wort": "Schwarzwald",
+     "hinweis": "Bayerischer Wald"
+    },
+    {
+     "wort": "Berlin",
+     "hinweis": "Hamburg"
+    },
+    {
+     "wort": "München",
+     "hinweis": "Köln"
+    },
+    {
+     "wort": "Autobahnraststätte",
+     "hinweis": "Tankstellenshop"
+    },
+    {
+     "wort": "Stau",
+     "hinweis": "Umleitung"
+    },
+    {
+     "wort": "Navi",
+     "hinweis": "Landkarte"
+    },
+    {
+     "wort": "Mietwagen",
+     "hinweis": "Carsharing"
+    },
+    {
+     "wort": "Fähre",
+     "hinweis": "Autozug"
+    },
+    {
+     "wort": "Bahnreise",
+     "hinweis": "Busreise"
+    },
+    {
+     "wort": "ICE",
+     "hinweis": "Regionalbahn"
+    },
+    {
+     "wort": "Schlafwagen",
+     "hinweis": "Liegewagen"
+    },
+    {
+     "wort": "Bahnhofshalle",
+     "hinweis": "Gleis"
+    },
+    {
+     "wort": "Verspätung",
+     "hinweis": "Anschlusszug"
+    },
+    {
+     "wort": "Reisebüro",
+     "hinweis": "Buchungsportal"
+    },
+    {
+     "wort": "Frühbucher",
+     "hinweis": "Last Minute"
+    },
+    {
+     "wort": "Hauptsaison",
+     "hinweis": "Nebensaison"
+    },
+    {
+     "wort": "Reiserücktrittsversicherung",
+     "hinweis": "Auslandskrankenversicherung"
+    },
+    {
+     "wort": "Impfpass",
+     "hinweis": "Reiseapotheke"
+    },
+    {
+     "wort": "Wanderschuhe",
+     "hinweis": "Trekkingstöcke"
+    },
+    {
+     "wort": "Rucksacktour",
+     "hinweis": "Hüttentour"
+    },
+    {
+     "wort": "Gipfelkreuz",
+     "hinweis": "Aussichtsplattform"
+    },
+    {
+     "wort": "Seilbahn",
+     "hinweis": "Sessellift"
+    },
+    {
+     "wort": "Bergsee",
+     "hinweis": "Wasserfall"
+    },
+    {
+     "wort": "Heimweh",
+     "hinweis": "Fernweh"
+    },
+    {
+     "wort": "Auswandern",
+     "hinweis": "Sabbatical"
+    },
+    {
+     "wort": "Weltreise",
+     "hinweis": "Kurztrip"
+    },
+    {
+     "wort": "Flitterwochen",
+     "hinweis": "Familienurlaub"
+    },
+    {
+     "wort": "Balkonien",
+     "hinweis": "Staycation"
+    }
+   ]
+  },
+  {
+   "name": "Natur & Wetter",
+   "paare": [
+    {
+     "wort": "Regen",
+     "hinweis": "Nieselregen"
+    },
+    {
+     "wort": "Schnee",
+     "hinweis": "Hagel"
+    },
+    {
+     "wort": "Gewitter",
+     "hinweis": "Sturm"
+    },
+    {
+     "wort": "Blitz",
+     "hinweis": "Donner"
+    },
+    {
+     "wort": "Nebel",
+     "hinweis": "Dunst"
+    },
+    {
+     "wort": "Sonne",
+     "hinweis": "Mond"
+    },
+    {
+     "wort": "Sterne",
+     "hinweis": "Planeten"
+    },
+    {
+     "wort": "Regenbogen",
+     "hinweis": "Nordlicht"
+    },
+    {
+     "wort": "Wolke",
+     "hinweis": "Kondensstreifen"
+    },
+    {
+     "wort": "Wind",
+     "hinweis": "Brise"
+    },
+    {
+     "wort": "Orkan",
+     "hinweis": "Tornado"
+    },
+    {
+     "wort": "Hurrikan",
+     "hinweis": "Taifun"
+    },
+    {
+     "wort": "Hitzewelle",
+     "hinweis": "Dürre"
+    },
+    {
+     "wort": "Kältewelle",
+     "hinweis": "Frost"
+    },
+    {
+     "wort": "Glatteis",
+     "hinweis": "Schneematsch"
+    },
+    {
+     "wort": "Tau",
+     "hinweis": "Raureif"
+    },
+    {
+     "wort": "Sonnenaufgang",
+     "hinweis": "Sonnenuntergang"
+    },
+    {
+     "wort": "Morgenrot",
+     "hinweis": "Abendrot"
+    },
+    {
+     "wort": "Vollmond",
+     "hinweis": "Neumond"
+    },
+    {
+     "wort": "Sonnenfinsternis",
+     "hinweis": "Mondfinsternis"
+    },
+    {
+     "wort": "Sternschnuppe",
+     "hinweis": "Komet"
+    },
+    {
+     "wort": "Meteorit",
+     "hinweis": "Asteroid"
+    },
+    {
+     "wort": "Milchstraße",
+     "hinweis": "Galaxie"
+    },
+    {
+     "wort": "Frühling",
+     "hinweis": "Herbst"
+    },
+    {
+     "wort": "Sommer",
+     "hinweis": "Winter"
+    },
+    {
+     "wort": "Erdbeben",
+     "hinweis": "Vulkanausbruch"
+    },
+    {
+     "wort": "Tsunami",
+     "hinweis": "Flutwelle"
+    },
+    {
+     "wort": "Lawine",
+     "hinweis": "Erdrutsch"
+    },
+    {
+     "wort": "Überschwemmung",
+     "hinweis": "Hochwasser"
+    },
+    {
+     "wort": "Waldbrand",
+     "hinweis": "Buschfeuer"
+    },
+    {
+     "wort": "Eiche",
+     "hinweis": "Buche"
+    },
+    {
+     "wort": "Tanne",
+     "hinweis": "Fichte"
+    },
+    {
+     "wort": "Birke",
+     "hinweis": "Ahorn"
+    },
+    {
+     "wort": "Kastanie",
+     "hinweis": "Linde"
+    },
+    {
+     "wort": "Palme",
+     "hinweis": "Bambus"
+    },
+    {
+     "wort": "Kaktus",
+     "hinweis": "Sukkulente"
+    },
+    {
+     "wort": "Rose",
+     "hinweis": "Tulpe"
+    },
+    {
+     "wort": "Sonnenblume",
+     "hinweis": "Löwenzahn"
+    },
+    {
+     "wort": "Gänseblümchen",
+     "hinweis": "Kamille"
+    },
+    {
+     "wort": "Lavendel",
+     "hinweis": "Flieder"
+    },
+    {
+     "wort": "Orchidee",
+     "hinweis": "Lilie"
+    },
+    {
+     "wort": "Veilchen",
+     "hinweis": "Vergissmeinnicht"
+    },
+    {
+     "wort": "Klee",
+     "hinweis": "Moos"
+    },
+    {
+     "wort": "Farn",
+     "hinweis": "Efeu"
+    },
+    {
+     "wort": "Brennnessel",
+     "hinweis": "Distel"
+    },
+    {
+     "wort": "Pilz",
+     "hinweis": "Fliegenpilz"
+    },
+    {
+     "wort": "Eichel",
+     "hinweis": "Kastanienfrucht"
+    },
+    {
+     "wort": "Tannenzapfen",
+     "hinweis": "Zapfen"
+    },
+    {
+     "wort": "Blatt",
+     "hinweis": "Nadel"
+    },
+    {
+     "wort": "Wurzel",
+     "hinweis": "Ast"
+    },
+    {
+     "wort": "Rinde",
+     "hinweis": "Baumstamm"
+    },
+    {
+     "wort": "Baumkrone",
+     "hinweis": "Hecke"
+    },
+    {
+     "wort": "Strauch",
+     "hinweis": "Busch"
+    },
+    {
+     "wort": "Rasen",
+     "hinweis": "Wildwiese"
+    },
+    {
+     "wort": "Blumenbeet",
+     "hinweis": "Gemüsebeet"
+    },
+    {
+     "wort": "Wald",
+     "hinweis": "Lichtung"
+    },
+    {
+     "wort": "Urwald",
+     "hinweis": "Regenwald"
+    },
+    {
+     "wort": "Moor",
+     "hinweis": "Sumpf"
+    },
+    {
+     "wort": "Heide",
+     "hinweis": "Tundra"
+    },
+    {
+     "wort": "Savanne",
+     "hinweis": "Prärie"
+    },
+    {
+     "wort": "Gebirge",
+     "hinweis": "Mittelgebirge"
+    },
+    {
+     "wort": "Gipfel",
+     "hinweis": "Grat"
+    },
+    {
+     "wort": "Tal",
+     "hinweis": "Schlucht"
+    },
+    {
+     "wort": "Hang",
+     "hinweis": "Klippe"
+    },
+    {
+     "wort": "Fels",
+     "hinweis": "Geröll"
+    },
+    {
+     "wort": "Sand",
+     "hinweis": "Kies"
+    },
+    {
+     "wort": "Lehm",
+     "hinweis": "Ton"
+    },
+    {
+     "wort": "Erde",
+     "hinweis": "Humus"
+    },
+    {
+     "wort": "Stein",
+     "hinweis": "Kristall"
+    },
+    {
+     "wort": "Gold",
+     "hinweis": "Silber"
+    },
+    {
+     "wort": "Diamant",
+     "hinweis": "Rubin"
+    },
+    {
+     "wort": "Quarz",
+     "hinweis": "Bernstein"
+    },
+    {
+     "wort": "Quelle",
+     "hinweis": "Brunnen"
+    },
+    {
+     "wort": "Bach",
+     "hinweis": "Strom"
+    },
+    {
+     "wort": "Ufer",
+     "hinweis": "Küste"
+    },
+    {
+     "wort": "Ebbe",
+     "hinweis": "Flut"
+    },
+    {
+     "wort": "Welle",
+     "hinweis": "Gischt"
+    },
+    {
+     "wort": "Strömung",
+     "hinweis": "Strudel"
+    },
+    {
+     "wort": "Düne",
+     "hinweis": "Sandbank"
+    },
+    {
+     "wort": "Bucht",
+     "hinweis": "Fjord"
+    },
+    {
+     "wort": "Nordpol",
+     "hinweis": "Südpol"
+    },
+    {
+     "wort": "Arktis",
+     "hinweis": "Antarktis"
+    },
+    {
+     "wort": "Äquator",
+     "hinweis": "Wendekreis"
+    },
+    {
+     "wort": "Kontinent",
+     "hinweis": "Ozean"
+    },
+    {
+     "wort": "Nordhalbkugel",
+     "hinweis": "Südhalbkugel"
+    },
+    {
+     "wort": "Klimawandel",
+     "hinweis": "Treibhauseffekt"
+    },
+    {
+     "wort": "Ozonloch",
+     "hinweis": "Smog"
+    },
+    {
+     "wort": "Recycling",
+     "hinweis": "Kompost"
+    },
+    {
+     "wort": "Solarenergie",
+     "hinweis": "Windkraft"
+    },
+    {
+     "wort": "Wasserkraft",
+     "hinweis": "Erdwärme"
+    },
+    {
+     "wort": "Wettervorhersage",
+     "hinweis": "Wetter-App"
+    },
+    {
+     "wort": "Thermometer",
+     "hinweis": "Barometer"
+    },
+    {
+     "wort": "Regenmesser",
+     "hinweis": "Windrad"
+    },
+    {
+     "wort": "Wetterhahn",
+     "hinweis": "Wetterballon"
+    },
+    {
+     "wort": "Hitzefrei",
+     "hinweis": "Schneefrei"
+    },
+    {
+     "wort": "Tierpark",
+     "hinweis": "Nationalpark"
+    },
+    {
+     "wort": "Naturschutzgebiet",
+     "hinweis": "Biosphärenreservat"
+    },
+    {
+     "wort": "Försterei",
+     "hinweis": "Wildgehege"
+    },
+    {
+     "wort": "Vogelhaus",
+     "hinweis": "Insektenhotel"
+    },
+    {
+     "wort": "Futterstelle",
+     "hinweis": "Nistkasten"
+    }
+   ]
+  },
+  {
+   "name": "Technik & Internet",
+   "paare": [
+    {
+     "wort": "WhatsApp",
+     "hinweis": "Telegram"
+    },
+    {
+     "wort": "Instagram",
+     "hinweis": "TikTok"
+    },
+    {
+     "wort": "Facebook",
+     "hinweis": "Twitter"
+    },
+    {
+     "wort": "YouTube",
+     "hinweis": "Twitch"
+    },
+    {
+     "wort": "Snapchat",
+     "hinweis": "BeReal"
+    },
+    {
+     "wort": "Google",
+     "hinweis": "Bing"
+    },
+    {
+     "wort": "Chrome",
+     "hinweis": "Firefox"
+    },
+    {
+     "wort": "iPhone",
+     "hinweis": "Samsung Galaxy"
+    },
+    {
+     "wort": "Android",
+     "hinweis": "iOS"
+    },
+    {
+     "wort": "MacBook",
+     "hinweis": "Windows-Laptop"
+    },
+    {
+     "wort": "iPad",
+     "hinweis": "Kindle"
+    },
+    {
+     "wort": "Smartwatch",
+     "hinweis": "Fitnessarmband"
+    },
+    {
+     "wort": "AirPods",
+     "hinweis": "Kopfhörer mit Kabel"
+    },
+    {
+     "wort": "Bluetooth",
+     "hinweis": "WLAN"
+    },
+    {
+     "wort": "Hotspot",
+     "hinweis": "Router"
+    },
+    {
+     "wort": "E-Mail",
+     "hinweis": "SMS"
+    },
+    {
+     "wort": "Sprachnachricht",
+     "hinweis": "Videoanruf"
+    },
+    {
+     "wort": "Zoom",
+     "hinweis": "Teams"
+    },
+    {
+     "wort": "Skype",
+     "hinweis": "FaceTime"
+    },
+    {
+     "wort": "Emoji",
+     "hinweis": "Sticker"
+    },
+    {
+     "wort": "Meme",
+     "hinweis": "GIF"
+    },
+    {
+     "wort": "Selfie",
+     "hinweis": "Screenshot"
+    },
+    {
+     "wort": "Story",
+     "hinweis": "Reel"
+    },
+    {
+     "wort": "Post",
+     "hinweis": "Kommentar"
+    },
+    {
+     "wort": "Like",
+     "hinweis": "Follower"
+    },
+    {
+     "wort": "Hashtag",
+     "hinweis": "Verlinkung"
+    },
+    {
+     "wort": "Influencer",
+     "hinweis": "Streamer"
+    },
+    {
+     "wort": "Blogger",
+     "hinweis": "Podcaster"
+    },
+    {
+     "wort": "Newsletter",
+     "hinweis": "Push-Nachricht"
+    },
+    {
+     "wort": "Spam",
+     "hinweis": "Werbung"
+    },
+    {
+     "wort": "Passwort",
+     "hinweis": "PIN"
+    },
+    {
+     "wort": "Fingerabdruck",
+     "hinweis": "Gesichtserkennung"
+    },
+    {
+     "wort": "Zwei-Faktor",
+     "hinweis": "Captcha"
+    },
+    {
+     "wort": "Virus",
+     "hinweis": "Trojaner"
+    },
+    {
+     "wort": "Firewall",
+     "hinweis": "Antivirus"
+    },
+    {
+     "wort": "Hacker",
+     "hinweis": "Phishing"
+    },
+    {
+     "wort": "Datenschutz",
+     "hinweis": "Cookies"
+    },
+    {
+     "wort": "Cloud",
+     "hinweis": "Festplatte"
+    },
+    {
+     "wort": "USB-Stick",
+     "hinweis": "SD-Karte"
+    },
+    {
+     "wort": "Download",
+     "hinweis": "Upload"
+    },
+    {
+     "wort": "Streaming",
+     "hinweis": "Mediathek"
+    },
+    {
+     "wort": "Netflix-Account",
+     "hinweis": "Prime-Abo"
+    },
+    {
+     "wort": "Spotify Premium",
+     "hinweis": "Werbeversion"
+    },
+    {
+     "wort": "Podcast",
+     "hinweis": "Radiosender"
+    },
+    {
+     "wort": "E-Book",
+     "hinweis": "Taschenbuch"
+    },
+    {
+     "wort": "Online-Shopping",
+     "hinweis": "Ladengeschäft"
+    },
+    {
+     "wort": "Amazon",
+     "hinweis": "eBay"
+    },
+    {
+     "wort": "Zalando",
+     "hinweis": "About You"
+    },
+    {
+     "wort": "PayPal",
+     "hinweis": "Klarna"
+    },
+    {
+     "wort": "Warenkorb",
+     "hinweis": "Merkliste"
+    },
+    {
+     "wort": "Retoure",
+     "hinweis": "Umtausch"
+    },
+    {
+     "wort": "Lieferando",
+     "hinweis": "Uber Eats"
+    },
+    {
+     "wort": "Uber",
+     "hinweis": "Taxi-App"
+    },
+    {
+     "wort": "Navi-App",
+     "hinweis": "Google Maps"
+    },
+    {
+     "wort": "Wetter-App",
+     "hinweis": "Nachrichten-App"
+    },
+    {
+     "wort": "Dating-App",
+     "hinweis": "Partnerbörse"
+    },
+    {
+     "wort": "Tinder",
+     "hinweis": "Bumble"
+    },
+    {
+     "wort": "Match",
+     "hinweis": "Super-Like"
+    },
+    {
+     "wort": "Ghosting",
+     "hinweis": "Catfishing"
+    },
+    {
+     "wort": "Online-Banking",
+     "hinweis": "Bankfiliale"
+    },
+    {
+     "wort": "Bitcoin",
+     "hinweis": "Ethereum"
+    },
+    {
+     "wort": "Krypto",
+     "hinweis": "Aktien"
+    },
+    {
+     "wort": "Trading-App",
+     "hinweis": "Sparbuch"
+    },
+    {
+     "wort": "NFT",
+     "hinweis": "Sammelkarte"
+    },
+    {
+     "wort": "KI",
+     "hinweis": "Roboter"
+    },
+    {
+     "wort": "ChatGPT",
+     "hinweis": "Siri"
+    },
+    {
+     "wort": "Alexa",
+     "hinweis": "Google Assistant"
+    },
+    {
+     "wort": "Smart Home",
+     "hinweis": "Zeitschaltuhr"
+    },
+    {
+     "wort": "Saugroboter",
+     "hinweis": "Rasenmähroboter"
+    },
+    {
+     "wort": "Drohne",
+     "hinweis": "Modellflugzeug"
+    },
+    {
+     "wort": "3D-Drucker",
+     "hinweis": "Laserdrucker"
+    },
+    {
+     "wort": "Scanner",
+     "hinweis": "Kopierer"
+    },
+    {
+     "wort": "Beamer",
+     "hinweis": "Flachbildschirm"
+    },
+    {
+     "wort": "Webcam",
+     "hinweis": "Ringlicht"
+    },
+    {
+     "wort": "Mikrofon",
+     "hinweis": "Headset"
+    },
+    {
+     "wort": "Tastatur",
+     "hinweis": "Maus"
+    },
+    {
+     "wort": "Touchscreen",
+     "hinweis": "Trackpad"
+    },
+    {
+     "wort": "Monitor",
+     "hinweis": "Curved-Display"
+    },
+    {
+     "wort": "Grafikkarte",
+     "hinweis": "Prozessor"
+    },
+    {
+     "wort": "Arbeitsspeicher",
+     "hinweis": "Festplattenspeicher"
+    },
+    {
+     "wort": "Software",
+     "hinweis": "Hardware"
+    },
+    {
+     "wort": "App",
+     "hinweis": "Programm"
+    },
+    {
+     "wort": "Update",
+     "hinweis": "Neustart"
+    },
+    {
+     "wort": "Bug",
+     "hinweis": "Absturz"
+    },
+    {
+     "wort": "Backup",
+     "hinweis": "Wiederherstellung"
+    },
+    {
+     "wort": "Browser",
+     "hinweis": "Suchmaschine"
+    },
+    {
+     "wort": "Lesezeichen",
+     "hinweis": "Verlauf"
+    },
+    {
+     "wort": "Inkognito-Modus",
+     "hinweis": "VPN"
+    },
+    {
+     "wort": "Homepage",
+     "hinweis": "Landingpage"
+    },
+    {
+     "wort": "Link",
+     "hinweis": "QR-Code"
+    },
+    {
+     "wort": "Server",
+     "hinweis": "Datenbank"
+    },
+    {
+     "wort": "Programmierer",
+     "hinweis": "Webdesigner"
+    },
+    {
+     "wort": "HTML",
+     "hinweis": "CSS"
+    },
+    {
+     "wort": "Python",
+     "hinweis": "JavaScript"
+    },
+    {
+     "wort": "Open Source",
+     "hinweis": "Lizenz"
+    },
+    {
+     "wort": "Akku leer",
+     "hinweis": "Kein Empfang"
+    },
+    {
+     "wort": "Flugmodus",
+     "hinweis": "Stumm-Modus"
+    },
+    {
+     "wort": "Klingelton",
+     "hinweis": "Vibration"
+    },
+    {
+     "wort": "Bildschirmzeit",
+     "hinweis": "Digital Detox"
+    },
+    {
+     "wort": "Ladekabel vergessen",
+     "hinweis": "Speicher voll"
+    }
+   ]
+  },
+  {
+   "name": "Gaming",
+   "paare": [
+    {
+     "wort": "PlayStation",
+     "hinweis": "Xbox"
+    },
+    {
+     "wort": "Nintendo Switch",
+     "hinweis": "Steam Deck"
+    },
+    {
+     "wort": "Gameboy",
+     "hinweis": "Tamagotchi"
+    },
+    {
+     "wort": "PC-Gaming",
+     "hinweis": "Konsolen-Gaming"
+    },
+    {
+     "wort": "Controller",
+     "hinweis": "Maus und Tastatur"
+    },
+    {
+     "wort": "Minecraft",
+     "hinweis": "Roblox"
+    },
+    {
+     "wort": "Fortnite",
+     "hinweis": "Apex Legends"
+    },
+    {
+     "wort": "Call of Duty",
+     "hinweis": "Battlefield"
+    },
+    {
+     "wort": "Counter-Strike",
+     "hinweis": "Valorant"
+    },
+    {
+     "wort": "League of Legends",
+     "hinweis": "Dota 2"
+    },
+    {
+     "wort": "FIFA",
+     "hinweis": "PES"
+    },
+    {
+     "wort": "Mario Kart",
+     "hinweis": "Crash Team Racing"
+    },
+    {
+     "wort": "Super Mario",
+     "hinweis": "Luigi"
+    },
+    {
+     "wort": "Zelda",
+     "hinweis": "Elden Ring"
+    },
+    {
+     "wort": "Pokémon",
+     "hinweis": "Digimon"
+    },
+    {
+     "wort": "Pikachu",
+     "hinweis": "Glumanda"
+    },
+    {
+     "wort": "GTA",
+     "hinweis": "Red Dead Redemption"
+    },
+    {
+     "wort": "Sims",
+     "hinweis": "Animal Crossing"
+    },
+    {
+     "wort": "Skyrim",
+     "hinweis": "The Witcher"
+    },
+    {
+     "wort": "Dark Souls",
+     "hinweis": "Bloodborne"
+    },
+    {
+     "wort": "World of Warcraft",
+     "hinweis": "Final Fantasy"
+    },
+    {
+     "wort": "Overwatch",
+     "hinweis": "Team Fortress"
+    },
+    {
+     "wort": "Rocket League",
+     "hinweis": "Fall Guys"
+    },
+    {
+     "wort": "Among Us",
+     "hinweis": "Town of Salem"
+    },
+    {
+     "wort": "Tetris",
+     "hinweis": "Candy Crush"
+    },
+    {
+     "wort": "Pac-Man",
+     "hinweis": "Space Invaders"
+    },
+    {
+     "wort": "Donkey Kong",
+     "hinweis": "Sonic"
+    },
+    {
+     "wort": "Street Fighter",
+     "hinweis": "Mortal Kombat"
+    },
+    {
+     "wort": "Tekken",
+     "hinweis": "Smash Bros"
+    },
+    {
+     "wort": "Halo",
+     "hinweis": "Doom"
+    },
+    {
+     "wort": "Half-Life",
+     "hinweis": "Portal"
+    },
+    {
+     "wort": "Resident Evil",
+     "hinweis": "Silent Hill"
+    },
+    {
+     "wort": "Assassin's Creed",
+     "hinweis": "Tomb Raider"
+    },
+    {
+     "wort": "Far Cry",
+     "hinweis": "Just Cause"
+    },
+    {
+     "wort": "Cyberpunk",
+     "hinweis": "Deus Ex"
+    },
+    {
+     "wort": "God of War",
+     "hinweis": "Ghost of Tsushima"
+    },
+    {
+     "wort": "Uncharted",
+     "hinweis": "Last of Us"
+    },
+    {
+     "wort": "Horizon",
+     "hinweis": "Death Stranding"
+    },
+    {
+     "wort": "Hollow Knight",
+     "hinweis": "Celeste"
+    },
+    {
+     "wort": "Stardew Valley",
+     "hinweis": "Terraria"
+    },
+    {
+     "wort": "Clash of Clans",
+     "hinweis": "Clash Royale"
+    },
+    {
+     "wort": "Brawl Stars",
+     "hinweis": "Hay Day"
+    },
+    {
+     "wort": "Pokémon Go",
+     "hinweis": "Ingress"
+    },
+    {
+     "wort": "Subway Surfers",
+     "hinweis": "Temple Run"
+    },
+    {
+     "wort": "Angry Birds",
+     "hinweis": "Cut the Rope"
+    },
+    {
+     "wort": "Wordle",
+     "hinweis": "Quizduell"
+    },
+    {
+     "wort": "Solitär",
+     "hinweis": "Minesweeper"
+    },
+    {
+     "wort": "Schach-App",
+     "hinweis": "Sudoku-App"
+    },
+    {
+     "wort": "Speedrun",
+     "hinweis": "Let's Play"
+    },
+    {
+     "wort": "Walkthrough",
+     "hinweis": "Tutorial"
+    },
+    {
+     "wort": "Twitch-Stream",
+     "hinweis": "YouTube-Video"
+    },
+    {
+     "wort": "E-Sport",
+     "hinweis": "LAN-Party"
+    },
+    {
+     "wort": "Turnier",
+     "hinweis": "Ranked Match"
+    },
+    {
+     "wort": "Clan",
+     "hinweis": "Gilde"
+    },
+    {
+     "wort": "Team",
+     "hinweis": "Squad"
+    },
+    {
+     "wort": "Noob",
+     "hinweis": "Pro"
+    },
+    {
+     "wort": "Casual Gamer",
+     "hinweis": "Hardcore Gamer"
+    },
+    {
+     "wort": "Camper",
+     "hinweis": "Rusher"
+    },
+    {
+     "wort": "Cheater",
+     "hinweis": "Hacker"
+    },
+    {
+     "wort": "AFK",
+     "hinweis": "Lag"
+    },
+    {
+     "wort": "Ping",
+     "hinweis": "FPS"
+    },
+    {
+     "wort": "Respawn",
+     "hinweis": "Checkpoint"
+    },
+    {
+     "wort": "Savegame",
+     "hinweis": "Autosave"
+    },
+    {
+     "wort": "Level",
+     "hinweis": "Mission"
+    },
+    {
+     "wort": "Quest",
+     "hinweis": "Nebenquest"
+    },
+    {
+     "wort": "Boss",
+     "hinweis": "Endgegner"
+    },
+    {
+     "wort": "NPC",
+     "hinweis": "Begleiter"
+    },
+    {
+     "wort": "Skin",
+     "hinweis": "Emote"
+    },
+    {
+     "wort": "Lootbox",
+     "hinweis": "Battle Pass"
+    },
+    {
+     "wort": "Skill Tree",
+     "hinweis": "Perk"
+    },
+    {
+     "wort": "XP",
+     "hinweis": "Loot"
+    },
+    {
+     "wort": "Inventar",
+     "hinweis": "Ausrüstung"
+    },
+    {
+     "wort": "Schwert",
+     "hinweis": "Bogen"
+    },
+    {
+     "wort": "Zaubertrank",
+     "hinweis": "Elixier"
+    },
+    {
+     "wort": "Rüstung",
+     "hinweis": "Schild"
+    },
+    {
+     "wort": "Heiler",
+     "hinweis": "Tank"
+    },
+    {
+     "wort": "Magier",
+     "hinweis": "Schurke"
+    },
+    {
+     "wort": "Krieger",
+     "hinweis": "Paladin"
+    },
+    {
+     "wort": "Open World",
+     "hinweis": "Sandbox"
+    },
+    {
+     "wort": "Singleplayer",
+     "hinweis": "Multiplayer"
+    },
+    {
+     "wort": "Koop-Modus",
+     "hinweis": "Splitscreen"
+    },
+    {
+     "wort": "Battle Royale",
+     "hinweis": "Deathmatch"
+    },
+    {
+     "wort": "Capture the Flag",
+     "hinweis": "Domination"
+    },
+    {
+     "wort": "Shooter",
+     "hinweis": "Strategiespiel"
+    },
+    {
+     "wort": "Rollenspiel",
+     "hinweis": "Simulation"
+    },
+    {
+     "wort": "Rennspiel",
+     "hinweis": "Sportspiel"
+    },
+    {
+     "wort": "Jump'n'Run",
+     "hinweis": "Puzzle-Spiel"
+    },
+    {
+     "wort": "Horror-Game",
+     "hinweis": "Survival-Game"
+    },
+    {
+     "wort": "Retro-Game",
+     "hinweis": "Remaster"
+    },
+    {
+     "wort": "Indie-Game",
+     "hinweis": "AAA-Titel"
+    },
+    {
+     "wort": "Early Access",
+     "hinweis": "Beta"
+    },
+    {
+     "wort": "DLC",
+     "hinweis": "Season Pass"
+    },
+    {
+     "wort": "Patch",
+     "hinweis": "Hotfix"
+    },
+    {
+     "wort": "Konsole",
+     "hinweis": "Emulator"
+    },
+    {
+     "wort": "Gaming-Stuhl",
+     "hinweis": "Schreibtischstuhl"
+    },
+    {
+     "wort": "Gaming-PC",
+     "hinweis": "Laptop"
+    },
+    {
+     "wort": "RGB-Beleuchtung",
+     "hinweis": "Mauspad"
+    },
+    {
+     "wort": "Headset",
+     "hinweis": "Boxen"
+    },
+    {
+     "wort": "VR-Brille",
+     "hinweis": "AR-Spiel"
+    },
+    {
+     "wort": "Motion Control",
+     "hinweis": "Lichtpistole"
+    }
+   ]
+  },
+  {
+   "name": "Körper & Gesundheit",
+   "paare": [
+    {
+     "wort": "Auge",
+     "hinweis": "Ohr"
+    },
+    {
+     "wort": "Nase",
+     "hinweis": "Mund"
+    },
+    {
+     "wort": "Zunge",
+     "hinweis": "Lippe"
+    },
+    {
+     "wort": "Zahn",
+     "hinweis": "Zahnfleisch"
+    },
+    {
+     "wort": "Haar",
+     "hinweis": "Wimper"
+    },
+    {
+     "wort": "Augenbraue",
+     "hinweis": "Bart"
+    },
+    {
+     "wort": "Stirn",
+     "hinweis": "Wange"
+    },
+    {
+     "wort": "Kinn",
+     "hinweis": "Kiefer"
+    },
+    {
+     "wort": "Hals",
+     "hinweis": "Nacken"
+    },
+    {
+     "wort": "Schulter",
+     "hinweis": "Ellbogen"
+    },
+    {
+     "wort": "Arm",
+     "hinweis": "Bein"
+    },
+    {
+     "wort": "Hand",
+     "hinweis": "Fuß"
+    },
+    {
+     "wort": "Finger",
+     "hinweis": "Zeh"
+    },
+    {
+     "wort": "Daumen",
+     "hinweis": "kleiner Finger"
+    },
+    {
+     "wort": "Fingernagel",
+     "hinweis": "Zehennagel"
+    },
+    {
+     "wort": "Handgelenk",
+     "hinweis": "Knöchel"
+    },
+    {
+     "wort": "Knie",
+     "hinweis": "Hüfte"
+    },
+    {
+     "wort": "Oberschenkel",
+     "hinweis": "Wade"
+    },
+    {
+     "wort": "Bauch",
+     "hinweis": "Rücken"
+    },
+    {
+     "wort": "Brust",
+     "hinweis": "Taille"
+    },
+    {
+     "wort": "Herz",
+     "hinweis": "Lunge"
+    },
+    {
+     "wort": "Leber",
+     "hinweis": "Niere"
+    },
+    {
+     "wort": "Magen",
+     "hinweis": "Darm"
+    },
+    {
+     "wort": "Gehirn",
+     "hinweis": "Rückenmark"
+    },
+    {
+     "wort": "Muskel",
+     "hinweis": "Sehne"
+    },
+    {
+     "wort": "Knochen",
+     "hinweis": "Knorpel"
+    },
+    {
+     "wort": "Gelenk",
+     "hinweis": "Wirbel"
+    },
+    {
+     "wort": "Haut",
+     "hinweis": "Schleimhaut"
+    },
+    {
+     "wort": "Blut",
+     "hinweis": "Lymphe"
+    },
+    {
+     "wort": "Ader",
+     "hinweis": "Arterie"
+    },
+    {
+     "wort": "Schnupfen",
+     "hinweis": "Husten"
+    },
+    {
+     "wort": "Erkältung",
+     "hinweis": "Grippe"
+    },
+    {
+     "wort": "Fieber",
+     "hinweis": "Schüttelfrost"
+    },
+    {
+     "wort": "Kopfschmerzen",
+     "hinweis": "Migräne"
+    },
+    {
+     "wort": "Bauchschmerzen",
+     "hinweis": "Übelkeit"
+    },
+    {
+     "wort": "Halsschmerzen",
+     "hinweis": "Heiserkeit"
+    },
+    {
+     "wort": "Allergie",
+     "hinweis": "Heuschnupfen"
+    },
+    {
+     "wort": "Ausschlag",
+     "hinweis": "Juckreiz"
+    },
+    {
+     "wort": "Sonnenbrand",
+     "hinweis": "Blase"
+    },
+    {
+     "wort": "Prellung",
+     "hinweis": "Bluterguss"
+    },
+    {
+     "wort": "Schnittwunde",
+     "hinweis": "Schürfwunde"
+    },
+    {
+     "wort": "Knochenbruch",
+     "hinweis": "Verstauchung"
+    },
+    {
+     "wort": "Zerrung",
+     "hinweis": "Muskelkater"
+    },
+    {
+     "wort": "Bänderriss",
+     "hinweis": "Meniskus"
+    },
+    {
+     "wort": "Gips",
+     "hinweis": "Schiene"
+    },
+    {
+     "wort": "Krücken",
+     "hinweis": "Rollstuhl"
+    },
+    {
+     "wort": "Pflaster",
+     "hinweis": "Mullbinde"
+    },
+    {
+     "wort": "Spritze",
+     "hinweis": "Impfung"
+    },
+    {
+     "wort": "Tablette",
+     "hinweis": "Zäpfchen"
+    },
+    {
+     "wort": "Hustensaft",
+     "hinweis": "Nasenspray"
+    },
+    {
+     "wort": "Antibiotikum",
+     "hinweis": "Schmerzmittel"
+    },
+    {
+     "wort": "Ibuprofen",
+     "hinweis": "Paracetamol"
+    },
+    {
+     "wort": "Vitamin C",
+     "hinweis": "Zink"
+    },
+    {
+     "wort": "Magnesium",
+     "hinweis": "Calcium"
+    },
+    {
+     "wort": "Homöopathie",
+     "hinweis": "Hausmittel"
+    },
+    {
+     "wort": "Kamillentee",
+     "hinweis": "Hühnersuppe"
+    },
+    {
+     "wort": "Wärmflasche",
+     "hinweis": "Kühlpack"
+    },
+    {
+     "wort": "Inhalieren",
+     "hinweis": "Gurgeln"
+    },
+    {
+     "wort": "Bettruhe",
+     "hinweis": "Krankschreibung"
+    },
+    {
+     "wort": "Arzttermin",
+     "hinweis": "Notaufnahme"
+    },
+    {
+     "wort": "Hausarzt",
+     "hinweis": "Facharzt"
+    },
+    {
+     "wort": "Kinderarzt",
+     "hinweis": "Frauenarzt"
+    },
+    {
+     "wort": "Hautarzt",
+     "hinweis": "Augenarzt"
+    },
+    {
+     "wort": "Orthopäde",
+     "hinweis": "Kardiologe"
+    },
+    {
+     "wort": "Röntgen",
+     "hinweis": "MRT"
+    },
+    {
+     "wort": "Ultraschall",
+     "hinweis": "EKG"
+    },
+    {
+     "wort": "Blutabnahme",
+     "hinweis": "Urinprobe"
+    },
+    {
+     "wort": "Blutdruck",
+     "hinweis": "Puls"
+    },
+    {
+     "wort": "Blutzucker",
+     "hinweis": "Cholesterin"
+    },
+    {
+     "wort": "Diagnose",
+     "hinweis": "Befund"
+    },
+    {
+     "wort": "Operation",
+     "hinweis": "Narkose"
+    },
+    {
+     "wort": "Naht",
+     "hinweis": "Narbe"
+    },
+    {
+     "wort": "Reha",
+     "hinweis": "Kur"
+    },
+    {
+     "wort": "Physiotherapie",
+     "hinweis": "Massage"
+    },
+    {
+     "wort": "Chiropraktiker",
+     "hinweis": "Osteopath"
+    },
+    {
+     "wort": "Zahnspange",
+     "hinweis": "Zahnprothese"
+    },
+    {
+     "wort": "Karies",
+     "hinweis": "Zahnstein"
+    },
+    {
+     "wort": "Wurzelbehandlung",
+     "hinweis": "Weisheitszahn-OP"
+    },
+    {
+     "wort": "Zahnreinigung",
+     "hinweis": "Bleaching"
+    },
+    {
+     "wort": "Brille",
+     "hinweis": "Sehtest"
+    },
+    {
+     "wort": "Kurzsichtig",
+     "hinweis": "Weitsichtig"
+    },
+    {
+     "wort": "Hörgerät",
+     "hinweis": "Hörtest"
+    },
+    {
+     "wort": "Schlaf",
+     "hinweis": "Mittagsschlaf"
+    },
+    {
+     "wort": "Schlaflosigkeit",
+     "hinweis": "Schnarchen"
+    },
+    {
+     "wort": "Traum",
+     "hinweis": "Albtraum"
+    },
+    {
+     "wort": "Stress",
+     "hinweis": "Burnout"
+    },
+    {
+     "wort": "Entspannung",
+     "hinweis": "Meditation"
+    },
+    {
+     "wort": "Diät",
+     "hinweis": "Fasten"
+    },
+    {
+     "wort": "Kalorien",
+     "hinweis": "Nährwerte"
+    },
+    {
+     "wort": "Proteine",
+     "hinweis": "Kohlenhydrate"
+    },
+    {
+     "wort": "Vegetarisch",
+     "hinweis": "Vegan"
+    },
+    {
+     "wort": "Bio",
+     "hinweis": "Regional"
+    },
+    {
+     "wort": "Zucker",
+     "hinweis": "Süßstoff"
+    },
+    {
+     "wort": "Übergewicht",
+     "hinweis": "Untergewicht"
+    },
+    {
+     "wort": "BMI",
+     "hinweis": "Körperfettanteil"
+    },
+    {
+     "wort": "Fitness",
+     "hinweis": "Ausdauer"
+    },
+    {
+     "wort": "Krafttraining",
+     "hinweis": "Cardio"
+    },
+    {
+     "wort": "Aufwärmen",
+     "hinweis": "Dehnen"
+    },
+    {
+     "wort": "Sixpack",
+     "hinweis": "Bizeps"
+    },
+    {
+     "wort": "Schrittzähler",
+     "hinweis": "Kalorienzähler"
+    }
+   ]
+  },
+  {
+   "name": "Kleidung & Mode",
+   "paare": [
+    {
+     "wort": "T-Shirt",
+     "hinweis": "Poloshirt"
+    },
+    {
+     "wort": "Hemd",
+     "hinweis": "Bluse"
+    },
+    {
+     "wort": "Pullover",
+     "hinweis": "Hoodie"
+    },
+    {
+     "wort": "Sweatshirt",
+     "hinweis": "Strickjacke"
+    },
+    {
+     "wort": "Jacke",
+     "hinweis": "Mantel"
+    },
+    {
+     "wort": "Jeans",
+     "hinweis": "Stoffhose"
+    },
+    {
+     "wort": "Shorts",
+     "hinweis": "Bermuda"
+    },
+    {
+     "wort": "Jogginghose",
+     "hinweis": "Leggings"
+    },
+    {
+     "wort": "Rock",
+     "hinweis": "Kleid"
+    },
+    {
+     "wort": "Minirock",
+     "hinweis": "Maxikleid"
+    },
+    {
+     "wort": "Anzug",
+     "hinweis": "Smoking"
+    },
+    {
+     "wort": "Krawatte",
+     "hinweis": "Fliege"
+    },
+    {
+     "wort": "Weste",
+     "hinweis": "Sakko"
+    },
+    {
+     "wort": "Abendkleid",
+     "hinweis": "Cocktailkleid"
+    },
+    {
+     "wort": "Brautkleid",
+     "hinweis": "Dirndl"
+    },
+    {
+     "wort": "Lederhose",
+     "hinweis": "Latzhose"
+    },
+    {
+     "wort": "Overall",
+     "hinweis": "Jumpsuit"
+    },
+    {
+     "wort": "Cargohose",
+     "hinweis": "Chino"
+    },
+    {
+     "wort": "Regenjacke",
+     "hinweis": "Windbreaker"
+    },
+    {
+     "wort": "Daunenjacke",
+     "hinweis": "Parka"
+    },
+    {
+     "wort": "Trenchcoat",
+     "hinweis": "Poncho"
+    },
+    {
+     "wort": "Blazer",
+     "hinweis": "Cardigan"
+    },
+    {
+     "wort": "Tanktop",
+     "hinweis": "Croptop"
+    },
+    {
+     "wort": "Unterhemd",
+     "hinweis": "Unterhose"
+    },
+    {
+     "wort": "Boxershorts",
+     "hinweis": "Slip"
+    },
+    {
+     "wort": "BH",
+     "hinweis": "Bustier"
+    },
+    {
+     "wort": "Socken",
+     "hinweis": "Strumpfhose"
+    },
+    {
+     "wort": "Kniestrümpfe",
+     "hinweis": "Sneakersocken"
+    },
+    {
+     "wort": "Schlafanzug",
+     "hinweis": "Nachthemd"
+    },
+    {
+     "wort": "Bademantel",
+     "hinweis": "Morgenmantel"
+    },
+    {
+     "wort": "Badehose",
+     "hinweis": "Badeanzug"
+    },
+    {
+     "wort": "Bikini",
+     "hinweis": "Tankini"
+    },
+    {
+     "wort": "Sneaker",
+     "hinweis": "Turnschuhe"
+    },
+    {
+     "wort": "Stiefel",
+     "hinweis": "Boots"
+    },
+    {
+     "wort": "Gummistiefel",
+     "hinweis": "Wanderschuhe"
+    },
+    {
+     "wort": "High Heels",
+     "hinweis": "Pumps"
+    },
+    {
+     "wort": "Ballerinas",
+     "hinweis": "Sandalen"
+    },
+    {
+     "wort": "Flip-Flops",
+     "hinweis": "Hausschuhe"
+    },
+    {
+     "wort": "Lackschuhe",
+     "hinweis": "Mokassins"
+    },
+    {
+     "wort": "Arbeitsschuhe",
+     "hinweis": "Sicherheitsschuhe"
+    },
+    {
+     "wort": "Mütze",
+     "hinweis": "Hut"
+    },
+    {
+     "wort": "Cap",
+     "hinweis": "Beanie"
+    },
+    {
+     "wort": "Strohhut",
+     "hinweis": "Zylinder"
+    },
+    {
+     "wort": "Stirnband",
+     "hinweis": "Haarband"
+    },
+    {
+     "wort": "Schal",
+     "hinweis": "Halstuch"
+    },
+    {
+     "wort": "Handschuhe",
+     "hinweis": "Fäustlinge"
+    },
+    {
+     "wort": "Gürtel",
+     "hinweis": "Hosenträger"
+    },
+    {
+     "wort": "Krawattennadel",
+     "hinweis": "Manschettenknöpfe"
+    },
+    {
+     "wort": "Ohrringe",
+     "hinweis": "Creolen"
+    },
+    {
+     "wort": "Kette",
+     "hinweis": "Armband"
+    },
+    {
+     "wort": "Ring",
+     "hinweis": "Ehering"
+    },
+    {
+     "wort": "Uhr",
+     "hinweis": "Smartwatch"
+    },
+    {
+     "wort": "Brosche",
+     "hinweis": "Anstecknadel"
+    },
+    {
+     "wort": "Piercing",
+     "hinweis": "Tattoo"
+    },
+    {
+     "wort": "Haarspange",
+     "hinweis": "Zopfgummi"
+    },
+    {
+     "wort": "Handtasche",
+     "hinweis": "Clutch"
+    },
+    {
+     "wort": "Rucksack",
+     "hinweis": "Umhängetasche"
+    },
+    {
+     "wort": "Bauchtasche",
+     "hinweis": "Brustbeutel"
+    },
+    {
+     "wort": "Shopper",
+     "hinweis": "Jutebeutel"
+    },
+    {
+     "wort": "Aktentasche",
+     "hinweis": "Laptoptasche"
+    },
+    {
+     "wort": "Sonnenbrille",
+     "hinweis": "Lesebrille"
+    },
+    {
+     "wort": "Regenschirm",
+     "hinweis": "Regencape"
+    },
+    {
+     "wort": "Fächer",
+     "hinweis": "Muff"
+    },
+    {
+     "wort": "Zara",
+     "hinweis": "H&M"
+    },
+    {
+     "wort": "Gucci",
+     "hinweis": "Prada"
+    },
+    {
+     "wort": "Louis Vuitton",
+     "hinweis": "Chanel"
+    },
+    {
+     "wort": "Adidas",
+     "hinweis": "Nike"
+    },
+    {
+     "wort": "Puma",
+     "hinweis": "Reebok"
+    },
+    {
+     "wort": "Levi's",
+     "hinweis": "Wrangler"
+    },
+    {
+     "wort": "Tommy Hilfiger",
+     "hinweis": "Ralph Lauren"
+    },
+    {
+     "wort": "Primark",
+     "hinweis": "KiK"
+    },
+    {
+     "wort": "C&A",
+     "hinweis": "Peek & Cloppenburg"
+    },
+    {
+     "wort": "Secondhand",
+     "hinweis": "Vintage"
+    },
+    {
+     "wort": "Designerstück",
+     "hinweis": "Fälschung"
+    },
+    {
+     "wort": "Maßanzug",
+     "hinweis": "Konfektionsware"
+    },
+    {
+     "wort": "Umkleidekabine",
+     "hinweis": "Spiegel"
+    },
+    {
+     "wort": "Kleiderbügel",
+     "hinweis": "Kleiderstange"
+    },
+    {
+     "wort": "Kleiderschrank",
+     "hinweis": "Kommode"
+    },
+    {
+     "wort": "Schuhregal",
+     "hinweis": "Garderobe"
+    },
+    {
+     "wort": "Wäschekorb",
+     "hinweis": "Wäscheleine"
+    },
+    {
+     "wort": "Bügeleisen",
+     "hinweis": "Dampfglätter"
+    },
+    {
+     "wort": "Nähmaschine",
+     "hinweis": "Nadel und Faden"
+    },
+    {
+     "wort": "Knopf",
+     "hinweis": "Reißverschluss"
+    },
+    {
+     "wort": "Klettverschluss",
+     "hinweis": "Druckknopf"
+    },
+    {
+     "wort": "Naht",
+     "hinweis": "Saum"
+    },
+    {
+     "wort": "Baumwolle",
+     "hinweis": "Leinen"
+    },
+    {
+     "wort": "Wolle",
+     "hinweis": "Kaschmir"
+    },
+    {
+     "wort": "Seide",
+     "hinweis": "Satin"
+    },
+    {
+     "wort": "Leder",
+     "hinweis": "Kunstleder"
+    },
+    {
+     "wort": "Polyester",
+     "hinweis": "Elasthan"
+    },
+    {
+     "wort": "Kariert",
+     "hinweis": "Gestreift"
+    },
+    {
+     "wort": "Gepunktet",
+     "hinweis": "Geblümt"
+    },
+    {
+     "wort": "Einfarbig",
+     "hinweis": "Gemustert"
+    },
+    {
+     "wort": "Modetrend",
+     "hinweis": "Klassiker"
+    },
+    {
+     "wort": "Fashion Week",
+     "hinweis": "Laufsteg"
+    },
+    {
+     "wort": "Model",
+     "hinweis": "Designer"
+    },
+    {
+     "wort": "Stylist",
+     "hinweis": "Personal Shopper"
+    },
+    {
+     "wort": "Kapselgarderobe",
+     "hinweis": "Fehlkauf"
+    },
+    {
+     "wort": "Sommerkollektion",
+     "hinweis": "Winterkollektion"
+    },
+    {
+     "wort": "Schlussverkauf",
+     "hinweis": "Rabattaktion"
+    }
+   ]
+  },
+  {
+   "name": "Schule & Studium",
+   "paare": [
+    {
+     "wort": "Mathe",
+     "hinweis": "Physik"
+    },
+    {
+     "wort": "Deutsch",
+     "hinweis": "Englisch"
+    },
+    {
+     "wort": "Biologie",
+     "hinweis": "Chemie"
+    },
+    {
+     "wort": "Geschichte",
+     "hinweis": "Erdkunde"
+    },
+    {
+     "wort": "Sport",
+     "hinweis": "Schwimmunterricht"
+    },
+    {
+     "wort": "Kunst",
+     "hinweis": "Musik"
+    },
+    {
+     "wort": "Religion",
+     "hinweis": "Ethik"
+    },
+    {
+     "wort": "Informatik",
+     "hinweis": "Technik"
+    },
+    {
+     "wort": "Französisch",
+     "hinweis": "Spanisch"
+    },
+    {
+     "wort": "Latein",
+     "hinweis": "Altgriechisch"
+    },
+    {
+     "wort": "Politik",
+     "hinweis": "Wirtschaft"
+    },
+    {
+     "wort": "Philosophie",
+     "hinweis": "Psychologie"
+    },
+    {
+     "wort": "Hausaufgaben",
+     "hinweis": "Referat"
+    },
+    {
+     "wort": "Klassenarbeit",
+     "hinweis": "Test"
+    },
+    {
+     "wort": "Klausur",
+     "hinweis": "Abschlussprüfung"
+    },
+    {
+     "wort": "Mündliche Note",
+     "hinweis": "Schriftliche Note"
+    },
+    {
+     "wort": "Zeugnis",
+     "hinweis": "Halbjahreszeugnis"
+    },
+    {
+     "wort": "Eins",
+     "hinweis": "Sechs"
+    },
+    {
+     "wort": "Sitzenbleiben",
+     "hinweis": "Versetzung"
+    },
+    {
+     "wort": "Nachhilfe",
+     "hinweis": "Lerngruppe"
+    },
+    {
+     "wort": "Abitur",
+     "hinweis": "Realschulabschluss"
+    },
+    {
+     "wort": "Grundschule",
+     "hinweis": "Gymnasium"
+    },
+    {
+     "wort": "Hauptschule",
+     "hinweis": "Gesamtschule"
+    },
+    {
+     "wort": "Internat",
+     "hinweis": "Privatschule"
+    },
+    {
+     "wort": "Berufsschule",
+     "hinweis": "Fachhochschule"
+    },
+    {
+     "wort": "Universität",
+     "hinweis": "Hochschule"
+    },
+    {
+     "wort": "Bachelor",
+     "hinweis": "Master"
+    },
+    {
+     "wort": "Doktor",
+     "hinweis": "Professor"
+    },
+    {
+     "wort": "Studium",
+     "hinweis": "Ausbildung"
+    },
+    {
+     "wort": "Praktikum",
+     "hinweis": "Werkstudentenjob"
+    },
+    {
+     "wort": "Vorlesung",
+     "hinweis": "Seminar"
+    },
+    {
+     "wort": "Tutorium",
+     "hinweis": "Übung"
+    },
+    {
+     "wort": "Hörsaal",
+     "hinweis": "Seminarraum"
+    },
+    {
+     "wort": "Mensa",
+     "hinweis": "Cafeteria"
+    },
+    {
+     "wort": "Bibliothek",
+     "hinweis": "Lernraum"
+    },
+    {
+     "wort": "Campus",
+     "hinweis": "Wohnheim"
+    },
+    {
+     "wort": "WG",
+     "hinweis": "Studentenbude"
+    },
+    {
+     "wort": "BAföG",
+     "hinweis": "Stipendium"
+    },
+    {
+     "wort": "Semester",
+     "hinweis": "Trimester"
+    },
+    {
+     "wort": "Semesterferien",
+     "hinweis": "Vorlesungsfreie Zeit"
+    },
+    {
+     "wort": "Erstsemester",
+     "hinweis": "Langzeitstudent"
+    },
+    {
+     "wort": "Kommilitone",
+     "hinweis": "Mitschüler"
+    },
+    {
+     "wort": "Dozent",
+     "hinweis": "Lehrbeauftragter"
+    },
+    {
+     "wort": "Dekan",
+     "hinweis": "Rektor"
+    },
+    {
+     "wort": "Hausarbeit",
+     "hinweis": "Essay"
+    },
+    {
+     "wort": "Bachelorarbeit",
+     "hinweis": "Masterarbeit"
+    },
+    {
+     "wort": "Doktorarbeit",
+     "hinweis": "Habilitation"
+    },
+    {
+     "wort": "Fußnote",
+     "hinweis": "Quellenangabe"
+    },
+    {
+     "wort": "Plagiat",
+     "hinweis": "Ghostwriter"
+    },
+    {
+     "wort": "Abgabefrist",
+     "hinweis": "Verlängerung"
+    },
+    {
+     "wort": "Lehrer",
+     "hinweis": "Referendar"
+    },
+    {
+     "wort": "Klassenlehrer",
+     "hinweis": "Vertrauenslehrer"
+    },
+    {
+     "wort": "Direktor",
+     "hinweis": "Konrektor"
+    },
+    {
+     "wort": "Hausmeister",
+     "hinweis": "Sekretärin"
+    },
+    {
+     "wort": "Schulpsychologe",
+     "hinweis": "Sozialarbeiter"
+    },
+    {
+     "wort": "Klassensprecher",
+     "hinweis": "Schülersprecher"
+    },
+    {
+     "wort": "Streber",
+     "hinweis": "Klassenclown"
+    },
+    {
+     "wort": "Schwänzen",
+     "hinweis": "Blaumachen"
+    },
+    {
+     "wort": "Spickzettel",
+     "hinweis": "Abschreiben"
+    },
+    {
+     "wort": "Nachsitzen",
+     "hinweis": "Verweis"
+    },
+    {
+     "wort": "Tafel",
+     "hinweis": "Whiteboard"
+    },
+    {
+     "wort": "Kreide",
+     "hinweis": "Boardmarker"
+    },
+    {
+     "wort": "Overheadprojektor",
+     "hinweis": "Beamer"
+    },
+    {
+     "wort": "Schulbuch",
+     "hinweis": "Arbeitsheft"
+    },
+    {
+     "wort": "Heft",
+     "hinweis": "Block"
+    },
+    {
+     "wort": "Federmäppchen",
+     "hinweis": "Schlampermäppchen"
+    },
+    {
+     "wort": "Füller",
+     "hinweis": "Kugelschreiber"
+    },
+    {
+     "wort": "Bleistift",
+     "hinweis": "Buntstift"
+    },
+    {
+     "wort": "Radiergummi",
+     "hinweis": "Spitzer"
+    },
+    {
+     "wort": "Lineal",
+     "hinweis": "Geodreieck"
+    },
+    {
+     "wort": "Zirkel",
+     "hinweis": "Taschenrechner"
+    },
+    {
+     "wort": "Schulranzen",
+     "hinweis": "Turnbeutel"
+    },
+    {
+     "wort": "Brotdose",
+     "hinweis": "Trinkflasche"
+    },
+    {
+     "wort": "Pausenhof",
+     "hinweis": "Klassenzimmer"
+    },
+    {
+     "wort": "Pausenbrot",
+     "hinweis": "Kioskbrötchen"
+    },
+    {
+     "wort": "Große Pause",
+     "hinweis": "Fünf-Minuten-Pause"
+    },
+    {
+     "wort": "Stundenplan",
+     "hinweis": "Vertretungsplan"
+    },
+    {
+     "wort": "Erste Stunde",
+     "hinweis": "Freistunde"
+    },
+    {
+     "wort": "Schulklingel",
+     "hinweis": "Gong"
+    },
+    {
+     "wort": "Schulweg",
+     "hinweis": "Schulbus"
+    },
+    {
+     "wort": "Klassenfahrt",
+     "hinweis": "Wandertag"
+    },
+    {
+     "wort": "Schüleraustausch",
+     "hinweis": "Auslandssemester"
+    },
+    {
+     "wort": "Projektwoche",
+     "hinweis": "Exkursion"
+    },
+    {
+     "wort": "Schulfest",
+     "hinweis": "Sommerfest"
+    },
+    {
+     "wort": "Bundesjugendspiele",
+     "hinweis": "Sportfest"
+    },
+    {
+     "wort": "Einschulung",
+     "hinweis": "Schultüte"
+    },
+    {
+     "wort": "Abschlussball",
+     "hinweis": "Abistreich"
+    },
+    {
+     "wort": "Abizeitung",
+     "hinweis": "Jahrbuch"
+    },
+    {
+     "wort": "Mottowoche",
+     "hinweis": "Letzter Schultag"
+    },
+    {
+     "wort": "Elternabend",
+     "hinweis": "Elternsprechtag"
+    },
+    {
+     "wort": "Vokabeln",
+     "hinweis": "Grammatik"
+    },
+    {
+     "wort": "Diktat",
+     "hinweis": "Aufsatz"
+    },
+    {
+     "wort": "Gedichtanalyse",
+     "hinweis": "Interpretation"
+    },
+    {
+     "wort": "Formelsammlung",
+     "hinweis": "Periodensystem"
+    },
+    {
+     "wort": "Bruchrechnen",
+     "hinweis": "Prozentrechnen"
+    },
+    {
+     "wort": "Gleichung",
+     "hinweis": "Funktion"
+    },
+    {
+     "wort": "Geometrie",
+     "hinweis": "Algebra"
+    },
+    {
+     "wort": "Experiment",
+     "hinweis": "Versuchsprotokoll"
+    },
+    {
+     "wort": "Mikroskop",
+     "hinweis": "Bunsenbrenner"
+    },
+    {
+     "wort": "Lernen",
+     "hinweis": "Prokrastinieren"
+    }
+   ]
+  },
+  {
+   "name": "Fahrzeuge & Verkehr",
+   "paare": [
+    {
+     "wort": "Auto",
+     "hinweis": "Motorrad"
+    },
+    {
+     "wort": "Fahrrad",
+     "hinweis": "E-Bike"
+    },
+    {
+     "wort": "Roller",
+     "hinweis": "Vespa"
+    },
+    {
+     "wort": "E-Scooter",
+     "hinweis": "Skateboard"
+    },
+    {
+     "wort": "Bus",
+     "hinweis": "Straßenbahn"
+    },
+    {
+     "wort": "U-Bahn",
+     "hinweis": "S-Bahn"
+    },
+    {
+     "wort": "Zug",
+     "hinweis": "ICE"
+    },
+    {
+     "wort": "Taxi",
+     "hinweis": "Uber"
+    },
+    {
+     "wort": "LKW",
+     "hinweis": "Transporter"
+    },
+    {
+     "wort": "Traktor",
+     "hinweis": "Mähdrescher"
+    },
+    {
+     "wort": "Bagger",
+     "hinweis": "Kran"
+    },
+    {
+     "wort": "Gabelstapler",
+     "hinweis": "Hubwagen"
+    },
+    {
+     "wort": "Müllwagen",
+     "hinweis": "Kehrmaschine"
+    },
+    {
+     "wort": "Feuerwehrauto",
+     "hinweis": "Krankenwagen"
+    },
+    {
+     "wort": "Polizeiauto",
+     "hinweis": "Zivilstreife"
+    },
+    {
+     "wort": "Cabrio",
+     "hinweis": "Coupé"
+    },
+    {
+     "wort": "Limousine",
+     "hinweis": "Kombi"
+    },
+    {
+     "wort": "SUV",
+     "hinweis": "Geländewagen"
+    },
+    {
+     "wort": "Kleinwagen",
+     "hinweis": "Mittelklassewagen"
+    },
+    {
+     "wort": "Sportwagen",
+     "hinweis": "Oldtimer"
+    },
+    {
+     "wort": "Elektroauto",
+     "hinweis": "Hybrid"
+    },
+    {
+     "wort": "Diesel",
+     "hinweis": "Benziner"
+    },
+    {
+     "wort": "Automatik",
+     "hinweis": "Schaltgetriebe"
+    },
+    {
+     "wort": "Vorderradantrieb",
+     "hinweis": "Allradantrieb"
+    },
+    {
+     "wort": "Wohnmobil",
+     "hinweis": "Wohnwagen"
+    },
+    {
+     "wort": "VW",
+     "hinweis": "Opel"
+    },
+    {
+     "wort": "BMW",
+     "hinweis": "Mercedes"
+    },
+    {
+     "wort": "Audi",
+     "hinweis": "Porsche"
+    },
+    {
+     "wort": "Ferrari",
+     "hinweis": "Lamborghini"
+    },
+    {
+     "wort": "Tesla",
+     "hinweis": "Polestar"
+    },
+    {
+     "wort": "Toyota",
+     "hinweis": "Honda"
+    },
+    {
+     "wort": "Ford",
+     "hinweis": "Chevrolet"
+    },
+    {
+     "wort": "Fiat",
+     "hinweis": "Renault"
+    },
+    {
+     "wort": "Skoda",
+     "hinweis": "Seat"
+    },
+    {
+     "wort": "Volvo",
+     "hinweis": "Saab"
+    },
+    {
+     "wort": "Golf",
+     "hinweis": "Polo"
+    },
+    {
+     "wort": "Käfer",
+     "hinweis": "Bulli"
+    },
+    {
+     "wort": "Mini",
+     "hinweis": "Smart"
+    },
+    {
+     "wort": "Pickup",
+     "hinweis": "Van"
+    },
+    {
+     "wort": "Quad",
+     "hinweis": "Trike"
+    },
+    {
+     "wort": "Harley Davidson",
+     "hinweis": "Chopper"
+    },
+    {
+     "wort": "Rennmotorrad",
+     "hinweis": "Enduro"
+    },
+    {
+     "wort": "Mofa",
+     "hinweis": "Moped"
+    },
+    {
+     "wort": "Segway",
+     "hinweis": "Hoverboard"
+    },
+    {
+     "wort": "Einrad",
+     "hinweis": "Tandem"
+    },
+    {
+     "wort": "Rennrad",
+     "hinweis": "Mountainbike"
+    },
+    {
+     "wort": "Hollandrad",
+     "hinweis": "Klapprad"
+    },
+    {
+     "wort": "Lastenrad",
+     "hinweis": "Anhänger"
+    },
+    {
+     "wort": "Dreirad",
+     "hinweis": "Laufrad"
+    },
+    {
+     "wort": "Bobbycar",
+     "hinweis": "Kettcar"
+    },
+    {
+     "wort": "Flugzeug",
+     "hinweis": "Hubschrauber"
+    },
+    {
+     "wort": "Jet",
+     "hinweis": "Propellermaschine"
+    },
+    {
+     "wort": "Segelflugzeug",
+     "hinweis": "Ultraleichtflugzeug"
+    },
+    {
+     "wort": "Zeppelin",
+     "hinweis": "Heißluftballon"
+    },
+    {
+     "wort": "Rakete",
+     "hinweis": "Space Shuttle"
+    },
+    {
+     "wort": "Schiff",
+     "hinweis": "Boot"
+    },
+    {
+     "wort": "Segelboot",
+     "hinweis": "Motorboot"
+    },
+    {
+     "wort": "Ruderboot",
+     "hinweis": "Tretboot"
+    },
+    {
+     "wort": "Kanu",
+     "hinweis": "Kajak"
+    },
+    {
+     "wort": "Jacht",
+     "hinweis": "Katamaran"
+    },
+    {
+     "wort": "Fähre",
+     "hinweis": "Kreuzfahrtschiff"
+    },
+    {
+     "wort": "Containerschiff",
+     "hinweis": "Tanker"
+    },
+    {
+     "wort": "U-Boot",
+     "hinweis": "Forschungsschiff"
+    },
+    {
+     "wort": "Schlauchboot",
+     "hinweis": "Rettungsboot"
+    },
+    {
+     "wort": "Floß",
+     "hinweis": "Gondel"
+    },
+    {
+     "wort": "Lenkrad",
+     "hinweis": "Lenker"
+    },
+    {
+     "wort": "Gaspedal",
+     "hinweis": "Bremspedal"
+    },
+    {
+     "wort": "Kupplung",
+     "hinweis": "Handbremse"
+    },
+    {
+     "wort": "Blinker",
+     "hinweis": "Warnblinker"
+    },
+    {
+     "wort": "Scheinwerfer",
+     "hinweis": "Rücklicht"
+    },
+    {
+     "wort": "Hupe",
+     "hinweis": "Lichthupe"
+    },
+    {
+     "wort": "Rückspiegel",
+     "hinweis": "Seitenspiegel"
+    },
+    {
+     "wort": "Scheibenwischer",
+     "hinweis": "Frostschutz"
+    },
+    {
+     "wort": "Kofferraum",
+     "hinweis": "Handschuhfach"
+    },
+    {
+     "wort": "Motorhaube",
+     "hinweis": "Auspuff"
+    },
+    {
+     "wort": "Reifen",
+     "hinweis": "Felge"
+    },
+    {
+     "wort": "Winterreifen",
+     "hinweis": "Sommerreifen"
+    },
+    {
+     "wort": "Ersatzrad",
+     "hinweis": "Reifenpanne"
+    },
+    {
+     "wort": "Tank",
+     "hinweis": "Ladesäule"
+    },
+    {
+     "wort": "Ölwechsel",
+     "hinweis": "Inspektion"
+    },
+    {
+     "wort": "TÜV",
+     "hinweis": "Hauptuntersuchung"
+    },
+    {
+     "wort": "Werkstatt",
+     "hinweis": "Autohaus"
+    },
+    {
+     "wort": "Waschanlage",
+     "hinweis": "Handwäsche"
+    },
+    {
+     "wort": "Parkplatz",
+     "hinweis": "Parkhaus"
+    },
+    {
+     "wort": "Parkscheibe",
+     "hinweis": "Parkticket"
+    },
+    {
+     "wort": "Ampel",
+     "hinweis": "Zebrastreifen"
+    },
+    {
+     "wort": "Kreisverkehr",
+     "hinweis": "Kreuzung"
+    },
+    {
+     "wort": "Autobahn",
+     "hinweis": "Bundesstraße"
+    },
+    {
+     "wort": "Einbahnstraße",
+     "hinweis": "Sackgasse"
+    },
+    {
+     "wort": "Spielstraße",
+     "hinweis": "Fußgängerzone"
+    },
+    {
+     "wort": "Tempolimit",
+     "hinweis": "Blitzer"
+    },
+    {
+     "wort": "Radarfalle",
+     "hinweis": "Abstandsmessung"
+    },
+    {
+     "wort": "Strafzettel",
+     "hinweis": "Punkte in Flensburg"
+    },
+    {
+     "wort": "Führerschein",
+     "hinweis": "Fahrverbot"
+    },
+    {
+     "wort": "Fahrschule",
+     "hinweis": "Fahrprüfung"
+    },
+    {
+     "wort": "Stau",
+     "hinweis": "Stop-and-Go"
+    },
+    {
+     "wort": "Umleitung",
+     "hinweis": "Baustelle"
+    },
+    {
+     "wort": "Rastplatz",
+     "hinweis": "Raststätte"
+    },
+    {
+     "wort": "Anhalter",
+     "hinweis": "Mitfahrgelegenheit"
+    },
+    {
+     "wort": "Carsharing",
+     "hinweis": "Leihwagen"
+    }
+   ]
+  },
+  {
+   "name": "Märchen & Fantasy",
+   "paare": [
+    {
+     "wort": "Hexe",
+     "hinweis": "Zauberin"
+    },
+    {
+     "wort": "Zauberer",
+     "hinweis": "Magier"
+    },
+    {
+     "wort": "Fee",
+     "hinweis": "Elfe"
+    },
+    {
+     "wort": "Zwerg",
+     "hinweis": "Kobold"
+    },
+    {
+     "wort": "Riese",
+     "hinweis": "Oger"
+    },
+    {
+     "wort": "Drache",
+     "hinweis": "Lindwurm"
+    },
+    {
+     "wort": "Einhorn",
+     "hinweis": "Pegasus"
+    },
+    {
+     "wort": "Meerjungfrau",
+     "hinweis": "Nixe"
+    },
+    {
+     "wort": "Werwolf",
+     "hinweis": "Vampir"
+    },
+    {
+     "wort": "Geist",
+     "hinweis": "Poltergeist"
+    },
+    {
+     "wort": "Gespenst",
+     "hinweis": "Skelett"
+    },
+    {
+     "wort": "Zombie",
+     "hinweis": "Mumie"
+    },
+    {
+     "wort": "Troll",
+     "hinweis": "Golem"
+    },
+    {
+     "wort": "Ork",
+     "hinweis": "Goblin"
+    },
+    {
+     "wort": "Elf",
+     "hinweis": "Halbelf"
+    },
+    {
+     "wort": "Prinz",
+     "hinweis": "Prinzessin"
+    },
+    {
+     "wort": "König",
+     "hinweis": "Königin"
+    },
+    {
+     "wort": "Ritter",
+     "hinweis": "Knappe"
+    },
+    {
+     "wort": "Burgfräulein",
+     "hinweis": "Hofdame"
+    },
+    {
+     "wort": "Hofnarr",
+     "hinweis": "Barde"
+    },
+    {
+     "wort": "Schwert",
+     "hinweis": "Dolch"
+    },
+    {
+     "wort": "Zauberstab",
+     "hinweis": "Zepter"
+    },
+    {
+     "wort": "Schild",
+     "hinweis": "Rüstung"
+    },
+    {
+     "wort": "Bogen",
+     "hinweis": "Armbrust"
+    },
+    {
+     "wort": "Lanze",
+     "hinweis": "Streitaxt"
+    },
+    {
+     "wort": "Krone",
+     "hinweis": "Diadem"
+    },
+    {
+     "wort": "Thron",
+     "hinweis": "Königreich"
+    },
+    {
+     "wort": "Burg",
+     "hinweis": "Palast"
+    },
+    {
+     "wort": "Turm",
+     "hinweis": "Verlies"
+    },
+    {
+     "wort": "Zugbrücke",
+     "hinweis": "Burggraben"
+    },
+    {
+     "wort": "Zaubertrank",
+     "hinweis": "Elixier"
+    },
+    {
+     "wort": "Zauberspruch",
+     "hinweis": "Fluch"
+    },
+    {
+     "wort": "Kristallkugel",
+     "hinweis": "Zauberspiegel"
+    },
+    {
+     "wort": "Zauberbuch",
+     "hinweis": "Schriftrolle"
+    },
+    {
+     "wort": "Amulett",
+     "hinweis": "Talisman"
+    },
+    {
+     "wort": "Schatz",
+     "hinweis": "Goldtopf"
+    },
+    {
+     "wort": "Schatzkarte",
+     "hinweis": "Kompass"
+    },
+    {
+     "wort": "Truhe",
+     "hinweis": "Beutel"
+    },
+    {
+     "wort": "Diamant",
+     "hinweis": "Zauberstein"
+    },
+    {
+     "wort": "Ring der Macht",
+     "hinweis": "Zauberring"
+    },
+    {
+     "wort": "Rotkäppchen",
+     "hinweis": "Schneewittchen"
+    },
+    {
+     "wort": "Aschenputtel",
+     "hinweis": "Dornröschen"
+    },
+    {
+     "wort": "Rapunzel",
+     "hinweis": "Goldmarie"
+    },
+    {
+     "wort": "Hänsel und Gretel",
+     "hinweis": "Brüderchen und Schwesterchen"
+    },
+    {
+     "wort": "Froschkönig",
+     "hinweis": "Gestiefelter Kater"
+    },
+    {
+     "wort": "Rumpelstilzchen",
+     "hinweis": "Däumling"
+    },
+    {
+     "wort": "Schneeweißchen",
+     "hinweis": "Rosenrot"
+    },
+    {
+     "wort": "Bremer Stadtmusikanten",
+     "hinweis": "Wolf und sieben Geißlein"
+    },
+    {
+     "wort": "Sterntaler",
+     "hinweis": "Frau Holle"
+    },
+    {
+     "wort": "Hans im Glück",
+     "hinweis": "Tapferes Schneiderlein"
+    },
+    {
+     "wort": "Böse Stiefmutter",
+     "hinweis": "Böse Königin"
+    },
+    {
+     "wort": "Gute Fee",
+     "hinweis": "Patin"
+    },
+    {
+     "wort": "Jäger",
+     "hinweis": "Holzfäller"
+    },
+    {
+     "wort": "Müller",
+     "hinweis": "Schäfer"
+    },
+    {
+     "wort": "Riesenbohne",
+     "hinweis": "Kürbiskutsche"
+    },
+    {
+     "wort": "Spinnrad",
+     "hinweis": "Spindel"
+    },
+    {
+     "wort": "Vergifteter Apfel",
+     "hinweis": "Verwunschene Rose"
+    },
+    {
+     "wort": "Gläserner Sarg",
+     "hinweis": "Ewiger Schlaf"
+    },
+    {
+     "wort": "Wahre Liebe",
+     "hinweis": "Erster Kuss"
+    },
+    {
+     "wort": "Happy End",
+     "hinweis": "Es war einmal"
+    },
+    {
+     "wort": "Gandalf",
+     "hinweis": "Dumbledore"
+    },
+    {
+     "wort": "Frodo",
+     "hinweis": "Bilbo"
+    },
+    {
+     "wort": "Gollum",
+     "hinweis": "Smeagol"
+    },
+    {
+     "wort": "Legolas",
+     "hinweis": "Aragorn"
+    },
+    {
+     "wort": "Sauron",
+     "hinweis": "Voldemort"
+    },
+    {
+     "wort": "Hogwarts",
+     "hinweis": "Zauberschule"
+    },
+    {
+     "wort": "Gryffindor",
+     "hinweis": "Slytherin"
+    },
+    {
+     "wort": "Quidditch",
+     "hinweis": "Besenflug"
+    },
+    {
+     "wort": "Muggel",
+     "hinweis": "Squib"
+    },
+    {
+     "wort": "Zauberstab-Duell",
+     "hinweis": "Patronus"
+    },
+    {
+     "wort": "Narnia",
+     "hinweis": "Mittelerde"
+    },
+    {
+     "wort": "Westeros",
+     "hinweis": "Winterfell"
+    },
+    {
+     "wort": "Drachenreiter",
+     "hinweis": "Drachenzähmer"
+    },
+    {
+     "wort": "Phönix",
+     "hinweis": "Greif"
+    },
+    {
+     "wort": "Basilisk",
+     "hinweis": "Hydra"
+    },
+    {
+     "wort": "Zentaur",
+     "hinweis": "Minotaurus"
+    },
+    {
+     "wort": "Sphinx",
+     "hinweis": "Chimära"
+    },
+    {
+     "wort": "Zyklop",
+     "hinweis": "Titan"
+    },
+    {
+     "wort": "Medusa",
+     "hinweis": "Gorgone"
+    },
+    {
+     "wort": "Kraken",
+     "hinweis": "Seeungeheuer"
+    },
+    {
+     "wort": "Yeti",
+     "hinweis": "Bigfoot"
+    },
+    {
+     "wort": "Loch-Ness-Monster",
+     "hinweis": "Chupacabra"
+    },
+    {
+     "wort": "Alien",
+     "hinweis": "UFO"
+    },
+    {
+     "wort": "Zeitreise",
+     "hinweis": "Portal"
+    },
+    {
+     "wort": "Parallelwelt",
+     "hinweis": "Traumwelt"
+    },
+    {
+     "wort": "Unsichtbarkeitsumhang",
+     "hinweis": "Tarnkappe"
+    },
+    {
+     "wort": "Fliegender Teppich",
+     "hinweis": "Siebenmeilenstiefel"
+    },
+    {
+     "wort": "Wunderlampe",
+     "hinweis": "Flaschengeist"
+    },
+    {
+     "wort": "Drei Wünsche",
+     "hinweis": "Wunschbrunnen"
+    },
+    {
+     "wort": "Glücksbringer",
+     "hinweis": "Hufeisen"
+    },
+    {
+     "wort": "Orakel",
+     "hinweis": "Prophezeiung"
+    },
+    {
+     "wort": "Schicksal",
+     "hinweis": "Bestimmung"
+    },
+    {
+     "wort": "Auserwählter",
+     "hinweis": "Held"
+    },
+    {
+     "wort": "Bösewicht",
+     "hinweis": "Erzfeind"
+    },
+    {
+     "wort": "Verwandlung",
+     "hinweis": "Verzauberung"
+    },
+    {
+     "wort": "Sage",
+     "hinweis": "Legende"
+    },
+    {
+     "wort": "Mythos",
+     "hinweis": "Fabel"
+    },
+    {
+     "wort": "Lagerfeuergeschichte",
+     "hinweis": "Gruselgeschichte"
+    },
+    {
+     "wort": "Gebrüder Grimm",
+     "hinweis": "Hans Christian Andersen"
+    },
+    {
+     "wort": "1001 Nacht",
+     "hinweis": "Sindbad"
+    }
+   ]
+  },
+  {
+   "name": "Promis & Stars",
+   "paare": [
+    {
+     "wort": "Angela Merkel",
+     "hinweis": "Olaf Scholz"
+    },
+    {
+     "wort": "Barack Obama",
+     "hinweis": "Joe Biden"
+    },
+    {
+     "wort": "Donald Trump",
+     "hinweis": "Elon Musk"
+    },
+    {
+     "wort": "Wladimir Putin",
+     "hinweis": "Kim Jong-un"
+    },
+    {
+     "wort": "Königin Elizabeth",
+     "hinweis": "König Charles"
+    },
+    {
+     "wort": "Prinz William",
+     "hinweis": "Prinz Harry"
+    },
+    {
+     "wort": "Meghan Markle",
+     "hinweis": "Kate Middleton"
+    },
+    {
+     "wort": "Papst Franziskus",
+     "hinweis": "Dalai Lama"
+    },
+    {
+     "wort": "Albert Einstein",
+     "hinweis": "Isaac Newton"
+    },
+    {
+     "wort": "Stephen Hawking",
+     "hinweis": "Nikola Tesla"
+    },
+    {
+     "wort": "Leonardo da Vinci",
+     "hinweis": "Michelangelo"
+    },
+    {
+     "wort": "Picasso",
+     "hinweis": "Van Gogh"
+    },
+    {
+     "wort": "Mozart",
+     "hinweis": "Beethoven"
+    },
+    {
+     "wort": "Shakespeare",
+     "hinweis": "Goethe"
+    },
+    {
+     "wort": "Napoleon",
+     "hinweis": "Julius Cäsar"
+    },
+    {
+     "wort": "Kleopatra",
+     "hinweis": "Nofretete"
+    },
+    {
+     "wort": "Christoph Kolumbus",
+     "hinweis": "Marco Polo"
+    },
+    {
+     "wort": "Neil Armstrong",
+     "hinweis": "Juri Gagarin"
+    },
+    {
+     "wort": "Mahatma Gandhi",
+     "hinweis": "Nelson Mandela"
+    },
+    {
+     "wort": "Martin Luther King",
+     "hinweis": "Rosa Parks"
+    },
+    {
+     "wort": "Steve Jobs",
+     "hinweis": "Bill Gates"
+    },
+    {
+     "wort": "Mark Zuckerberg",
+     "hinweis": "Jeff Bezos"
+    },
+    {
+     "wort": "Warren Buffett",
+     "hinweis": "George Soros"
+    },
+    {
+     "wort": "Cristiano Ronaldo",
+     "hinweis": "Lionel Messi"
+    },
+    {
+     "wort": "Neymar",
+     "hinweis": "Mbappé"
+    },
+    {
+     "wort": "Manuel Neuer",
+     "hinweis": "Oliver Kahn"
+    },
+    {
+     "wort": "Thomas Müller",
+     "hinweis": "Bastian Schweinsteiger"
+    },
+    {
+     "wort": "Jürgen Klopp",
+     "hinweis": "Pep Guardiola"
+    },
+    {
+     "wort": "Franz Beckenbauer",
+     "hinweis": "Gerd Müller"
+    },
+    {
+     "wort": "Toni Kroos",
+     "hinweis": "Mesut Özil"
+    },
+    {
+     "wort": "Michael Schumacher",
+     "hinweis": "Sebastian Vettel"
+    },
+    {
+     "wort": "Lewis Hamilton",
+     "hinweis": "Max Verstappen"
+    },
+    {
+     "wort": "Boris Becker",
+     "hinweis": "Steffi Graf"
+    },
+    {
+     "wort": "Roger Federer",
+     "hinweis": "Rafael Nadal"
+    },
+    {
+     "wort": "Novak Djokovic",
+     "hinweis": "Andy Murray"
+    },
+    {
+     "wort": "Serena Williams",
+     "hinweis": "Venus Williams"
+    },
+    {
+     "wort": "Usain Bolt",
+     "hinweis": "Carl Lewis"
+    },
+    {
+     "wort": "Michael Jordan",
+     "hinweis": "LeBron James"
+    },
+    {
+     "wort": "Muhammad Ali",
+     "hinweis": "Mike Tyson"
+    },
+    {
+     "wort": "Wladimir Klitschko",
+     "hinweis": "Vitali Klitschko"
+    },
+    {
+     "wort": "Dirk Nowitzki",
+     "hinweis": "Dennis Schröder"
+    },
+    {
+     "wort": "Tom Brady",
+     "hinweis": "Michael Phelps"
+    },
+    {
+     "wort": "Tiger Woods",
+     "hinweis": "Bernhard Langer"
+    },
+    {
+     "wort": "Jan Frodeno",
+     "hinweis": "Felix Neureuther"
+    },
+    {
+     "wort": "Angelique Kerber",
+     "hinweis": "Alexander Zverev"
+    },
+    {
+     "wort": "Brad Pitt",
+     "hinweis": "George Clooney"
+    },
+    {
+     "wort": "Leonardo DiCaprio",
+     "hinweis": "Johnny Depp"
+    },
+    {
+     "wort": "Tom Cruise",
+     "hinweis": "Tom Hanks"
+    },
+    {
+     "wort": "Will Smith",
+     "hinweis": "Denzel Washington"
+    },
+    {
+     "wort": "Dwayne Johnson",
+     "hinweis": "Vin Diesel"
+    },
+    {
+     "wort": "Arnold Schwarzenegger",
+     "hinweis": "Sylvester Stallone"
+    },
+    {
+     "wort": "Keanu Reeves",
+     "hinweis": "Hugh Jackman"
+    },
+    {
+     "wort": "Robert Downey Jr.",
+     "hinweis": "Chris Hemsworth"
+    },
+    {
+     "wort": "Ryan Reynolds",
+     "hinweis": "Ryan Gosling"
+    },
+    {
+     "wort": "Morgan Freeman",
+     "hinweis": "Samuel L. Jackson"
+    },
+    {
+     "wort": "Angelina Jolie",
+     "hinweis": "Jennifer Aniston"
+    },
+    {
+     "wort": "Julia Roberts",
+     "hinweis": "Sandra Bullock"
+    },
+    {
+     "wort": "Scarlett Johansson",
+     "hinweis": "Natalie Portman"
+    },
+    {
+     "wort": "Emma Watson",
+     "hinweis": "Emma Stone"
+    },
+    {
+     "wort": "Jennifer Lawrence",
+     "hinweis": "Anne Hathaway"
+    },
+    {
+     "wort": "Meryl Streep",
+     "hinweis": "Nicole Kidman"
+    },
+    {
+     "wort": "Margot Robbie",
+     "hinweis": "Gal Gadot"
+    },
+    {
+     "wort": "Zendaya",
+     "hinweis": "Selena Gomez"
+    },
+    {
+     "wort": "Til Schweiger",
+     "hinweis": "Matthias Schweighöfer"
+    },
+    {
+     "wort": "Elyas M'Barek",
+     "hinweis": "Florian David Fitz"
+    },
+    {
+     "wort": "Daniel Craig",
+     "hinweis": "Pierce Brosnan"
+    },
+    {
+     "wort": "Heath Ledger",
+     "hinweis": "Joaquin Phoenix"
+    },
+    {
+     "wort": "Jim Carrey",
+     "hinweis": "Adam Sandler"
+    },
+    {
+     "wort": "Eddie Murphy",
+     "hinweis": "Kevin Hart"
+    },
+    {
+     "wort": "Mr. Bean",
+     "hinweis": "Charlie Chaplin"
+    },
+    {
+     "wort": "Michael Jackson",
+     "hinweis": "Elvis Presley"
+    },
+    {
+     "wort": "Madonna",
+     "hinweis": "Lady Gaga"
+    },
+    {
+     "wort": "Beyoncé",
+     "hinweis": "Rihanna"
+    },
+    {
+     "wort": "Taylor Swift",
+     "hinweis": "Katy Perry"
+    },
+    {
+     "wort": "Ariana Grande",
+     "hinweis": "Miley Cyrus"
+    },
+    {
+     "wort": "Justin Bieber",
+     "hinweis": "Shawn Mendes"
+    },
+    {
+     "wort": "Ed Sheeran",
+     "hinweis": "Harry Styles"
+    },
+    {
+     "wort": "Adele",
+     "hinweis": "Amy Winehouse"
+    },
+    {
+     "wort": "Billie Eilish",
+     "hinweis": "Dua Lipa"
+    },
+    {
+     "wort": "Eminem",
+     "hinweis": "Snoop Dogg"
+    },
+    {
+     "wort": "Helene Fischer",
+     "hinweis": "Beatrice Egli"
+    },
+    {
+     "wort": "Udo Lindenberg",
+     "hinweis": "Herbert Grönemeyer"
+    },
+    {
+     "wort": "Peter Maffay",
+     "hinweis": "Marius Müller-Westernhagen"
+    },
+    {
+     "wort": "Andreas Gabalier",
+     "hinweis": "DJ Ötzi"
+    },
+    {
+     "wort": "Roland Kaiser",
+     "hinweis": "Howard Carpendale"
+    },
+    {
+     "wort": "Dieter Bohlen",
+     "hinweis": "Thomas Gottschalk"
+    },
+    {
+     "wort": "Stefan Raab",
+     "hinweis": "Günther Jauch"
+    },
+    {
+     "wort": "Joko Winterscheidt",
+     "hinweis": "Klaas Heufer-Umlauf"
+    },
+    {
+     "wort": "Barbara Schöneberger",
+     "hinweis": "Michelle Hunziker"
+    },
+    {
+     "wort": "Heidi Klum",
+     "hinweis": "Sylvie Meis"
+    },
+    {
+     "wort": "Oliver Pocher",
+     "hinweis": "Mario Barth"
+    },
+    {
+     "wort": "Carolin Kebekus",
+     "hinweis": "Hazel Brugger"
+    },
+    {
+     "wort": "Otto Waalkes",
+     "hinweis": "Helge Schneider"
+    },
+    {
+     "wort": "Bully Herbig",
+     "hinweis": "Rick Kavanian"
+    },
+    {
+     "wort": "Anke Engelke",
+     "hinweis": "Bastian Pastewka"
+    },
+    {
+     "wort": "Kim Kardashian",
+     "hinweis": "Paris Hilton"
+    },
+    {
+     "wort": "Kylie Jenner",
+     "hinweis": "Kendall Jenner"
+    },
+    {
+     "wort": "MontanaBlack",
+     "hinweis": "Knossi"
+    },
+    {
+     "wort": "Bibi",
+     "hinweis": "Dagi Bee"
+    },
+    {
+     "wort": "Julien Bam",
+     "hinweis": "Rezo"
+    }
+   ]
+  },
+  {
+   "name": "Marken & Produkte",
+   "paare": [
+    {
+     "wort": "Coca-Cola",
+     "hinweis": "Pepsi"
+    },
+    {
+     "wort": "McDonald's",
+     "hinweis": "Burger King"
+    },
+    {
+     "wort": "KFC",
+     "hinweis": "Subway"
+    },
+    {
+     "wort": "Aldi",
+     "hinweis": "Lidl"
+    },
+    {
+     "wort": "Rewe",
+     "hinweis": "Edeka"
+    },
+    {
+     "wort": "Netto",
+     "hinweis": "Penny"
+    },
+    {
+     "wort": "Kaufland",
+     "hinweis": "Real"
+    },
+    {
+     "wort": "dm",
+     "hinweis": "Rossmann"
+    },
+    {
+     "wort": "Ikea",
+     "hinweis": "XXXLutz"
+    },
+    {
+     "wort": "Obi",
+     "hinweis": "Hornbach"
+    },
+    {
+     "wort": "Bauhaus",
+     "hinweis": "Toom"
+    },
+    {
+     "wort": "Media Markt",
+     "hinweis": "Saturn"
+    },
+    {
+     "wort": "Apple",
+     "hinweis": "Samsung"
+    },
+    {
+     "wort": "Sony",
+     "hinweis": "LG"
+    },
+    {
+     "wort": "Philips",
+     "hinweis": "Bosch"
+    },
+    {
+     "wort": "Siemens",
+     "hinweis": "Miele"
+    },
+    {
+     "wort": "AEG",
+     "hinweis": "Bauknecht"
+    },
+    {
+     "wort": "Nike",
+     "hinweis": "Adidas"
+    },
+    {
+     "wort": "Puma",
+     "hinweis": "Under Armour"
+    },
+    {
+     "wort": "New Balance",
+     "hinweis": "Asics"
+    },
+    {
+     "wort": "H&M",
+     "hinweis": "Zara"
+    },
+    {
+     "wort": "C&A",
+     "hinweis": "Ernsting's Family"
+    },
+    {
+     "wort": "Deichmann",
+     "hinweis": "Görtz"
+    },
+    {
+     "wort": "Amazon",
+     "hinweis": "Otto"
+    },
+    {
+     "wort": "Zalando",
+     "hinweis": "About You"
+    },
+    {
+     "wort": "eBay",
+     "hinweis": "Kleinanzeigen"
+    },
+    {
+     "wort": "Lego",
+     "hinweis": "Playmobil"
+    },
+    {
+     "wort": "Barbie",
+     "hinweis": "Bratz"
+    },
+    {
+     "wort": "Hot Wheels",
+     "hinweis": "Matchbox"
+    },
+    {
+     "wort": "Ravensburger",
+     "hinweis": "Kosmos"
+    },
+    {
+     "wort": "Haribo",
+     "hinweis": "Katjes"
+    },
+    {
+     "wort": "Milka",
+     "hinweis": "Ritter Sport"
+    },
+    {
+     "wort": "Lindt",
+     "hinweis": "Ferrero"
+    },
+    {
+     "wort": "Kinder Schokolade",
+     "hinweis": "Duplo"
+    },
+    {
+     "wort": "Snickers",
+     "hinweis": "Mars"
+    },
+    {
+     "wort": "Twix",
+     "hinweis": "KitKat"
+    },
+    {
+     "wort": "M&Ms",
+     "hinweis": "Smarties"
+    },
+    {
+     "wort": "Oreo",
+     "hinweis": "Prinzenrolle"
+    },
+    {
+     "wort": "Leibniz",
+     "hinweis": "Bahlsen"
+    },
+    {
+     "wort": "Nutella",
+     "hinweis": "Milram"
+    },
+    {
+     "wort": "Nestlé",
+     "hinweis": "Danone"
+    },
+    {
+     "wort": "Müller",
+     "hinweis": "Ehrmann"
+    },
+    {
+     "wort": "Alpro",
+     "hinweis": "Oatly"
+    },
+    {
+     "wort": "Red Bull",
+     "hinweis": "Monster"
+    },
+    {
+     "wort": "Fanta",
+     "hinweis": "Sprite"
+    },
+    {
+     "wort": "Volvic",
+     "hinweis": "Evian"
+    },
+    {
+     "wort": "Gerolsteiner",
+     "hinweis": "Apollinaris"
+    },
+    {
+     "wort": "Krombacher",
+     "hinweis": "Bitburger"
+    },
+    {
+     "wort": "Warsteiner",
+     "hinweis": "Veltins"
+    },
+    {
+     "wort": "Beck's",
+     "hinweis": "Heineken"
+    },
+    {
+     "wort": "Paulaner",
+     "hinweis": "Erdinger"
+    },
+    {
+     "wort": "Jack Daniel's",
+     "hinweis": "Jim Beam"
+    },
+    {
+     "wort": "Absolut",
+     "hinweis": "Smirnoff"
+    },
+    {
+     "wort": "Bacardi",
+     "hinweis": "Captain Morgan"
+    },
+    {
+     "wort": "Jägermeister",
+     "hinweis": "Ramazzotti"
+    },
+    {
+     "wort": "Marlboro",
+     "hinweis": "Camel"
+    },
+    {
+     "wort": "Tempo",
+     "hinweis": "Zewa"
+    },
+    {
+     "wort": "Pampers",
+     "hinweis": "Hipp"
+    },
+    {
+     "wort": "Nivea",
+     "hinweis": "Dove"
+    },
+    {
+     "wort": "L'Oréal",
+     "hinweis": "Maybelline"
+    },
+    {
+     "wort": "Gillette",
+     "hinweis": "Wilkinson"
+    },
+    {
+     "wort": "Colgate",
+     "hinweis": "Elmex"
+    },
+    {
+     "wort": "Oral-B",
+     "hinweis": "Sensodyne"
+    },
+    {
+     "wort": "Head & Shoulders",
+     "hinweis": "Schwarzkopf"
+    },
+    {
+     "wort": "Axe",
+     "hinweis": "Old Spice"
+    },
+    {
+     "wort": "Persil",
+     "hinweis": "Ariel"
+    },
+    {
+     "wort": "Lenor",
+     "hinweis": "Vernel"
+    },
+    {
+     "wort": "Pril",
+     "hinweis": "Fairy"
+    },
+    {
+     "wort": "Sagrotan",
+     "hinweis": "Frosch"
+    },
+    {
+     "wort": "WD-40",
+     "hinweis": "Ballistol"
+    },
+    {
+     "wort": "Tesla",
+     "hinweis": "BMW"
+    },
+    {
+     "wort": "Mercedes",
+     "hinweis": "Audi"
+    },
+    {
+     "wort": "VW",
+     "hinweis": "Toyota"
+    },
+    {
+     "wort": "Shell",
+     "hinweis": "Aral"
+    },
+    {
+     "wort": "Esso",
+     "hinweis": "Total"
+    },
+    {
+     "wort": "Lufthansa",
+     "hinweis": "Ryanair"
+    },
+    {
+     "wort": "Eurowings",
+     "hinweis": "Condor"
+    },
+    {
+     "wort": "Deutsche Bahn",
+     "hinweis": "Flixbus"
+    },
+    {
+     "wort": "Sixt",
+     "hinweis": "Europcar"
+    },
+    {
+     "wort": "TUI",
+     "hinweis": "Alltours"
+    },
+    {
+     "wort": "Telekom",
+     "hinweis": "Vodafone"
+    },
+    {
+     "wort": "O2",
+     "hinweis": "1&1"
+    },
+    {
+     "wort": "Sparkasse",
+     "hinweis": "Volksbank"
+    },
+    {
+     "wort": "Deutsche Bank",
+     "hinweis": "Commerzbank"
+    },
+    {
+     "wort": "Allianz",
+     "hinweis": "HUK-Coburg"
+    },
+    {
+     "wort": "PayPal",
+     "hinweis": "Klarna"
+    },
+    {
+     "wort": "Visa",
+     "hinweis": "Mastercard"
+    },
+    {
+     "wort": "DHL",
+     "hinweis": "Hermes"
+    },
+    {
+     "wort": "UPS",
+     "hinweis": "DPD"
+    },
+    {
+     "wort": "FedEx",
+     "hinweis": "GLS"
+    },
+    {
+     "wort": "Google",
+     "hinweis": "Microsoft"
+    },
+    {
+     "wort": "Netflix",
+     "hinweis": "Disney+"
+    },
+    {
+     "wort": "Spotify",
+     "hinweis": "Deezer"
+    },
+    {
+     "wort": "Booking.com",
+     "hinweis": "Airbnb"
+    },
+    {
+     "wort": "Check24",
+     "hinweis": "Verivox"
+    },
+    {
+     "wort": "Thermomix",
+     "hinweis": "Kitchenaid"
+    },
+    {
+     "wort": "Tupperware",
+     "hinweis": "Emsa"
+    },
+    {
+     "wort": "Weber-Grill",
+     "hinweis": "Napoleon-Grill"
+    },
+    {
+     "wort": "Stihl",
+     "hinweis": "Husqvarna"
+    },
+    {
+     "wort": "Kärcher",
+     "hinweis": "Nilfisk"
+    }
+   ]
+  },
+  {
+   "name": "Länder & Städte",
+   "paare": [
+    {
+     "wort": "Deutschland",
+     "hinweis": "Österreich"
+    },
+    {
+     "wort": "Schweiz",
+     "hinweis": "Liechtenstein"
+    },
+    {
+     "wort": "Frankreich",
+     "hinweis": "Belgien"
+    },
+    {
+     "wort": "Italien",
+     "hinweis": "Spanien"
+    },
+    {
+     "wort": "Portugal",
+     "hinweis": "Griechenland"
+    },
+    {
+     "wort": "Niederlande",
+     "hinweis": "Dänemark"
+    },
+    {
+     "wort": "Schweden",
+     "hinweis": "Norwegen"
+    },
+    {
+     "wort": "Finnland",
+     "hinweis": "Island"
+    },
+    {
+     "wort": "Polen",
+     "hinweis": "Tschechien"
+    },
+    {
+     "wort": "Ungarn",
+     "hinweis": "Slowakei"
+    },
+    {
+     "wort": "Kroatien",
+     "hinweis": "Slowenien"
+    },
+    {
+     "wort": "England",
+     "hinweis": "Irland"
+    },
+    {
+     "wort": "Schottland",
+     "hinweis": "Wales"
+    },
+    {
+     "wort": "Russland",
+     "hinweis": "Ukraine"
+    },
+    {
+     "wort": "Türkei",
+     "hinweis": "Bulgarien"
+    },
+    {
+     "wort": "USA",
+     "hinweis": "Kanada"
+    },
+    {
+     "wort": "Mexiko",
+     "hinweis": "Brasilien"
+    },
+    {
+     "wort": "Argentinien",
+     "hinweis": "Chile"
+    },
+    {
+     "wort": "Kolumbien",
+     "hinweis": "Peru"
+    },
+    {
+     "wort": "Kuba",
+     "hinweis": "Jamaika"
+    },
+    {
+     "wort": "China",
+     "hinweis": "Japan"
+    },
+    {
+     "wort": "Südkorea",
+     "hinweis": "Nordkorea"
+    },
+    {
+     "wort": "Indien",
+     "hinweis": "Pakistan"
+    },
+    {
+     "wort": "Thailand",
+     "hinweis": "Vietnam"
+    },
+    {
+     "wort": "Indonesien",
+     "hinweis": "Philippinen"
+    },
+    {
+     "wort": "Australien",
+     "hinweis": "Neuseeland"
+    },
+    {
+     "wort": "Ägypten",
+     "hinweis": "Marokko"
+    },
+    {
+     "wort": "Südafrika",
+     "hinweis": "Kenia"
+    },
+    {
+     "wort": "Nigeria",
+     "hinweis": "Ghana"
+    },
+    {
+     "wort": "Tunesien",
+     "hinweis": "Algerien"
+    },
+    {
+     "wort": "Dubai",
+     "hinweis": "Katar"
+    },
+    {
+     "wort": "Saudi-Arabien",
+     "hinweis": "Iran"
+    },
+    {
+     "wort": "Israel",
+     "hinweis": "Jordanien"
+    },
+    {
+     "wort": "Berlin",
+     "hinweis": "Hamburg"
+    },
+    {
+     "wort": "München",
+     "hinweis": "Stuttgart"
+    },
+    {
+     "wort": "Köln",
+     "hinweis": "Düsseldorf"
+    },
+    {
+     "wort": "Frankfurt",
+     "hinweis": "Mainz"
+    },
+    {
+     "wort": "Dresden",
+     "hinweis": "Leipzig"
+    },
+    {
+     "wort": "Hannover",
+     "hinweis": "Braunschweig"
+    },
+    {
+     "wort": "Bremen",
+     "hinweis": "Oldenburg"
+    },
+    {
+     "wort": "Nürnberg",
+     "hinweis": "Augsburg"
+    },
+    {
+     "wort": "Dortmund",
+     "hinweis": "Essen"
+    },
+    {
+     "wort": "Bochum",
+     "hinweis": "Duisburg"
+    },
+    {
+     "wort": "Bonn",
+     "hinweis": "Koblenz"
+    },
+    {
+     "wort": "Karlsruhe",
+     "hinweis": "Mannheim"
+    },
+    {
+     "wort": "Freiburg",
+     "hinweis": "Heidelberg"
+    },
+    {
+     "wort": "Ulm",
+     "hinweis": "Regensburg"
+    },
+    {
+     "wort": "Kiel",
+     "hinweis": "Lübeck"
+    },
+    {
+     "wort": "Rostock",
+     "hinweis": "Schwerin"
+    },
+    {
+     "wort": "Erfurt",
+     "hinweis": "Weimar"
+    },
+    {
+     "wort": "Magdeburg",
+     "hinweis": "Halle"
+    },
+    {
+     "wort": "Kassel",
+     "hinweis": "Göttingen"
+    },
+    {
+     "wort": "Würzburg",
+     "hinweis": "Bamberg"
+    },
+    {
+     "wort": "Münster",
+     "hinweis": "Osnabrück"
+    },
+    {
+     "wort": "Aachen",
+     "hinweis": "Trier"
+    },
+    {
+     "wort": "Wiesbaden",
+     "hinweis": "Darmstadt"
+    },
+    {
+     "wort": "Saarbrücken",
+     "hinweis": "Kaiserslautern"
+    },
+    {
+     "wort": "Potsdam",
+     "hinweis": "Cottbus"
+    },
+    {
+     "wort": "Bielefeld",
+     "hinweis": "Paderborn"
+    },
+    {
+     "wort": "Wuppertal",
+     "hinweis": "Solingen"
+    },
+    {
+     "wort": "Paris",
+     "hinweis": "Lyon"
+    },
+    {
+     "wort": "London",
+     "hinweis": "Manchester"
+    },
+    {
+     "wort": "Rom",
+     "hinweis": "Mailand"
+    },
+    {
+     "wort": "Venedig",
+     "hinweis": "Florenz"
+    },
+    {
+     "wort": "Neapel",
+     "hinweis": "Palermo"
+    },
+    {
+     "wort": "Madrid",
+     "hinweis": "Barcelona"
+    },
+    {
+     "wort": "Sevilla",
+     "hinweis": "Valencia"
+    },
+    {
+     "wort": "Lissabon",
+     "hinweis": "Porto"
+    },
+    {
+     "wort": "Amsterdam",
+     "hinweis": "Rotterdam"
+    },
+    {
+     "wort": "Brüssel",
+     "hinweis": "Antwerpen"
+    },
+    {
+     "wort": "Wien",
+     "hinweis": "Salzburg"
+    },
+    {
+     "wort": "Zürich",
+     "hinweis": "Genf"
+    },
+    {
+     "wort": "Bern",
+     "hinweis": "Basel"
+    },
+    {
+     "wort": "Prag",
+     "hinweis": "Brünn"
+    },
+    {
+     "wort": "Warschau",
+     "hinweis": "Krakau"
+    },
+    {
+     "wort": "Budapest",
+     "hinweis": "Bukarest"
+    },
+    {
+     "wort": "Athen",
+     "hinweis": "Thessaloniki"
+    },
+    {
+     "wort": "Istanbul",
+     "hinweis": "Ankara"
+    },
+    {
+     "wort": "Moskau",
+     "hinweis": "St. Petersburg"
+    },
+    {
+     "wort": "Stockholm",
+     "hinweis": "Oslo"
+    },
+    {
+     "wort": "Kopenhagen",
+     "hinweis": "Helsinki"
+    },
+    {
+     "wort": "Dublin",
+     "hinweis": "Belfast"
+    },
+    {
+     "wort": "Edinburgh",
+     "hinweis": "Glasgow"
+    },
+    {
+     "wort": "New York",
+     "hinweis": "Chicago"
+    },
+    {
+     "wort": "Los Angeles",
+     "hinweis": "San Francisco"
+    },
+    {
+     "wort": "Miami",
+     "hinweis": "Las Vegas"
+    },
+    {
+     "wort": "Washington",
+     "hinweis": "Boston"
+    },
+    {
+     "wort": "Seattle",
+     "hinweis": "Portland"
+    },
+    {
+     "wort": "Toronto",
+     "hinweis": "Vancouver"
+    },
+    {
+     "wort": "Rio de Janeiro",
+     "hinweis": "São Paulo"
+    },
+    {
+     "wort": "Buenos Aires",
+     "hinweis": "Montevideo"
+    },
+    {
+     "wort": "Tokio",
+     "hinweis": "Osaka"
+    },
+    {
+     "wort": "Peking",
+     "hinweis": "Shanghai"
+    },
+    {
+     "wort": "Hongkong",
+     "hinweis": "Singapur"
+    },
+    {
+     "wort": "Seoul",
+     "hinweis": "Busan"
+    },
+    {
+     "wort": "Bangkok",
+     "hinweis": "Hanoi"
+    },
+    {
+     "wort": "Sydney",
+     "hinweis": "Melbourne"
+    },
+    {
+     "wort": "Kairo",
+     "hinweis": "Alexandria"
+    },
+    {
+     "wort": "Kapstadt",
+     "hinweis": "Johannesburg"
+    },
+    {
+     "wort": "Marrakesch",
+     "hinweis": "Casablanca"
+    }
+   ]
+  },
+  {
+   "name": "Kindheit & Spielzeug",
+   "paare": [
+    {
+     "wort": "Lego",
+     "hinweis": "Playmobil"
+    },
+    {
+     "wort": "Barbie",
+     "hinweis": "Puppe"
+    },
+    {
+     "wort": "Teddybär",
+     "hinweis": "Kuscheltier"
+    },
+    {
+     "wort": "Bobbycar",
+     "hinweis": "Dreirad"
+    },
+    {
+     "wort": "Kettcar",
+     "hinweis": "Tretroller"
+    },
+    {
+     "wort": "Sandkasten",
+     "hinweis": "Matschküche"
+    },
+    {
+     "wort": "Schaukel",
+     "hinweis": "Wippe"
+    },
+    {
+     "wort": "Rutsche",
+     "hinweis": "Klettergerüst"
+    },
+    {
+     "wort": "Karussell",
+     "hinweis": "Reifenschaukel"
+    },
+    {
+     "wort": "Baumhaus",
+     "hinweis": "Höhle bauen"
+    },
+    {
+     "wort": "Springseil",
+     "hinweis": "Hüpfgummi"
+    },
+    {
+     "wort": "Gummitwist",
+     "hinweis": "Himmel und Hölle"
+    },
+    {
+     "wort": "Verstecken",
+     "hinweis": "Fangen"
+    },
+    {
+     "wort": "Räuber und Gendarm",
+     "hinweis": "Cowboy und Indianer"
+    },
+    {
+     "wort": "Blinde Kuh",
+     "hinweis": "Topfschlagen"
+    },
+    {
+     "wort": "Sackhüpfen",
+     "hinweis": "Eierlauf"
+    },
+    {
+     "wort": "Stopptanz",
+     "hinweis": "Reise nach Jerusalem"
+    },
+    {
+     "wort": "Flaschendrehen",
+     "hinweis": "Stille Post"
+    },
+    {
+     "wort": "Ich sehe was",
+     "hinweis": "Wer bin ich"
+    },
+    {
+     "wort": "Stadt Land Fluss",
+     "hinweis": "Galgenmännchen"
+    },
+    {
+     "wort": "Mensch ärgere dich nicht",
+     "hinweis": "Fang den Hut"
+    },
+    {
+     "wort": "Memory",
+     "hinweis": "Domino"
+    },
+    {
+     "wort": "Uno",
+     "hinweis": "Mau Mau"
+    },
+    {
+     "wort": "Quartett",
+     "hinweis": "Schwarzer Peter"
+    },
+    {
+     "wort": "Halli Galli",
+     "hinweis": "Ligretto"
+    },
+    {
+     "wort": "Monopoly",
+     "hinweis": "Spiel des Lebens"
+    },
+    {
+     "wort": "Risiko",
+     "hinweis": "Siedler von Catan"
+    },
+    {
+     "wort": "Kniffel",
+     "hinweis": "Yahtzee"
+    },
+    {
+     "wort": "Vier gewinnt",
+     "hinweis": "Tic Tac Toe"
+    },
+    {
+     "wort": "Mikado",
+     "hinweis": "Jenga"
+    },
+    {
+     "wort": "Puzzle",
+     "hinweis": "Rätselheft"
+    },
+    {
+     "wort": "Malbuch",
+     "hinweis": "Mandala"
+    },
+    {
+     "wort": "Buntstifte",
+     "hinweis": "Wachsmalstifte"
+    },
+    {
+     "wort": "Fingerfarben",
+     "hinweis": "Wasserfarben"
+    },
+    {
+     "wort": "Knete",
+     "hinweis": "Salzteig"
+    },
+    {
+     "wort": "Bastelschere",
+     "hinweis": "Kleber"
+    },
+    {
+     "wort": "Perlen",
+     "hinweis": "Bügelperlen"
+    },
+    {
+     "wort": "Freundschaftsband",
+     "hinweis": "Freundebuch"
+    },
+    {
+     "wort": "Sticker",
+     "hinweis": "Sammelalbum"
+    },
+    {
+     "wort": "Poesiealbum",
+     "hinweis": "Tagebuch"
+    },
+    {
+     "wort": "Diddl-Maus",
+     "hinweis": "Hello Kitty"
+    },
+    {
+     "wort": "Pokémon-Karten",
+     "hinweis": "Yu-Gi-Oh-Karten"
+    },
+    {
+     "wort": "Panini-Sticker",
+     "hinweis": "Fußballkarten"
+    },
+    {
+     "wort": "Murmeln",
+     "hinweis": "Flummis"
+    },
+    {
+     "wort": "Kreisel",
+     "hinweis": "Jo-Jo"
+    },
+    {
+     "wort": "Beyblade",
+     "hinweis": "Spinner"
+    },
+    {
+     "wort": "Furby",
+     "hinweis": "Tamagotchi"
+    },
+    {
+     "wort": "Gameboy",
+     "hinweis": "Nintendo DS"
+    },
+    {
+     "wort": "Wii",
+     "hinweis": "Playstation 2"
+    },
+    {
+     "wort": "Super Mario",
+     "hinweis": "Pokémon Rot"
+    },
+    {
+     "wort": "Ferngesteuertes Auto",
+     "hinweis": "Carrera-Bahn"
+    },
+    {
+     "wort": "Modelleisenbahn",
+     "hinweis": "Autorennbahn"
+    },
+    {
+     "wort": "Drachen steigen",
+     "hinweis": "Papierflieger"
+    },
+    {
+     "wort": "Seifenblasen",
+     "hinweis": "Wasserbomben"
+    },
+    {
+     "wort": "Wasserpistole",
+     "hinweis": "Super Soaker"
+    },
+    {
+     "wort": "Planschbecken",
+     "hinweis": "Rasensprenger"
+    },
+    {
+     "wort": "Trampolin",
+     "hinweis": "Hüpfburg"
+    },
+    {
+     "wort": "Inliner",
+     "hinweis": "Rollschuhe"
+    },
+    {
+     "wort": "Skateboard",
+     "hinweis": "Waveboard"
+    },
+    {
+     "wort": "Fahrrad ohne Stützräder",
+     "hinweis": "Erstes Fahrrad"
+    },
+    {
+     "wort": "Laufrad",
+     "hinweis": "Roller"
+    },
+    {
+     "wort": "Schlitten",
+     "hinweis": "Poporutscher"
+    },
+    {
+     "wort": "Schneemann",
+     "hinweis": "Schneeballschlacht"
+    },
+    {
+     "wort": "Iglu bauen",
+     "hinweis": "Schlittschuhlaufen"
+    },
+    {
+     "wort": "Kastanienmännchen",
+     "hinweis": "Laterne basteln"
+    },
+    {
+     "wort": "Sankt Martin",
+     "hinweis": "Nikolausstiefel"
+    },
+    {
+     "wort": "Adventskalender",
+     "hinweis": "Wunschzettel"
+    },
+    {
+     "wort": "Zuckertüte",
+     "hinweis": "Erster Schultag"
+    },
+    {
+     "wort": "Kindergeburtstag",
+     "hinweis": "Übernachtungsparty"
+    },
+    {
+     "wort": "Schatzsuche",
+     "hinweis": "Piñata"
+    },
+    {
+     "wort": "Kindergarten",
+     "hinweis": "Hort"
+    },
+    {
+     "wort": "Mittagsschlaf",
+     "hinweis": "Gute-Nacht-Geschichte"
+    },
+    {
+     "wort": "Schnuller",
+     "hinweis": "Fläschchen"
+    },
+    {
+     "wort": "Windel",
+     "hinweis": "Töpfchen"
+    },
+    {
+     "wort": "Lätzchen",
+     "hinweis": "Babybrei"
+    },
+    {
+     "wort": "Kinderwagen",
+     "hinweis": "Buggy"
+    },
+    {
+     "wort": "Babyphone",
+     "hinweis": "Spieluhr"
+    },
+    {
+     "wort": "Wickeltisch",
+     "hinweis": "Laufstall"
+    },
+    {
+     "wort": "Kindersitz",
+     "hinweis": "Fahrradanhänger"
+    },
+    {
+     "wort": "Dreikäsehoch",
+     "hinweis": "Wonneproppen"
+    },
+    {
+     "wort": "Pippi Langstrumpf",
+     "hinweis": "Michel aus Lönneberga"
+    },
+    {
+     "wort": "Wickie",
+     "hinweis": "Heidi"
+    },
+    {
+     "wort": "Biene Maja",
+     "hinweis": "Pinocchio"
+    },
+    {
+     "wort": "Sandmännchen",
+     "hinweis": "Pumuckl"
+    },
+    {
+     "wort": "Sendung mit der Maus",
+     "hinweis": "Löwenzahn"
+    },
+    {
+     "wort": "Benjamin Blümchen",
+     "hinweis": "Bibi Blocksberg"
+    },
+    {
+     "wort": "TKKG",
+     "hinweis": "Die drei Fragezeichen"
+    },
+    {
+     "wort": "Fünf Freunde",
+     "hinweis": "Hanni und Nanni"
+    },
+    {
+     "wort": "Conni",
+     "hinweis": "Der kleine Drache Kokosnuss"
+    },
+    {
+     "wort": "Janosch",
+     "hinweis": "Der Grüffelo"
+    },
+    {
+     "wort": "Kinderriegel",
+     "hinweis": "Milchschnitte"
+    },
+    {
+     "wort": "Fruchtzwerge",
+     "hinweis": "Monte"
+    },
+    {
+     "wort": "Capri-Sonne",
+     "hinweis": "Trinkpäckchen"
+    },
+    {
+     "wort": "Brausepulver",
+     "hinweis": "Ahoj-Brause"
+    },
+    {
+     "wort": "Center Shock",
+     "hinweis": "Hubba Bubba"
+    },
+    {
+     "wort": "Kaugummiautomat",
+     "hinweis": "Süßigkeitenladen"
+    },
+    {
+     "wort": "Kindermenü",
+     "hinweis": "Happy Meal"
+    },
+    {
+     "wort": "Spielzeugüberraschung",
+     "hinweis": "Ü-Ei"
+    },
+    {
+     "wort": "Taschengeld",
+     "hinweis": "Sparschwein"
+    },
+    {
+     "wort": "Zahnfee",
+     "hinweis": "Osterhase"
+    }
+   ]
+  },
+  {
+   "name": "Haushalt & Wohnen",
+   "paare": [
+    {
+     "wort": "Miete",
+     "hinweis": "Nebenkosten"
+    },
+    {
+     "wort": "Vermieter",
+     "hinweis": "Hausverwaltung"
+    },
+    {
+     "wort": "Mietvertrag",
+     "hinweis": "Kaution"
+    },
+    {
+     "wort": "Wohnung",
+     "hinweis": "Haus"
+    },
+    {
+     "wort": "Altbau",
+     "hinweis": "Neubau"
+    },
+    {
+     "wort": "Einfamilienhaus",
+     "hinweis": "Reihenhaus"
+    },
+    {
+     "wort": "Doppelhaushälfte",
+     "hinweis": "Bungalow"
+    },
+    {
+     "wort": "Penthouse",
+     "hinweis": "Dachgeschosswohnung"
+    },
+    {
+     "wort": "Souterrain",
+     "hinweis": "Erdgeschoss"
+    },
+    {
+     "wort": "Maisonette",
+     "hinweis": "Loft"
+    },
+    {
+     "wort": "WG",
+     "hinweis": "Single-Wohnung"
+    },
+    {
+     "wort": "Umzug",
+     "hinweis": "Renovierung"
+    },
+    {
+     "wort": "Umzugskartons",
+     "hinweis": "Möbelwagen"
+    },
+    {
+     "wort": "Einweihungsparty",
+     "hinweis": "Nachbarn kennenlernen"
+    },
+    {
+     "wort": "Anmeldung",
+     "hinweis": "Nachsendeauftrag"
+    },
+    {
+     "wort": "Wohnzimmer",
+     "hinweis": "Esszimmer"
+    },
+    {
+     "wort": "Schlafzimmer",
+     "hinweis": "Kinderzimmer"
+    },
+    {
+     "wort": "Küche",
+     "hinweis": "Bad"
+    },
+    {
+     "wort": "Flur",
+     "hinweis": "Abstellraum"
+    },
+    {
+     "wort": "Arbeitszimmer",
+     "hinweis": "Gästezimmer"
+    },
+    {
+     "wort": "Balkon",
+     "hinweis": "Terrasse"
+    },
+    {
+     "wort": "Garten",
+     "hinweis": "Innenhof"
+    },
+    {
+     "wort": "Keller",
+     "hinweis": "Dachboden"
+    },
+    {
+     "wort": "Garage",
+     "hinweis": "Carport"
+    },
+    {
+     "wort": "Treppenhaus",
+     "hinweis": "Fahrstuhl"
+    },
+    {
+     "wort": "Staubsaugen",
+     "hinweis": "Wischen"
+    },
+    {
+     "wort": "Fenster putzen",
+     "hinweis": "Spiegel putzen"
+    },
+    {
+     "wort": "Abstauben",
+     "hinweis": "Aufräumen"
+    },
+    {
+     "wort": "Wäsche waschen",
+     "hinweis": "Bügeln"
+    },
+    {
+     "wort": "Wäsche aufhängen",
+     "hinweis": "Wäsche zusammenlegen"
+    },
+    {
+     "wort": "Geschirr spülen",
+     "hinweis": "Spülmaschine ausräumen"
+    },
+    {
+     "wort": "Müll rausbringen",
+     "hinweis": "Altglas wegbringen"
+    },
+    {
+     "wort": "Bett machen",
+     "hinweis": "Bettwäsche wechseln"
+    },
+    {
+     "wort": "Rasen mähen",
+     "hinweis": "Hecke schneiden"
+    },
+    {
+     "wort": "Blumen gießen",
+     "hinweis": "Unkraut jäten"
+    },
+    {
+     "wort": "Frühjahrsputz",
+     "hinweis": "Grundreinigung"
+    },
+    {
+     "wort": "Putzplan",
+     "hinweis": "Haushaltsbuch"
+    },
+    {
+     "wort": "Ordnung",
+     "hinweis": "Chaos"
+    },
+    {
+     "wort": "Minimalismus",
+     "hinweis": "Messie"
+    },
+    {
+     "wort": "Ausmisten",
+     "hinweis": "Flohmarktverkauf"
+    },
+    {
+     "wort": "Restmüll",
+     "hinweis": "Biomüll"
+    },
+    {
+     "wort": "Gelber Sack",
+     "hinweis": "Papiertonne"
+    },
+    {
+     "wort": "Pfandflaschen",
+     "hinweis": "Altkleider"
+    },
+    {
+     "wort": "Sperrmüll",
+     "hinweis": "Wertstoffhof"
+    },
+    {
+     "wort": "Kompost",
+     "hinweis": "Regentonne"
+    },
+    {
+     "wort": "Stromrechnung",
+     "hinweis": "Gasrechnung"
+    },
+    {
+     "wort": "Heizkosten",
+     "hinweis": "Warmwasser"
+    },
+    {
+     "wort": "Stromzähler",
+     "hinweis": "Wasseruhr"
+    },
+    {
+     "wort": "Thermostat",
+     "hinweis": "Fußbodenheizung"
+    },
+    {
+     "wort": "Kamin",
+     "hinweis": "Kachelofen"
+    },
+    {
+     "wort": "Rauchmelder",
+     "hinweis": "Feuerlöscher"
+    },
+    {
+     "wort": "Sicherungskasten",
+     "hinweis": "Wasserhahn"
+    },
+    {
+     "wort": "Rohrbruch",
+     "hinweis": "Wasserschaden"
+    },
+    {
+     "wort": "Schimmel",
+     "hinweis": "Stockflecken"
+    },
+    {
+     "wort": "Handwerker",
+     "hinweis": "Hausmeister"
+    },
+    {
+     "wort": "Bohren",
+     "hinweis": "Dübeln"
+    },
+    {
+     "wort": "Streichen",
+     "hinweis": "Tapezieren"
+    },
+    {
+     "wort": "Laminat",
+     "hinweis": "Parkett"
+    },
+    {
+     "wort": "Fliesen",
+     "hinweis": "Teppichboden"
+    },
+    {
+     "wort": "Raufaser",
+     "hinweis": "Vliestapete"
+    },
+    {
+     "wort": "Sofa",
+     "hinweis": "Couchgarnitur"
+    },
+    {
+     "wort": "Couchtisch",
+     "hinweis": "Beistelltisch"
+    },
+    {
+     "wort": "Esstisch",
+     "hinweis": "Küchentheke"
+    },
+    {
+     "wort": "Eckbank",
+     "hinweis": "Barhocker"
+    },
+    {
+     "wort": "Bett",
+     "hinweis": "Boxspringbett"
+    },
+    {
+     "wort": "Matratze",
+     "hinweis": "Lattenrost"
+    },
+    {
+     "wort": "Kopfkissen",
+     "hinweis": "Zudecke"
+    },
+    {
+     "wort": "Bettlaken",
+     "hinweis": "Spannbettlaken"
+    },
+    {
+     "wort": "Kleiderschrank",
+     "hinweis": "Schuhschrank"
+    },
+    {
+     "wort": "Sideboard",
+     "hinweis": "Highboard"
+    },
+    {
+     "wort": "Bücherregal",
+     "hinweis": "Wandregal"
+    },
+    {
+     "wort": "Fernsehschrank",
+     "hinweis": "TV-Board"
+    },
+    {
+     "wort": "Schminktisch",
+     "hinweis": "Frisierkommode"
+    },
+    {
+     "wort": "Wickelkommode",
+     "hinweis": "Hochstuhl"
+    },
+    {
+     "wort": "Gardinen",
+     "hinweis": "Rollo"
+    },
+    {
+     "wort": "Plissee",
+     "hinweis": "Raffrollo"
+    },
+    {
+     "wort": "Stehlampe",
+     "hinweis": "Deckenlampe"
+    },
+    {
+     "wort": "Nachttischlampe",
+     "hinweis": "Leselampe"
+    },
+    {
+     "wort": "Kerzen",
+     "hinweis": "Duftkerzen"
+    },
+    {
+     "wort": "Zimmerpflanze",
+     "hinweis": "Kunstpflanze"
+    },
+    {
+     "wort": "Monstera",
+     "hinweis": "Gummibaum"
+    },
+    {
+     "wort": "Kaktus",
+     "hinweis": "Orchidee"
+    },
+    {
+     "wort": "Basilikum-Topf",
+     "hinweis": "Kräutergarten"
+    },
+    {
+     "wort": "Blumenkasten",
+     "hinweis": "Hochbeet"
+    },
+    {
+     "wort": "Gartenzwerg",
+     "hinweis": "Vogeltränke"
+    },
+    {
+     "wort": "Grill",
+     "hinweis": "Feuerschale"
+    },
+    {
+     "wort": "Gartenmöbel",
+     "hinweis": "Sonnenliege"
+    },
+    {
+     "wort": "Sonnenschirm",
+     "hinweis": "Markise"
+    },
+    {
+     "wort": "Gartenhaus",
+     "hinweis": "Geräteschuppen"
+    },
+    {
+     "wort": "Rasenmäher",
+     "hinweis": "Vertikutierer"
+    },
+    {
+     "wort": "Nachbarschaftshilfe",
+     "hinweis": "Nachbarschaftsstreit"
+    },
+    {
+     "wort": "Ruhezeiten",
+     "hinweis": "Kehrwoche"
+    },
+    {
+     "wort": "Eigentümerversammlung",
+     "hinweis": "Mieterbund"
+    },
+    {
+     "wort": "Hausordnung",
+     "hinweis": "Klingelschild"
+    },
+    {
+     "wort": "Wohnungsbesichtigung",
+     "hinweis": "Übergabeprotokoll"
+    },
+    {
+     "wort": "Smart Home",
+     "hinweis": "Zeitschaltuhr"
+    },
+    {
+     "wort": "Alarmanlage",
+     "hinweis": "Überwachungskamera"
+    },
+    {
+     "wort": "Türspion",
+     "hinweis": "Türkette"
+    },
+    {
+     "wort": "Schlüsseldienst",
+     "hinweis": "Ersatzschlüssel"
+    },
+    {
+     "wort": "Haustier erlaubt",
+     "hinweis": "Katzenklappe"
+    }
+   ]
+  },
+  {
+   "name": "Liebe & Beziehung",
+   "paare": [
+    {
+     "wort": "Erstes Date",
+     "hinweis": "Blind Date"
+    },
+    {
+     "wort": "Verliebtsein",
+     "hinweis": "Schmetterlinge im Bauch"
+    },
+    {
+     "wort": "Händchenhalten",
+     "hinweis": "Umarmung"
+    },
+    {
+     "wort": "Erster Kuss",
+     "hinweis": "Knutschfleck"
+    },
+    {
+     "wort": "Flirten",
+     "hinweis": "Anbaggern"
+    },
+    {
+     "wort": "Komplimente",
+     "hinweis": "Liebesbrief"
+    },
+    {
+     "wort": "Liebeserklärung",
+     "hinweis": "Ich liebe dich"
+    },
+    {
+     "wort": "Beziehung",
+     "hinweis": "Situationship"
+    },
+    {
+     "wort": "Fernbeziehung",
+     "hinweis": "Wochenendbeziehung"
+    },
+    {
+     "wort": "Offene Beziehung",
+     "hinweis": "Feste Beziehung"
+    },
+    {
+     "wort": "Single",
+     "hinweis": "Vergeben"
+    },
+    {
+     "wort": "Es ist kompliziert",
+     "hinweis": "Freundschaft Plus"
+    },
+    {
+     "wort": "Seelenverwandte",
+     "hinweis": "Traumpartner"
+    },
+    {
+     "wort": "Jugendliebe",
+     "hinweis": "Sandkastenliebe"
+    },
+    {
+     "wort": "Liebe auf den ersten Blick",
+     "hinweis": "Hassliebe"
+    },
+    {
+     "wort": "Schwarm",
+     "hinweis": "Crush"
+    },
+    {
+     "wort": "Verehrer",
+     "hinweis": "Bewunderer"
+    },
+    {
+     "wort": "Herzklopfen",
+     "hinweis": "Rote Wangen"
+    },
+    {
+     "wort": "Dating-App",
+     "hinweis": "Speed-Dating"
+    },
+    {
+     "wort": "Match",
+     "hinweis": "Like"
+    },
+    {
+     "wort": "Ghosting",
+     "hinweis": "Abserviert werden"
+    },
+    {
+     "wort": "Korb bekommen",
+     "hinweis": "Friendzone"
+    },
+    {
+     "wort": "Liebeskummer",
+     "hinweis": "Herzschmerz"
+    },
+    {
+     "wort": "Trennung",
+     "hinweis": "Schlussmachen"
+    },
+    {
+     "wort": "Ex-Freund",
+     "hinweis": "Ex-Freundin"
+    },
+    {
+     "wort": "Trennungsschmerz",
+     "hinweis": "Trostessen"
+    },
+    {
+     "wort": "Rebound",
+     "hinweis": "Neuanfang"
+    },
+    {
+     "wort": "Beste Freundin",
+     "hinweis": "Kumpel"
+    },
+    {
+     "wort": "Kennenlernphase",
+     "hinweis": "Beziehungsstatus"
+    },
+    {
+     "wort": "Zusammenziehen",
+     "hinweis": "Erste gemeinsame Wohnung"
+    },
+    {
+     "wort": "Verlobung",
+     "hinweis": "Heiratsantrag"
+    },
+    {
+     "wort": "Verlobungsring",
+     "hinweis": "Kniefall"
+    },
+    {
+     "wort": "Hochzeit",
+     "hinweis": "Standesamt"
+    },
+    {
+     "wort": "Flitterwochen",
+     "hinweis": "Hochzeitsreise"
+    },
+    {
+     "wort": "Ehe",
+     "hinweis": "Eingetragene Partnerschaft"
+    },
+    {
+     "wort": "Ehemann",
+     "hinweis": "Ehefrau"
+    },
+    {
+     "wort": "Jahrestag",
+     "hinweis": "Kennenlerntag"
+    },
+    {
+     "wort": "Valentinstag",
+     "hinweis": "Rosentag"
+    },
+    {
+     "wort": "Rosen",
+     "hinweis": "Pralinen"
+    },
+    {
+     "wort": "Candle-Light-Dinner",
+     "hinweis": "Picknick zu zweit"
+    },
+    {
+     "wort": "Pärchenabend",
+     "hinweis": "Doppeldate"
+    },
+    {
+     "wort": "Kuscheln",
+     "hinweis": "Löffelchen"
+    },
+    {
+     "wort": "Gute-Nacht-Kuss",
+     "hinweis": "Guten-Morgen-Nachricht"
+    },
+    {
+     "wort": "Kosename",
+     "hinweis": "Spitzname"
+    },
+    {
+     "wort": "Schatz",
+     "hinweis": "Liebling"
+    },
+    {
+     "wort": "Hasi",
+     "hinweis": "Mausi"
+    },
+    {
+     "wort": "Betthupferl",
+     "hinweis": "Bussi"
+    },
+    {
+     "wort": "Eifersucht",
+     "hinweis": "Besitzdenken"
+    },
+    {
+     "wort": "Vertrauen",
+     "hinweis": "Ehrlichkeit"
+    },
+    {
+     "wort": "Streit",
+     "hinweis": "Versöhnung"
+    },
+    {
+     "wort": "Beziehungspause",
+     "hinweis": "Auszeit"
+    },
+    {
+     "wort": "Fremdgehen",
+     "hinweis": "Affäre"
+    },
+    {
+     "wort": "Seitensprung",
+     "hinweis": "Betrug"
+    },
+    {
+     "wort": "Geheimnis",
+     "hinweis": "Lüge"
+    },
+    {
+     "wort": "Paartherapie",
+     "hinweis": "Eheberatung"
+    },
+    {
+     "wort": "Scheidung",
+     "hinweis": "Rosenkrieg"
+    },
+    {
+     "wort": "Unterhalt",
+     "hinweis": "Sorgerecht"
+    },
+    {
+     "wort": "Patchwork-Familie",
+     "hinweis": "Stiefeltern"
+    },
+    {
+     "wort": "Schwiegermutter",
+     "hinweis": "Schwiegervater"
+    },
+    {
+     "wort": "Eltern kennenlernen",
+     "hinweis": "Familienessen"
+    },
+    {
+     "wort": "Kinderwunsch",
+     "hinweis": "Babyplanung"
+    },
+    {
+     "wort": "Schwangerschaft",
+     "hinweis": "Babybauch"
+    },
+    {
+     "wort": "Gender Reveal",
+     "hinweis": "Babyparty"
+    },
+    {
+     "wort": "Elternzeit",
+     "hinweis": "Elterngeld"
+    },
+    {
+     "wort": "Hochzeitstag",
+     "hinweis": "Silberhochzeit"
+    },
+    {
+     "wort": "Goldene Hochzeit",
+     "hinweis": "Diamanthochzeit"
+    },
+    {
+     "wort": "Altwerden zusammen",
+     "hinweis": "Händchen halten im Park"
+    },
+    {
+     "wort": "Liebesschloss",
+     "hinweis": "Initialen im Baum"
+    },
+    {
+     "wort": "Liebeslied",
+     "hinweis": "Unser Lied"
+    },
+    {
+     "wort": "Romantikurlaub",
+     "hinweis": "Wellnesswochenende"
+    },
+    {
+     "wort": "Überraschung",
+     "hinweis": "Geschenk"
+    },
+    {
+     "wort": "Blumenstrauß",
+     "hinweis": "Wochenendtrip"
+    },
+    {
+     "wort": "Frühstück ans Bett",
+     "hinweis": "Selbstgekochtes Dinner"
+    },
+    {
+     "wort": "Massage",
+     "hinweis": "Fußmassage"
+    },
+    {
+     "wort": "Gemeinsames Hobby",
+     "hinweis": "Pärchen-Sport"
+    },
+    {
+     "wort": "Netflix zusammen",
+     "hinweis": "Serienabend"
+    },
+    {
+     "wort": "Gemeinsamer Urlaub",
+     "hinweis": "Erster Urlaub zu zweit"
+    },
+    {
+     "wort": "Pärchenfoto",
+     "hinweis": "Beziehungspost"
+    },
+    {
+     "wort": "Instagram-offiziell",
+     "hinweis": "Whatsapp-Profilbild"
+    },
+    {
+     "wort": "Traumhochzeit",
+     "hinweis": "Hochzeit in Vegas"
+    },
+    {
+     "wort": "Junggesellenabschied",
+     "hinweis": "Polterabend"
+    },
+    {
+     "wort": "Brautkleid",
+     "hinweis": "Anzug"
+    },
+    {
+     "wort": "Trauzeuge",
+     "hinweis": "Brautjungfern"
+    },
+    {
+     "wort": "Ringtausch",
+     "hinweis": "Ja-Wort"
+    },
+    {
+     "wort": "Hochzeitstanz",
+     "hinweis": "Brautstraußwurf"
+    },
+    {
+     "wort": "Liebesroman",
+     "hinweis": "Liebesfilm"
+    },
+    {
+     "wort": "Romeo und Julia",
+     "hinweis": "Bonnie und Clyde"
+    },
+    {
+     "wort": "Traumprinz",
+     "hinweis": "Märchenprinzessin"
+    },
+    {
+     "wort": "Ritter in Rüstung",
+     "hinweis": "Prinz auf weißem Pferd"
+    },
+    {
+     "wort": "Amor",
+     "hinweis": "Liebespfeil"
+    },
+    {
+     "wort": "Herz",
+     "hinweis": "Herzchen-Emoji"
+    },
+    {
+     "wort": "Kussmund",
+     "hinweis": "Zwinker-Smiley"
+    },
+    {
+     "wort": "Liebesbeweis",
+     "hinweis": "Große Geste"
+    },
+    {
+     "wort": "Date-Night",
+     "hinweis": "Mädelsabend"
+    },
+    {
+     "wort": "Beziehungsziele",
+     "hinweis": "Couple Goals"
+    },
+    {
+     "wort": "Zweisamkeit",
+     "hinweis": "Quality Time"
+    },
+    {
+     "wort": "Liebessprache",
+     "hinweis": "Liebesbedürfnis"
+    },
+    {
+     "wort": "Umarmung von hinten",
+     "hinweis": "Stirnkuss"
+    },
+    {
+     "wort": "Warmduscher",
+     "hinweis": "Romantiker"
+    },
+    {
+     "wort": "Beziehungsexperte",
+     "hinweis": "Kummerkasten"
+    }
+   ]
+  },
+  {
+   "name": "Spicy",
+   "paare": [
+    {
+     "wort": "One-Night-Stand",
+     "hinweis": "Affäre"
+    },
+    {
+     "wort": "Friends with Benefits",
+     "hinweis": "Freundschaft Plus"
+    },
+    {
+     "wort": "Tinder-Date",
+     "hinweis": "Blind Date"
+    },
+    {
+     "wort": "Flirt",
+     "hinweis": "Anmachspruch"
+    },
+    {
+     "wort": "Dirty Talk",
+     "hinweis": "Sexting"
+    },
+    {
+     "wort": "Knutschfleck",
+     "hinweis": "Liebesbiss"
+    },
+    {
+     "wort": "Zungenkuss",
+     "hinweis": "Küsschen"
+    },
+    {
+     "wort": "Vorspiel",
+     "hinweis": "Nachspiel"
+    },
+    {
+     "wort": "Quickie",
+     "hinweis": "Liebesnacht"
+    },
+    {
+     "wort": "Bettgeschichte",
+     "hinweis": "Techtelmechtel"
+    },
+    {
+     "wort": "Seitensprung",
+     "hinweis": "Fremdgehen"
+    },
+    {
+     "wort": "Dreiecksbeziehung",
+     "hinweis": "Liebesdreieck"
+    },
+    {
+     "wort": "Verführung",
+     "hinweis": "Anziehung"
+    },
+    {
+     "wort": "Begierde",
+     "hinweis": "Lust"
+    },
+    {
+     "wort": "Leidenschaft",
+     "hinweis": "Erotik"
+    },
+    {
+     "wort": "Dessous",
+     "hinweis": "Unterwäsche"
+    },
+    {
+     "wort": "Spitzen-BH",
+     "hinweis": "Push-up"
+    },
+    {
+     "wort": "String",
+     "hinweis": "Tanga"
+    },
+    {
+     "wort": "Strapse",
+     "hinweis": "Halterlose Strümpfe"
+    },
+    {
+     "wort": "Negligé",
+     "hinweis": "Babydoll"
+    },
+    {
+     "wort": "Boxershorts",
+     "hinweis": "Slip"
+    },
+    {
+     "wort": "Nackt",
+     "hinweis": "Oben ohne"
+    },
+    {
+     "wort": "FKK-Strand",
+     "hinweis": "Nacktbadestelle"
+    },
+    {
+     "wort": "Nacktschwimmen",
+     "hinweis": "Skinny Dipping"
+    },
+    {
+     "wort": "Striptease",
+     "hinweis": "Lapdance"
+    },
+    {
+     "wort": "Stripclub",
+     "hinweis": "Tabledance-Bar"
+    },
+    {
+     "wort": "Stripper",
+     "hinweis": "Stripperin"
+    },
+    {
+     "wort": "Gogo-Tänzer",
+     "hinweis": "Poledance"
+    },
+    {
+     "wort": "Burlesque",
+     "hinweis": "Peepshow"
+    },
+    {
+     "wort": "Rotlichtviertel",
+     "hinweis": "Reeperbahn"
+    },
+    {
+     "wort": "Kondom",
+     "hinweis": "Pille"
+    },
+    {
+     "wort": "Verhütung",
+     "hinweis": "Pille danach"
+    },
+    {
+     "wort": "Gleitgel",
+     "hinweis": "Massageöl"
+    },
+    {
+     "wort": "Handschellen",
+     "hinweis": "Augenbinde"
+    },
+    {
+     "wort": "Federkitzler",
+     "hinweis": "Massagekerze"
+    },
+    {
+     "wort": "Sexspielzeug",
+     "hinweis": "Vibrator"
+    },
+    {
+     "wort": "Dildo",
+     "hinweis": "Liebeskugeln"
+    },
+    {
+     "wort": "Peitsche",
+     "hinweis": "Paddel"
+    },
+    {
+     "wort": "Fesselspiele",
+     "hinweis": "Bondage"
+    },
+    {
+     "wort": "Dominanz",
+     "hinweis": "Unterwerfung"
+    },
+    {
+     "wort": "Domina",
+     "hinweis": "Sklave"
+    },
+    {
+     "wort": "Rollenspiel",
+     "hinweis": "Kostümspiel"
+    },
+    {
+     "wort": "Krankenschwester-Kostüm",
+     "hinweis": "Polizistin-Kostüm"
+    },
+    {
+     "wort": "Lack und Leder",
+     "hinweis": "Latex"
+    },
+    {
+     "wort": "Dirndl-Dekolleté",
+     "hinweis": "Netzstrumpfhose"
+    },
+    {
+     "wort": "Fifty Shades of Grey",
+     "hinweis": "Basic Instinct"
+    },
+    {
+     "wort": "Erotikfilm",
+     "hinweis": "Softporno"
+    },
+    {
+     "wort": "Porno",
+     "hinweis": "Erotikthriller"
+    },
+    {
+     "wort": "OnlyFans",
+     "hinweis": "Playboy"
+    },
+    {
+     "wort": "Aktfoto",
+     "hinweis": "Erotikshooting"
+    },
+    {
+     "wort": "Nacktscanner",
+     "hinweis": "Röntgenblick"
+    },
+    {
+     "wort": "Dick Pic",
+     "hinweis": "Nacktbild"
+    },
+    {
+     "wort": "Nudes",
+     "hinweis": "Spiegel-Selfie"
+    },
+    {
+     "wort": "Sextape",
+     "hinweis": "Heimvideo"
+    },
+    {
+     "wort": "Webcam",
+     "hinweis": "Camgirl"
+    },
+    {
+     "wort": "Bordell",
+     "hinweis": "Laufhaus"
+    },
+    {
+     "wort": "Escort",
+     "hinweis": "Callgirl"
+    },
+    {
+     "wort": "Sugar Daddy",
+     "hinweis": "Sugar Mommy"
+    },
+    {
+     "wort": "Gigolo",
+     "hinweis": "Callboy"
+    },
+    {
+     "wort": "Freier",
+     "hinweis": "Stammkunde"
+    },
+    {
+     "wort": "Swingerclub",
+     "hinweis": "Pärchenclub"
+    },
+    {
+     "wort": "Partnertausch",
+     "hinweis": "Gruppenerlebnis"
+    },
+    {
+     "wort": "Dreier",
+     "hinweis": "Vierer"
+    },
+    {
+     "wort": "Orgie",
+     "hinweis": "Gangbang"
+    },
+    {
+     "wort": "Darkroom",
+     "hinweis": "Séparée"
+    },
+    {
+     "wort": "Fetisch",
+     "hinweis": "Vorliebe"
+    },
+    {
+     "wort": "Fußfetisch",
+     "hinweis": "Lederfetisch"
+    },
+    {
+     "wort": "Voyeur",
+     "hinweis": "Exhibitionist"
+    },
+    {
+     "wort": "Spanner",
+     "hinweis": "Flitzer"
+    },
+    {
+     "wort": "Nacktjoggen",
+     "hinweis": "Blankziehen"
+    },
+    {
+     "wort": "Erregung",
+     "hinweis": "Ekstase"
+    },
+    {
+     "wort": "Orgasmus",
+     "hinweis": "Höhepunkt"
+    },
+    {
+     "wort": "Multipler Orgasmus",
+     "hinweis": "Vorgetäuschter Orgasmus"
+    },
+    {
+     "wort": "Stöhnen",
+     "hinweis": "Seufzen"
+    },
+    {
+     "wort": "Bettgeflüster",
+     "hinweis": "Kopfkino"
+    },
+    {
+     "wort": "Morgenlatte",
+     "hinweis": "Morgenmuffel"
+    },
+    {
+     "wort": "Erektion",
+     "hinweis": "Ständer"
+    },
+    {
+     "wort": "Viagra",
+     "hinweis": "Aphrodisiakum"
+    },
+    {
+     "wort": "Libido",
+     "hinweis": "Trieb"
+    },
+    {
+     "wort": "Testosteron",
+     "hinweis": "Östrogen"
+    },
+    {
+     "wort": "Selbstbefriedigung",
+     "hinweis": "Masturbation"
+    },
+    {
+     "wort": "Solo-Session",
+     "hinweis": "Eigenliebe"
+    },
+    {
+     "wort": "Feuchter Traum",
+     "hinweis": "Fantasie"
+    },
+    {
+     "wort": "Erogene Zone",
+     "hinweis": "Empfindliche Stelle"
+    },
+    {
+     "wort": "G-Punkt",
+     "hinweis": "Hotspot"
+    },
+    {
+     "wort": "Missionarsstellung",
+     "hinweis": "Löffelchenstellung"
+    },
+    {
+     "wort": "Reiterstellung",
+     "hinweis": "Umgekehrte Reiterstellung"
+    },
+    {
+     "wort": "Doggystyle",
+     "hinweis": "Hündchenstellung"
+    },
+    {
+     "wort": "69",
+     "hinweis": "Oral"
+    },
+    {
+     "wort": "Kamasutra",
+     "hinweis": "Stellungswechsel"
+    },
+    {
+     "wort": "Blowjob",
+     "hinweis": "Handjob"
+    },
+    {
+     "wort": "Cunnilingus",
+     "hinweis": "Fingern"
+    },
+    {
+     "wort": "Petting",
+     "hinweis": "Fummeln"
+    },
+    {
+     "wort": "Zungenspiel",
+     "hinweis": "Knabbern"
+    },
+    {
+     "wort": "Analsex",
+     "hinweis": "Tabuzone"
+    },
+    {
+     "wort": "Safer Sex",
+     "hinweis": "Ungeschützt"
+    },
+    {
+     "wort": "Geschlechtskrankheit",
+     "hinweis": "HIV-Test"
+    },
+    {
+     "wort": "Schwangerschaftstest",
+     "hinweis": "Verhütungspanne"
+    },
+    {
+     "wort": "Kondom gerissen",
+     "hinweis": "Fehlalarm"
+    },
+    {
+     "wort": "Enthaltsamkeit",
+     "hinweis": "Flaute"
+    },
+    {
+     "wort": "Trockenphase",
+     "hinweis": "Durststrecke"
+    },
+    {
+     "wort": "Sexentzug",
+     "hinweis": "Bettflucht"
+    },
+    {
+     "wort": "Bettkante",
+     "hinweis": "Matratzensport"
+    },
+    {
+     "wort": "Bettgymnastik",
+     "hinweis": "Kuscheln nackt"
+    },
+    {
+     "wort": "Etagenwechsel",
+     "hinweis": "Stellungsspiel"
+    },
+    {
+     "wort": "Wandsex",
+     "hinweis": "Duschsex"
+    },
+    {
+     "wort": "Autosex",
+     "hinweis": "Rücksitz"
+    },
+    {
+     "wort": "Strandsex",
+     "hinweis": "Sex im Freien"
+    },
+    {
+     "wort": "Waldspaziergang mit Folgen",
+     "hinweis": "Picknickdecke"
+    },
+    {
+     "wort": "Sex im Zelt",
+     "hinweis": "Schlafsack für zwei"
+    },
+    {
+     "wort": "Hotelzimmer",
+     "hinweis": "Stundenhotel"
+    },
+    {
+     "wort": "Motel",
+     "hinweis": "Love Hotel"
+    },
+    {
+     "wort": "Himmelbett",
+     "hinweis": "Wasserbett"
+    },
+    {
+     "wort": "Whirlpool zu zweit",
+     "hinweis": "Badewanne mit Schaum"
+    },
+    {
+     "wort": "Sauna-Aufguss",
+     "hinweis": "Dampfbad"
+    },
+    {
+     "wort": "Mile High Club",
+     "hinweis": "Flugzeugtoilette"
+    },
+    {
+     "wort": "Fahrstuhlsex",
+     "hinweis": "Bürositzung"
+    },
+    {
+     "wort": "Chefschreibtisch",
+     "hinweis": "Kopierraum"
+    },
+    {
+     "wort": "Umkleidekabine",
+     "hinweis": "Anprobe"
+    },
+    {
+     "wort": "Kinobank",
+     "hinweis": "Letzte Reihe"
+    },
+    {
+     "wort": "Öffentlichkeit",
+     "hinweis": "Erwischt werden"
+    },
+    {
+     "wort": "Nachbarn hören mit",
+     "hinweis": "Dünne Wände"
+    },
+    {
+     "wort": "Bettquietschen",
+     "hinweis": "Kopfteil klopft"
+    },
+    {
+     "wort": "Hotelrechnung",
+     "hinweis": "Minibar"
+    },
+    {
+     "wort": "Zimmerservice",
+     "hinweis": "Frühstück im Bett"
+    },
+    {
+     "wort": "Walk of Shame",
+     "hinweis": "Morgen danach"
+    },
+    {
+     "wort": "Katerfrühstück zu zweit",
+     "hinweis": "Fremdes Bett"
+    },
+    {
+     "wort": "Klamotten suchen",
+     "hinweis": "Falsche Wohnung"
+    },
+    {
+     "wort": "Nummer vergessen",
+     "hinweis": "Name vergessen"
+    },
+    {
+     "wort": "Absturz",
+     "hinweis": "Filmriss"
+    },
+    {
+     "wort": "Barbekanntschaft",
+     "hinweis": "Clubbekanntschaft"
+    },
+    {
+     "wort": "Abschleppen",
+     "hinweis": "Mitnehmen"
+    },
+    {
+     "wort": "Anbaggern",
+     "hinweis": "Aufreißen"
+    },
+    {
+     "wort": "Bagger-Spruch",
+     "hinweis": "Cheesy Pickup Line"
+    },
+    {
+     "wort": "Augenkontakt",
+     "hinweis": "Zuzwinkern"
+    },
+    {
+     "wort": "Po-Grabscher",
+     "hinweis": "Taille umfassen"
+    },
+    {
+     "wort": "Dirty Dancing",
+     "hinweis": "Aneinander reiben"
+    },
+    {
+     "wort": "Twerken",
+     "hinweis": "Grinden"
+    },
+    {
+     "wort": "Körperkontakt",
+     "hinweis": "Enger Slowdance"
+    },
+    {
+     "wort": "Lippenbeißen",
+     "hinweis": "Haare zurückwerfen"
+    },
+    {
+     "wort": "Dekolleté",
+     "hinweis": "Ausschnitt"
+    },
+    {
+     "wort": "Sixpack",
+     "hinweis": "V-Linie"
+    },
+    {
+     "wort": "Knackpo",
+     "hinweis": "Waschbrettbauch"
+    },
+    {
+     "wort": "Kurven",
+     "hinweis": "Sanduhr-Figur"
+    },
+    {
+     "wort": "Bauchfrei",
+     "hinweis": "Hotpants"
+    },
+    {
+     "wort": "Minirock",
+     "hinweis": "High Heels"
+    },
+    {
+     "wort": "Wet-T-Shirt",
+     "hinweis": "Durchsichtig"
+    },
+    {
+     "wort": "Body",
+     "hinweis": "Corsage"
+    },
+    {
+     "wort": "Verführerischer Blick",
+     "hinweis": "Schlafzimmerblick"
+    },
+    {
+     "wort": "Rouge",
+     "hinweis": "Roter Lippenstift"
+    },
+    {
+     "wort": "Parfüm",
+     "hinweis": "Pheromone"
+    },
+    {
+     "wort": "Aftershave",
+     "hinweis": "Moschus"
+    },
+    {
+     "wort": "Duftkerze",
+     "hinweis": "Rosenblätter"
+    },
+    {
+     "wort": "Champagner im Bett",
+     "hinweis": "Erdbeeren mit Sahne"
+    },
+    {
+     "wort": "Schokosauce",
+     "hinweis": "Sahnehäubchen"
+    },
+    {
+     "wort": "Eiswürfel-Spiel",
+     "hinweis": "Wachs-Spiel"
+    },
+    {
+     "wort": "Körper bemalen",
+     "hinweis": "Bodypainting"
+    },
+    {
+     "wort": "Massage mit Happy End",
+     "hinweis": "Tantra-Massage"
+    },
+    {
+     "wort": "Partnermassage",
+     "hinweis": "Öl-Massage"
+    },
+    {
+     "wort": "Nackenkuss",
+     "hinweis": "Ohrläppchen knabbern"
+    },
+    {
+     "wort": "Kratzspuren",
+     "hinweis": "Bissspuren"
+    },
+    {
+     "wort": "Haare ziehen",
+     "hinweis": "Po-Klaps"
+    },
+    {
+     "wort": "Spanking",
+     "hinweis": "Klaps"
+    },
+    {
+     "wort": "Dirty Secret",
+     "hinweis": "Geheime Fantasie"
+    },
+    {
+     "wort": "Beichte",
+     "hinweis": "Gestehen"
+    },
+    {
+     "wort": "Wahrheit oder Pflicht",
+     "hinweis": "Strip-Version"
+    },
+    {
+     "wort": "Strip-Poker",
+     "hinweis": "Strip-Würfeln"
+    },
+    {
+     "wort": "Flaschendrehen",
+     "hinweis": "Kuss-Challenge"
+    },
+    {
+     "wort": "Sieben Minuten im Himmel",
+     "hinweis": "Wandschrank-Spiel"
+    },
+    {
+     "wort": "Körperteil raten",
+     "hinweis": "Blind berühren"
+    },
+    {
+     "wort": "Aufreizend tanzen",
+     "hinweis": "Verführerisch essen"
+    },
+    {
+     "wort": "Banane essen",
+     "hinweis": "Eis lecken"
+    },
+    {
+     "wort": "Zweideutigkeit",
+     "hinweis": "Anspielung"
+    },
+    {
+     "wort": "Innuendo",
+     "hinweis": "Doppeldeutig"
+    },
+    {
+     "wort": "Das ist, was sie sagte",
+     "hinweis": "Schmutziger Witz"
+    },
+    {
+     "wort": "Versaute Gedanken",
+     "hinweis": "Kopfkino an"
+    },
+    {
+     "wort": "Bettgeheimnis",
+     "hinweis": "Kissengeflüster"
+    },
+    {
+     "wort": "Body Count",
+     "hinweis": "Liste"
+    },
+    {
+     "wort": "Erstes Mal",
+     "hinweis": "Entjungferung"
+    },
+    {
+     "wort": "Jungfrau",
+     "hinweis": "Spätzünder"
+    },
+    {
+     "wort": "Teenager-Fummelei",
+     "hinweis": "Rummachen"
+    },
+    {
+     "wort": "Zungenspiele",
+     "hinweis": "Necking"
+    },
+    {
+     "wort": "Hickey verstecken",
+     "hinweis": "Rollkragenpullover"
+    },
+    {
+     "wort": "Eltern nicht zuhause",
+     "hinweis": "Sturmfrei"
+    },
+    {
+     "wort": "Kellerparty",
+     "hinweis": "Gartenhaus"
+    },
+    {
+     "wort": "Autokino",
+     "hinweis": "Beschlagene Scheiben"
+    },
+    {
+     "wort": "Titanic-Handabdruck",
+     "hinweis": "Beschlagenes Fenster"
+    },
+    {
+     "wort": "Rücksitzbank",
+     "hinweis": "Kofferraumdecke"
+    },
+    {
+     "wort": "Parkplatz-Romantik",
+     "hinweis": "Aussichtspunkt"
+    },
+    {
+     "wort": "Sternenhimmel",
+     "hinweis": "Lagerfeuer-Romantik"
+    },
+    {
+     "wort": "Skinny Love",
+     "hinweis": "Sommerflirt"
+    },
+    {
+     "wort": "Urlaubsflirt",
+     "hinweis": "Strandbekanntschaft"
+    },
+    {
+     "wort": "Animateur",
+     "hinweis": "Poolboy"
+    },
+    {
+     "wort": "Hotelbar-Flirt",
+     "hinweis": "All-Inclusive-Liebe"
+    },
+    {
+     "wort": "Mallorca-Romanze",
+     "hinweis": "Après-Ski-Flirt"
+    },
+    {
+     "wort": "Hüttenzauber",
+     "hinweis": "Whirlpool-Flirt"
+    },
+    {
+     "wort": "Massageliege",
+     "hinweis": "Wellnessbereich"
+    },
+    {
+     "wort": "Paarurlaub",
+     "hinweis": "Romantik-Suite"
+    },
+    {
+     "wort": "Honeymoon-Suite",
+     "hinweis": "Hochzeitsnacht"
+    },
+    {
+     "wort": "Brautnacht",
+     "hinweis": "Erste Ehe-Nacht"
+    },
+    {
+     "wort": "Verbotene Frucht",
+     "hinweis": "Sünde"
+    },
+    {
+     "wort": "Versuchung",
+     "hinweis": "Verlockung"
+    },
+    {
+     "wort": "Lustobjekt",
+     "hinweis": "Sexsymbol"
+    },
+    {
+     "wort": "Herzensbrecher",
+     "hinweis": "Frauenheld"
+    },
+    {
+     "wort": "Femme fatale",
+     "hinweis": "Verführerin"
+    },
+    {
+     "wort": "Casanova",
+     "hinweis": "Don Juan"
+    },
+    {
+     "wort": "Player",
+     "hinweis": "Fuckboy"
+    },
+    {
+     "wort": "Heartbreaker",
+     "hinweis": "Womanizer"
+    },
+    {
+     "wort": "Cougar",
+     "hinweis": "Silberfuchs"
+    },
+    {
+     "wort": "Toyboy",
+     "hinweis": "Milf"
+    },
+    {
+     "wort": "Altersunterschied",
+     "hinweis": "Generationenliebe"
+    },
+    {
+     "wort": "Chef-Affäre",
+     "hinweis": "Büroromanze"
+    },
+    {
+     "wort": "Arbeitskollege",
+     "hinweis": "Flurfunk"
+    },
+    {
+     "wort": "Weihnachtsfeier-Kuss",
+     "hinweis": "Betriebsausflug-Flirt"
+    },
+    {
+     "wort": "Kopierer-Moment",
+     "hinweis": "Aufzug-Blick"
+    },
+    {
+     "wort": "Lehrer-Schwarm",
+     "hinweis": "Professoren-Crush"
+    },
+    {
+     "wort": "Nachhilfe mit Extras",
+     "hinweis": "Lerngruppe zu zweit"
+    },
+    {
+     "wort": "Mitbewohner-Romanze",
+     "hinweis": "WG-Küchen-Flirt"
+    },
+    {
+     "wort": "Nachbarschafts-Affäre",
+     "hinweis": "Zaun-Flirt"
+    },
+    {
+     "wort": "Handwerker-Fantasie",
+     "hinweis": "Pizzabote-Klischee"
+    },
+    {
+     "wort": "Poolreiniger",
+     "hinweis": "Gärtner-Fantasie"
+    },
+    {
+     "wort": "Arzt-Rollenspiel",
+     "hinweis": "Untersuchung"
+    },
+    {
+     "wort": "Feuerwehrmann-Kalender",
+     "hinweis": "Bauarbeiter-Pfiff"
+    },
+    {
+     "wort": "Uniform-Fetisch",
+     "hinweis": "Männer in Uniform"
+    },
+    {
+     "wort": "Pilotenstreifen",
+     "hinweis": "Stewardess-Lächeln"
+    },
+    {
+     "wort": "Französisch",
+     "hinweis": "Griechisch"
+    },
+    {
+     "wort": "Blümchensex",
+     "hinweis": "Wilder Sex"
+    },
+    {
+     "wort": "Kuschelsex",
+     "hinweis": "Hassliebe-Sex"
+    },
+    {
+     "wort": "Versöhnungssex",
+     "hinweis": "Abschiedssex"
+    },
+    {
+     "wort": "Trostsex",
+     "hinweis": "Frustsex"
+    },
+    {
+     "wort": "Betrunkener Sex",
+     "hinweis": "Verkaterter Morgen"
+    },
+    {
+     "wort": "Ex-Sex",
+     "hinweis": "Rückfall"
+    },
+    {
+     "wort": "Gewohnheitssex",
+     "hinweis": "Ehe-Alltag"
+    },
+    {
+     "wort": "Terminsex",
+     "hinweis": "Spontansex"
+    },
+    {
+     "wort": "Mittagspausen-Quickie",
+     "hinweis": "Feierabend-Session"
+    },
+    {
+     "wort": "Morgensex",
+     "hinweis": "Mitternachtssnack"
+    },
+    {
+     "wort": "Ausschlafen zu zweit",
+     "hinweis": "Verschlafen wegen..."
+    },
+    {
+     "wort": "Frühstück danach",
+     "hinweis": "Kaffee oder mehr"
+    },
+    {
+     "wort": "Bleib noch",
+     "hinweis": "Taxi rufen"
+    },
+    {
+     "wort": "Übernachtungsgast",
+     "hinweis": "Zahnbürste da lassen"
+    },
+    {
+     "wort": "Beziehungspause",
+     "hinweis": "Freigang"
+    },
+    {
+     "wort": "Offene Ehe",
+     "hinweis": "Polyamorie"
+    },
+    {
+     "wort": "Zweitbeziehung",
+     "hinweis": "Nebenbeziehung"
+    },
+    {
+     "wort": "Geheime Liebschaft",
+     "hinweis": "Versteckte Nummer"
+    },
+    {
+     "wort": "Zweithandy",
+     "hinweis": "Gelöschter Chat"
+    },
+    {
+     "wort": "Lippenstift am Kragen",
+     "hinweis": "Fremdes Parfüm"
+    },
+    {
+     "wort": "Indizien",
+     "hinweis": "Verdacht"
+    },
+    {
+     "wort": "Privatdetektiv",
+     "hinweis": "Handy-Kontrolle"
+    },
+    {
+     "wort": "Vertrauensbruch",
+     "hinweis": "Beichte am Küchentisch"
+    },
+    {
+     "wort": "Rache-Affäre",
+     "hinweis": "Auge um Auge"
+    },
+    {
+     "wort": "Make-up-Sex",
+     "hinweis": "Neuanfang im Bett"
+    },
+    {
+     "wort": "Zweite Chance",
+     "hinweis": "Alte Flamme"
+    },
+    {
+     "wort": "Jugendsünde",
+     "hinweis": "Peinliche Story"
+    },
+    {
+     "wort": "Betrunken getextet",
+     "hinweis": "Ex angerufen"
+    },
+    {
+     "wort": "3-Uhr-Nachricht",
+     "hinweis": "Bist du wach?"
+    },
+    {
+     "wort": "Booty Call",
+     "hinweis": "Netflix and Chill"
+    },
+    {
+     "wort": "Komm vorbei",
+     "hinweis": "Bring Wein mit"
+    },
+    {
+     "wort": "Wohnungsbesichtigung",
+     "hinweis": "Etagenbett-Frage"
+    },
+    {
+     "wort": "Schlafsofa",
+     "hinweis": "Gästematratze"
+    },
+    {
+     "wort": "Platz im Bett",
+     "hinweis": "Deckenkampf"
+    },
+    {
+     "wort": "Verführungskünste",
+     "hinweis": "Flirttechnik"
+    },
+    {
+     "wort": "Körpersprache",
+     "hinweis": "Signale deuten"
+    },
+    {
+     "wort": "Hard to get",
+     "hinweis": "Desinteresse spielen"
+    },
+    {
+     "wort": "Eroberung",
+     "hinweis": "Beute"
+    },
+    {
+     "wort": "Jagdinstinkt",
+     "hinweis": "Beuteschema"
+    },
+    {
+     "wort": "Typ",
+     "hinweis": "Geschmack"
+    },
+    {
+     "wort": "Bad Boy",
+     "hinweis": "Gentleman"
+    },
+    {
+     "wort": "Schüchterner Typ",
+     "hinweis": "Draufgänger"
+    },
+    {
+     "wort": "Mysteriöser Fremder",
+     "hinweis": "Charmeur"
+    },
+    {
+     "wort": "Girl next door",
+     "hinweis": "Vamp"
+    },
+    {
+     "wort": "Blondine",
+     "hinweis": "Brünette"
+    },
+    {
+     "wort": "Bart",
+     "hinweis": "Glatze"
+    },
+    {
+     "wort": "Tattoos",
+     "hinweis": "Piercings"
+    },
+    {
+     "wort": "Intimpiercing",
+     "hinweis": "Arschgeweih"
+    },
+    {
+     "wort": "Zungenpiercing",
+     "hinweis": "Bauchnabelpiercing"
+    },
+    {
+     "wort": "Intimrasur",
+     "hinweis": "Brazilian Waxing"
+    },
+    {
+     "wort": "Enthaarung",
+     "hinweis": "Sugaring"
+    },
+    {
+     "wort": "Manscaping",
+     "hinweis": "Brusthaar"
+    },
+    {
+     "wort": "Achselhaar",
+     "hinweis": "Beinrasur"
+    },
+    {
+     "wort": "Dreitagebart",
+     "hinweis": "Glattrasiert"
+    },
+    {
+     "wort": "Sinnlichkeit",
+     "hinweis": "Zärtlichkeit"
+    },
+    {
+     "wort": "Hingabe",
+     "hinweis": "Vertrauen im Bett"
+    },
+    {
+     "wort": "Chemie",
+     "hinweis": "Anziehungskraft"
+    },
+    {
+     "wort": "Funkenflug",
+     "hinweis": "Knistern"
+    },
+    {
+     "wort": "Spannung",
+     "hinweis": "Erwartung"
+    },
+    {
+     "wort": "Vorfreude",
+     "hinweis": "Aufregung"
+    },
+    {
+     "wort": "Nervosität",
+     "hinweis": "Lampenfieber"
+    },
+    {
+     "wort": "Erster Ton",
+     "hinweis": "Eisbrecher"
+    },
+    {
+     "wort": "Small Talk",
+     "hinweis": "Deep Talk"
+    },
+    {
+     "wort": "Über Sex reden",
+     "hinweis": "Vorlieben besprechen"
+    },
+    {
+     "wort": "Einvernehmlich",
+     "hinweis": "Zustimmung"
+    },
+    {
+     "wort": "Safeword",
+     "hinweis": "Stopp-Signal"
+    },
+    {
+     "wort": "Grenzen",
+     "hinweis": "No-Gos"
+    },
+    {
+     "wort": "Komfortzone",
+     "hinweis": "Neues ausprobieren"
+    },
+    {
+     "wort": "Experimentierfreudig",
+     "hinweis": "Konservativ im Bett"
+    },
+    {
+     "wort": "Sexfragen",
+     "hinweis": "Aufklärungsgespräch"
+    },
+    {
+     "wort": "Bienchen und Blümchen",
+     "hinweis": "Der Storch"
+    },
+    {
+     "wort": "Aufklärungsbuch",
+     "hinweis": "Bravo Dr. Sommer"
+    },
+    {
+     "wort": "Sexualkunde",
+     "hinweis": "Biologieunterricht"
+    },
+    {
+     "wort": "Peinliches Schweigen",
+     "hinweis": "Rotes Gesicht"
+    }
+   ],
+   "fsk18": true
+  }
+ ]
+};

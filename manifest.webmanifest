@@ -1,0 +1,14 @@
+{
+  "name": "Partyspiele fürs Handy",
+  "short_name": "Partyspiele",
+  "description": "Imposter & Querfrage – Bluff-Partyspiele für ein Handy, das reihum geht.",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#131216",
+  "theme_color": "#131216",
+  "lang": "de",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
