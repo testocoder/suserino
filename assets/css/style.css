@@ -21,7 +21,7 @@
 }
 
 body[data-game="imposter"]  { --accent: #ff5a47; --accent-ink: #1c0906; }
-body[data-game="querfrage"] { --accent: #43d9ad; --accent-ink: #06201a; }
+body[data-game="undercover"] { --accent: #43d9ad; --accent-ink: #06201a; }
 
 * { box-sizing: border-box; }
 
@@ -391,7 +391,7 @@ a:hover { text-decoration: underline; }
 .verdict.impostor { color: var(--danger); }
 .verdict.innocent { color: var(--ok); }
 
-/* ---------- Antwortkarten (Querfrage) ---------- */
+/* ---------- Antwortkarten (Undercover) ---------- */
 
 .answer-card {
   background: var(--surface);
@@ -544,7 +544,7 @@ dialog.rules-dialog h2 { margin-bottom: .6rem; }
 dialog.rules-dialog ol { padding-left: 1.2rem; color: var(--muted); }
 dialog.rules-dialog li { margin-bottom: .45rem; }
 
-/* ---------- Frage + kompakter Timer (Querfrage) ---------- */
+/* ---------- Frage + kompakter Timer (Undercover) ---------- */
 
 .question { font-size: 1.45rem; margin: .8rem 0 .4rem; }
 
@@ -631,7 +631,7 @@ details.rules li { margin-bottom: .4rem; }
 }
 .game-tile:active { transform: rotateX(0deg) translateY(-1px) scale(.99); }
 .game-tile.imposter  { --tile-accent: #ff5a47; }
-.game-tile.querfrage { --tile-accent: #43d9ad; }
+.game-tile.undercover { --tile-accent: #43d9ad; }
 
 .game-tile .tile-cover {
   aspect-ratio: 16 / 9;

@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; frame-ancestors 'none'">
-  <title>Imposter: Partyspiel für ein Handy | Suserino</title>
-  <meta name="description" content="Imposter online spielen: Alle bekommen geheim dasselbe Wort, nur der Imposter nicht. Pass-and-Play-Partyspiel für 3 bis 20 Spieler auf einem Handy. Kostenlos, ohne Anmeldung, ohne App.">
-  <meta property="og:title" content="Imposter: Partyspiel für ein Handy">
-  <meta property="og:description" content="Alle kennen das geheime Wort, nur der Imposter nicht. Findet ihn! Für 3 bis 20 Spieler auf einem Gerät.">
+  <title>Undercover: Partyspiel für ein Handy | Suserino</title>
+  <meta name="description" content="Undercover online spielen: Alle beantworten geheim dieselbe Frage, nur der Imposter bekommt eine andere, ohne es zu wissen. Pass-and-Play-Partyspiel für 4 bis 20 Spieler auf einem Handy. Kostenlos, ohne Anmeldung.">
+  <meta property="og:title" content="Undercover: Partyspiel für ein Handy">
+  <meta property="og:description" content="Alle beantworten dieselbe Frage, nur einer nicht. Wessen Antwort passt nicht? Für 4 bis 20 Spieler auf einem Gerät.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Suserino">
   <meta property="og:locale" content="de_DE">
@@ -21,33 +21,32 @@
   <link rel="apple-touch-icon" href="../apple-touch-icon.png">
   <link rel="manifest" href="../manifest.webmanifest">
   <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="modulepreload" href="../assets/js/imposter.js">
+  <link rel="modulepreload" href="../assets/js/undercover.js">
   <link rel="modulepreload" href="../assets/js/util.js">
   <link rel="modulepreload" href="../assets/js/ui.js">
   <link rel="modulepreload" href="../assets/js/setup.js">
   <link rel="modulepreload" href="../assets/js/game-shared.js">
-  <link rel="modulepreload" href="../assets/data/wortliste.js">
+  <link rel="modulepreload" href="../assets/data/fragenliste.js">
 </head>
-<body data-game="imposter">
+<body data-game="undercover">
   <div class="app">
     <header class="topbar">
       <a class="back" href="../">← Suserino</a>
       <span class="spacer"></span>
-      <span class="title">Imposter</span>
+      <span class="title">Undercover</span>
       <button class="help-btn" id="open-rules" type="button" aria-label="Anleitung anzeigen">?</button>
     </header>
 
     <dialog class="rules-dialog" id="rules-dialog">
       <h2>So wird gespielt</h2>
-      <p class="muted">Alle bekommen geheim dasselbe Wort, nur der Imposter nicht. Findet ihn!</p>
+      <p class="muted">Alle beantworten geheim dieselbe Frage. Nur der Imposter bekommt eine andere, ohne es zu wissen!</p>
       <ol>
-        <li>Gebt das Handy reihum weiter. Jeder deckt geheim seine Rolle auf.</li>
-        <li>Alle Crew-Mitglieder sehen dasselbe geheime Wort. Der Imposter sieht es nicht, oder er bekommt ein ähnliches Wort (je nach Variante).</li>
-        <li>Reihum sagt jeder ein Wort oder einen kurzen Satz, der zum geheimen Wort passt. Das Wort selbst darf nicht genannt werden.</li>
-        <li>Tipp für die Crew: Nicht zu offensichtlich, sonst errät der Imposter das Wort. Nicht zu vage, sonst wirkt ihr selbst verdächtig.</li>
-        <li>Nach den Hinweisrunden wird diskutiert und abgestimmt.</li>
-        <li>Wird der Imposter gefunden, hat er eine letzte Chance: Errät er das geheime Wort, gewinnt er trotzdem.</li>
-        <li>Wird ein Unschuldiger rausgeworfen, gewinnt der Imposter sofort.</li>
+        <li>Gebt das Handy reihum weiter. Jeder liest geheim seine Frage und tippt seine Antwort ein.</li>
+        <li>Alle bekommen dieselbe Frage, nur der Imposter eine andere, ähnliche. Er weiß es selbst nicht!</li>
+        <li>Danach werden alle Antworten mit Namen angezeigt. Die Frage bleibt geheim.</li>
+        <li>Diskutiert: Wer muss seine Antwort erklären? Wessen Antwort wirkt seltsam?</li>
+        <li>Tipp: Wer beim Erklären die Frage nicht zu kennen scheint, ist verdächtig. Aber Achtung, auch ehrliche Antworten können komisch wirken!</li>
+        <li>Stimmt ab. Wird der Imposter gefunden, darf er die echte Frage raten. Errät er sie, bekommt er Teilpunkte. Liegt ihr falsch, gewinnt der Imposter.</li>
       </ol>
       <div class="actions">
         <button class="btn btn-primary" id="close-rules" type="button">Alles klar</button>
@@ -61,7 +60,7 @@
       <!-- Setup (Startscreen) -->
       <section class="screen" id="s-setup">
         <div class="screen-body">
-          <h1>Imposter</h1>
+          <h1>Undercover</h1>
 
           <h2>Spieler</h2>
           <div id="player-editor"></div>
@@ -71,10 +70,10 @@
             <div class="fold-body" id="settings-form"></div>
           </details>
           <details class="fold">
-            <summary>Kategorien &amp; eigene Wörter</summary>
+            <summary>Kategorien &amp; eigene Fragen</summary>
             <div class="fold-body">
               <div id="category-picker"></div>
-              <button class="btn-quiet" id="open-custom" type="button">✎ Eigene Wörter verwalten</button>
+              <button class="btn-quiet" id="open-custom" type="button">✎ Eigene Fragen verwalten</button>
             </div>
           </details>
         </div>
@@ -83,11 +82,11 @@
         </div>
       </section>
 
-      <!-- Eigene Wörter: Liste -->
+      <!-- Eigene Fragen: Liste -->
       <section class="screen" id="s-custom-list">
         <div class="screen-body">
-          <h1>Eigene Wörter</h1>
-          <p class="muted">Eigene Kategorien mit Insidern, Namen aus eurer Gruppe oder Firmen-Jargon. Bleiben nur auf diesem Gerät gespeichert.</p>
+          <h1>Eigene Fragen</h1>
+          <p class="muted">Eigene Fragenpaare für eure Gruppe. Beide Fragen sollten zum gleichen Antworttyp führen (z. B. beide eine Zahl). Bleiben nur auf diesem Gerät gespeichert.</p>
           <div id="custom-list"></div>
         </div>
         <div class="actions">
@@ -95,7 +94,7 @@
         </div>
       </section>
 
-      <!-- Eigene Wörter: Bearbeiten -->
+      <!-- Eigene Fragen: Bearbeiten -->
       <section class="screen" id="s-custom-edit">
         <div class="screen-body" id="custom-edit"></div>
         <div class="actions">
@@ -103,10 +102,10 @@
         </div>
       </section>
 
-      <!-- Weitergeben + Aufdecken: Dreh-Karte -->
+      <!-- Weitergeben + Frage + Antwort: Dreh-Karte -->
       <section class="screen" id="s-pass">
-        <div class="center-stage">
-          <div class="flip-card" id="flip-card">
+        <div class="screen-body">
+          <div class="flip-card question-card" id="flip-card">
             <div class="flip-inner">
               <div class="flip-face flip-front">
                 <p class="eyebrow">Gib das Handy an</p>
@@ -116,24 +115,26 @@
             </div>
           </div>
           <p class="hint-text flip-hint" id="pass-hint">Tippe auf die Karte, nur du schaust hin. Nochmal tippen deckt wieder zu.</p>
+          <div id="answer-area"></div>
         </div>
         <div class="actions">
-          <button class="btn btn-primary" id="reveal-next" disabled>Weitergeben</button>
+          <button class="btn btn-primary" id="answer-done" disabled>Fertig, weitergeben</button>
         </div>
       </section>
 
-      <!-- Runde: Hinweise + Diskussion (ein Screen) -->
-      <section class="screen" id="s-round">
-        <div class="center-stage">
-          <p class="eyebrow accent" id="round-label"></p>
-          <div class="big-name" id="round-starter"></div>
-          <p class="hint-text" id="round-info"></p>
-          <div class="timer-display" id="round-timer"></div>
+      <!-- Antworten + Diskussion (ein Screen) -->
+      <section class="screen" id="s-discussion">
+        <div class="screen-body">
+          <p class="eyebrow accent">Alle Antworten</p>
+          <h1>Wessen Antwort passt nicht?</h1>
+          <div id="answers-list"></div>
+          <div class="row-inline">
+            <span class="timer-inline" id="discussion-timer"></span>
+            <button class="btn-quiet" id="discussion-pause" type="button">Pause</button>
+          </div>
         </div>
         <div class="actions">
-          <button class="btn btn-primary" id="round-vote">Zur Abstimmung</button>
-          <button class="btn btn-quiet" id="round-pause">Timer pausieren</button>
-          <button class="btn btn-quiet" id="reshuffle">⟳ Neu mischen (Wort wurde gesehen)</button>
+          <button class="btn btn-primary" id="discussion-vote">Zur Abstimmung</button>
         </div>
       </section>
 
@@ -142,6 +143,7 @@
         <div class="screen-body">
           <p class="eyebrow accent">Abstimmung</p>
           <h1>Wer wurde gewählt?</h1>
+          <div id="vote-answers"></div>
           <div id="vote-verbal-list"></div>
         </div>
       </section>
@@ -163,6 +165,7 @@
         <div class="screen-body">
           <p class="eyebrow accent" id="vote-cast-label">Deine Stimme</p>
           <h1 id="vote-cast-title"></h1>
+          <div id="vote-cast-answers"></div>
           <div id="vote-cast-list"></div>
         </div>
       </section>
@@ -203,6 +206,6 @@
     </main>
   </div>
   <script src="../assets/js/env-check.js" defer></script>
-  <script type="module" src="../assets/js/imposter.js"></script>
+  <script type="module" src="../assets/js/undercover.js"></script>
 </body>
 </html>

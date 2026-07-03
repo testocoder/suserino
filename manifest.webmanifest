@@ -1,7 +1,7 @@
 {
   "name": "Suserino",
   "short_name": "Suserino",
-  "description": "Suserino: Imposter & Querfrage, Bluff-Partyspiele für ein Handy, das reihum geht.",
+  "description": "Suserino: Imposter & Undercover, Bluff-Partyspiele für ein Handy, das reihum geht.",
   "start_url": "./",
   "display": "standalone",
   "orientation": "portrait",
@@ -9,6 +9,8 @@
   "theme_color": "#131216",
   "lang": "de",
   "icons": [
-    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }
